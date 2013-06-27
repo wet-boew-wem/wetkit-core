@@ -33,6 +33,13 @@ projects[diff][download][type] = git
 projects[diff][download][revision] = adb4304
 projects[diff][download][branch] = 7.x-3.x
 
+projects[entity_view_mode][version] = 1.x-dev
+projects[entity_view_mode][subdir] = contrib
+projects[entity_view_mode][type] = module
+projects[entity_view_mode][download][type] = git
+projects[entity_view_mode][download][revision] = a518484
+projects[entity_view_mode][download][branch] = 7.x-1.x
+
 projects[fences][version] = 1.x-dev
 projects[fences][subdir] = contrib
 projects[fences][type] = module
