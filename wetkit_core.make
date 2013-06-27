@@ -98,7 +98,7 @@ projects[workbench_moderation][version] = 1.x-dev
 projects[workbench_moderation][subdir] = contrib
 projects[workbench_moderation][type] = module
 projects[workbench_moderation][download][type] = git
-projects[workbench_moderation][download][revision] = d196989
+projects[workbench_moderation][download][revision] = dfe9e23
 projects[workbench_moderation][download][branch] = 7.x-1.x
 projects[workbench_moderation][patch][1285090] = http://drupal.org/files/playnicewithpanels-1285090-12.patch
 projects[workbench_moderation][patch][1260112] = http://drupal.org/files/workbench_moderation-is_current-1260112-28.patch
@@ -107,6 +107,7 @@ projects[workbench_moderation][patch][1919706] = http://drupal.org/files/1919706
 projects[workbench_moderation][patch][1919706] = http://drupal.org/files/workbench_moderation-revision-moderation-edit-link-1785798-14.patch
 projects[workbench_moderation][patch][1946392] = http://drupal.org/files/et_language-1946392-1.patch
 projects[workbench_moderation][patch][1969226] = http://drupal.org/files/workbench-pathauto-1969226-2.patch
+projects[workbench_moderation][patch][1836680] = https://drupal.org/files/workbench-moderation-solr-index-1836680-1.patch
 
 projects[rules][version] = 2.3
 projects[rules][subdir] = contrib
