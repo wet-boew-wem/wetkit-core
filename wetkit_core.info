@@ -8,6 +8,7 @@ dependencies[] = contact
 dependencies[] = ctools
 dependencies[] = defaultconfig
 dependencies[] = diff
+dependencies[] = entity_view_mode
 dependencies[] = features
 dependencies[] = file
 dependencies[] = hierarchical_select
