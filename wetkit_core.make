@@ -107,7 +107,7 @@ projects[workbench_moderation][patch][1919706] = http://drupal.org/files/1919706
 projects[workbench_moderation][patch][1919706] = http://drupal.org/files/workbench_moderation-revision-moderation-edit-link-1785798-14.patch
 projects[workbench_moderation][patch][1946392] = http://drupal.org/files/et_language-1946392-1.patch
 projects[workbench_moderation][patch][1969226] = http://drupal.org/files/workbench-pathauto-1969226-2.patch
-projects[workbench_moderation][patch][1836680] = https://drupal.org/files/workbench-moderation-solr-index-1836680-1.patch
+projects[workbench_moderation][patch][1836680] = http://drupal.org/files/workbench-moderation-solr-index-1836680-1.patch
 
 projects[rules][version] = 2.3
 projects[rules][subdir] = contrib
@@ -135,18 +135,6 @@ projects[tao][download][type] = git
 projects[tao][download][revision] = f06452b
 projects[tao][download][branch] = 7.x-3.x
 projects[tao][patch][1016844] = http://drupal.org/files/tao_taxonomy_manager-1016844-12.patch
-
-;projects[ember][version] = 1.x-dev
-;projects[ember][type] = theme
-;projects[ember][download][type] = git
-;projects[ember][download][revision] = 34027ec
-;projects[ember][download][branch] = 7.x-1.x
-
-;libraries[underscore][download][type] = get
-;libraries[underscore][download][url] = https://github.com/documentcloud/underscore/archive/1.4.4.zip
-
-;libraries[backbone][download][type] = get
-;libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/1.0.0.zip
 
 libraries[querypath][download][type] = git
 libraries[querypath][download][branch] = 3.x
