@@ -71,13 +71,6 @@ projects[menu_attributes][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc4
 projects[admin_menu][subdir] = contrib
 
-;projects[navbar][version] = 1.x-dev
-;projects[navbar][subdir] = contrib
-;projects[navbar][type] = module
-;projects[navbar][download][type] = git
-;projects[navbar][download][revision] = 184ce30
-;projects[navbar][download][branch] = 7.x-1.x
-
 projects[password_policy][version] = 1.3
 projects[password_policy][subdir] = contrib
 
