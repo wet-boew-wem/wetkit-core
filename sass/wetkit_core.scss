@@ -92,7 +92,7 @@
     padding: 0px;
   }
   .form-submit {
-    float: left;       
+    float: left;
   }
   .form-actions {
     width: auto;
@@ -120,7 +120,7 @@
 }
 
 /* IPE Styles */
- 
+
 .panels-ipe-newblock {
   ul {
     margin: 0px;
@@ -175,7 +175,7 @@
       @if $legacy-support-for-ie8 {
         @include filter-gradient(#176ca7, #135888);
       }
-    } 
+    }
   }
 }
 
@@ -199,7 +199,7 @@
     }
   }
   .form-item-field-archived-content-und {
-    margin-top: 0px;   
+    margin-top: 0px;
   }
   #edit-field-featured-image-und-0-title {
     width: 180px;
@@ -212,7 +212,7 @@
 }
 
 .pane-node-form-path .form-item .description {
-  display: none; 
+  display: none;
 }
 
 .ctools-collapsible-content .form-item {

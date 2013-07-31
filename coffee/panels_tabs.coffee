@@ -14,4 +14,5 @@
       tabsID = Drupal.settings.panelsTabs.tabsID
       for key of Drupal.settings.panelsTabs.tabsID
         $("#" + tabsID[key] + ":not(.tabs-processed)", context).addClass("tabs-processed").tabs()
+
 ) jQuery
