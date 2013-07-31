@@ -92,7 +92,7 @@ projects[workbench_moderation][patch][1436260] = http://drupal.org/files/workben
 projects[workbench_moderation][patch][1919706] = http://drupal.org/files/1919706-1-no-node.patch
 projects[workbench_moderation][patch][1785798] = http://drupal.org/files/workbench_moderation-revision-moderation-edit-link-1785798-14.patch
 projects[workbench_moderation][patch][1946392] = http://drupal.org/files/et_language-1946392-1.patch
-projects[workbench_moderation][patch][1969226] = http://drupal.org/files/workbench-pathauto-1969226-2.patch
+;projects[workbench_moderation][patch][1969226] = http://drupal.org/files/workbench-pathauto-1969226-2.patch
 projects[workbench_moderation][patch][1836680] = http://drupal.org/files/workbench-moderation-solr-index-1836680-1.patch
 
 projects[rules][version] = 2.3
