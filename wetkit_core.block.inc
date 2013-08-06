@@ -9,7 +9,12 @@
  */
 function _wetkit_core_default_blocks() {
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'wetkit_adaptivetheme');
+  if (_wetkit_core_theme_exists('wetkit_adaptivetheme')) {
+    $default_theme = variable_get('theme_default', 'wetkit_adaptivetheme');
+  }
+  elseif (_wetkit_core_theme_exists('wetkit_omega')) {
+    $default_theme = variable_get('theme_default', 'wetkit_omega');
+  }
   $admin_theme = 'wetkit_rubik';
   $blocks = array(
     array(
@@ -117,4 +122,12 @@ function _wetkit_core_default_blocks() {
     $query->values($block);
   }
   $query->execute();
+}
+
+/**
+ * Implements _wetkit_core_theme_exists().
+ */
+function _wetkit_core_theme_exists($theme_name) {
+  $themes = list_themes();
+  return isset($themes[$theme_name]) && $themes[$theme_name]->status == 1;
 }
