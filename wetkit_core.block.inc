@@ -9,12 +9,7 @@
  */
 function _wetkit_core_default_blocks() {
   // Enable some standard blocks.
-  if (_wetkit_core_theme_exists('wetkit_adaptivetheme')) {
-    $default_theme = variable_get('theme_default', 'wetkit_adaptivetheme');
-  }
-  elseif (_wetkit_core_theme_exists('wetkit_omega')) {
-    $default_theme = variable_get('theme_default', 'wetkit_omega');
-  }
+  $default_theme = variable_get('theme_default', 'wetkit_omega');
   $admin_theme = 'wetkit_rubik';
   $blocks = array(
     array(
