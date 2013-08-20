@@ -98,6 +98,4 @@ features[variable][] = panopoly_magic_pane_add_preview
 features[variable][] = preprocess_css
 features[variable][] = preprocess_js
 features[variable][] = theme_rubik_settings
-features[variable][] = theme_wetkit_adaptivetheme_files_directory
-features[variable][] = theme_wetkit_adaptivetheme_settings
 features[views_view][] = headlines_front_page

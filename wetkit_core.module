@@ -203,13 +203,11 @@ function wetkit_core_form_alter(&$form, &$form_state, $form_id) {
   // Move the featured field into publishing options.
   if (!empty($form['field_featured_status'])) {
     $form['options']['field_featured_status'] = $form['field_featured_status'];
-    // TODO: Upstream this fix to Panopoly.
     $form['field_featured_status'] = array('#language' => NULL);
   }
 
   if (!empty($form['field_archived_content'])) {
     $form['options']['field_archived_content'] = $form['field_archived_content'];
-    // TODO: Upstream this fix to Panopoly.
     $form['field_archived_content'] = array('#language' => NULL);
   }
 
@@ -217,7 +215,6 @@ function wetkit_core_form_alter(&$form, &$form_state, $form_id) {
   if (!empty($form['field_share_widget'])) {
     $form['options']['field_share_widget'] = $form['field_share_widget'];
     $form['options']['field_share_widget']['#weight'] = '0';
-    // TODO: Upstream this fix to Panopoly.
     $form['field_share_widget'] = array('#language' => NULL);
   }
 

@@ -61,6 +61,13 @@ projects[linkchecker][download][branch] = 7.x-1.x
 projects[menu_attributes][version] = 1.0-rc2
 projects[menu_attributes][subdir] = contrib
 
+projects[menu_block][version] = 2.x-dev
+projects[menu_block][subdir] = contrib
+projects[menu_block][download][type] = git
+projects[menu_block][download][revision] = 32ab1cf
+projects[menu_block][download][branch] = 7.x-2.x
+projects[menu_block][patch][1967230] = http://drupal.org/files/menu_block_show_menu_items-1967230-06.patch
+
 projects[admin_menu][version] = 3.0-rc4
 projects[admin_menu][subdir] = contrib
 

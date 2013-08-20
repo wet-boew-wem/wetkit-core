@@ -1,8 +1,8 @@
 <?php
 /**
  * @file
- * Welcome panel content type. Displays a summary of content statistics 
- * including: number pieces of each type of content, number of comments, 
+ * Welcome panel content type. Displays a summary of content statistics
+ * including: number pieces of each type of content, number of comments,
  * number of blocked comments (spam) and configuration links.
  */
 
@@ -12,7 +12,7 @@ $plugin = array(
   'no title override' => TRUE,
   'icon' => 'cog.png',
   'description' => t('Intro to WetKit Dashboard'),
-  'category' => t('WET-BOEW'),
+  'category' => t('WetKit'),
 );
 
 /**
@@ -40,7 +40,7 @@ function wetkit_core_welcome_content_type_render($subtype, $conf, $panel_args, &
   $content = '<div class="wetkit-site-overview">';
   $content .= '  <p>' . t('Welcome to your administrative dashboard.  !panel
     to add more content panes here, and/or configure those provided by default.
-    Please note that Views content panes can be created for you automatically 
+    Please note that Views content panes can be created for you automatically
     according to your preferences by changing the !settings settings.  Please
     tailor this dashboard the faciliatate your administrative needs.', array(
       '!panel' => l(t('Edit this panel'), 'admin/structure/pages/nojs/operation/page-dashboard/handlers/page_dashboard_panel_context/content', array('attributes' => array('class' => 'button'))),
