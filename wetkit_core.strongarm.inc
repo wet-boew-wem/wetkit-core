@@ -722,7 +722,7 @@ function wetkit_core_strongarm() {
     'block-menu_block-megamenu' => 'block-menu_block-megamenu',
     'block-menu_block-megamenu_focus' => 'block-menu_block-megamenu_focus',
     'block-menu_block-main_menu' => 'block-menu_block-main_menu',
-    'block-menu_block-footer_menu' => 'block-menu_block-footer_menu',
+    'block-menu_block-mid_footer_menu' => 'block-menu_block-mid_footer_menu',
     'block-workbench-block' => 'block-workbench-block',
     'block-custom_search_blocks-1' => 'block-custom_search_blocks-1',
     'block-apps-manage_apps__panopoly' => 0,
