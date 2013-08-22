@@ -144,43 +144,6 @@ function wetkit_core_menu() {
     'type' => MENU_CALLBACK,
   );
 
-  // Add an administration section for WetKit settings.
-  $items['admin/panopoly/wetkit_settings'] = array(
-    'title' => 'WetKit Settings',
-    'description' => 'Configuration related to WetKit',
-    'position' => 'left',
-    'weight' => -50,
-    'page callback' => 'system_admin_menu_block_page',
-    'access arguments' => array('access administration pages'),
-    'file' => 'system.admin.inc',
-    'file path' => drupal_get_path('module', 'system'),
-  );
-
-  // Add settings pages for WetKit and WetKit Apps.
-  foreach (module_list() as $module) {
-    $app_info = module_invoke($module, 'apps_app_info');
-    if (!empty($app_info) && !empty($app_info['configure form'])) {
-      $module_info = drupal_parse_info_file(drupal_get_path('module', $module) . '/' . $module . '.info');
-      if (!empty($module_info['package']) && $module_info['package'] == 'WetKit') {
-        $items['admin/panopoly/wetkit_settings/' . $module] = array(
-          'title' => $module_info['name'],
-          'description' => 'This is the configuration screen for ' . $module_info['name'],
-          'page callback' => 'drupal_get_form',
-          'page arguments' => array($app_info['configure form']),
-          'access arguments' => array('administer site configuration'),
-        );
-      }
-      elseif (!empty($module_info['package']) && $module_info['package'] == 'WetKit Apps') {
-        $items['admin/panopoly/wetkit_app_settings/' . $module] = array(
-          'title' => $module_info['name'],
-          'description' => 'This is the configuration screen for ' . $module_info['name'],
-          'page callback' => 'drupal_get_form',
-          'page arguments' => array($app_info['configure form']),
-          'access arguments' => array('administer site configuration'),
-        );
-      }
-    }
-  }
   return $items;
 }
 
@@ -188,9 +151,6 @@ function wetkit_core_menu() {
  * Implements hook_menu_alter().
  */
 function wetkit_core_menu_alter(&$items) {
-  if (!empty($items['admin/panopoly'])) {
-    $items['admin/panopoly']['title'] = 'WxT';
-  }
   if (!empty($items['admin/workbench'])) {
     $items['admin/workbench']['title'] = 'Workbench';
   }

@@ -10,7 +10,7 @@
 function _wetkit_core_default_blocks() {
   // Enable some standard blocks.
   $default_theme = variable_get('theme_default', 'wetkit_omega');
-  $admin_theme = 'wetkit_rubik';
+  $admin_theme = 'wetkit_ember';
   $blocks = array(
     array(
       'module' => 'system',

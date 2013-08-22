@@ -107,6 +107,13 @@ function wetkit_core_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'ctools_content_all_views';
+  $strongarm->value = 0;
+  $export['ctools_content_all_views'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'date_format_short';
   $strongarm->value = 'Y-m-d';
   $export['date_format_short'] = $strongarm;
@@ -243,6 +250,27 @@ function wetkit_core_strongarm() {
   $strongarm->name = 'page_compression';
   $strongarm->value = 1;
   $export['page_compression'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'page_manager_node_edit_disabled';
+  $strongarm->value = FALSE;
+  $export['page_manager_node_edit_disabled'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'page_manager_node_view_disabled';
+  $strongarm->value = FALSE;
+  $export['page_manager_node_view_disabled'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'page_manager_term_view_disabled';
+  $strongarm->value = FALSE;
+  $export['page_manager_term_view_disabled'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -664,8 +692,8 @@ function wetkit_core_strongarm() {
     'token-date:custom' => 0,
     'token-date:since' => 0,
     'token-date:raw' => 0,
-    'token-date:panopoly_time' => 0,
-    'token-date:panopoly_day' => 0,
+    'token-date:wetkit_time' => 0,
+    'token-date:wetkit_day' => 0,
     'token-view:name' => 0,
     'token-view:description' => 0,
     'token-view:machine-name' => 0,
@@ -725,7 +753,6 @@ function wetkit_core_strongarm() {
     'block-menu_block-mid_footer_menu' => 'block-menu_block-mid_footer_menu',
     'block-workbench-block' => 'block-workbench-block',
     'block-custom_search_blocks-1' => 'block-custom_search_blocks-1',
-    'block-apps-manage_apps__panopoly' => 0,
     'block-facetapi-1Cpx6naJU4Y3YvKVc0vcLK7Yo0ahaN0l' => 0,
     'block-facetapi-fA1pg0Ubd1zgx1mvzHkFUGaNoMb4Gs0s' => 0,
     'block-node-syndicate' => 0,
@@ -783,9 +810,6 @@ function wetkit_core_strongarm() {
     'views_panes-control_terms-panel_pane_1' => 'views_panes-control_terms-panel_pane_1',
     'views_panes-control_users_panes-pane_tc_new_users' => 'views_panes-control_users_panes-pane_tc_new_users',
     'views_panes-headlines_front_page-panel_pane_1' => 'views_panes-headlines_front_page-panel_pane_1',
-    'views_panes-panopoly_taxonomy-taxonomy_content' => 'views_panes-panopoly_taxonomy-taxonomy_content',
-    'views_panes-panopoly_widgets_general_content-list_of_content' => 'views_panes-panopoly_widgets_general_content-list_of_content',
-    'views_panes-panopoly_widgets_general_content-piece_of_content' => 'views_panes-panopoly_widgets_general_content-piece_of_content',
     'views_panes-wetkit_database_search-search_database_results' => 'views_panes-wetkit_database_search-search_database_results',
     'views_panes-wetkit_demo-demo_listing' => 'views_panes-wetkit_demo-demo_listing',
     'views_panes-wetkit_demo-individual_demo_item' => 'views_panes-wetkit_demo-individual_demo_item',
