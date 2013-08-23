@@ -50,7 +50,7 @@ projects[diff][download][type] = git
 projects[diff][download][revision] = adb4304
 projects[diff][download][branch] = 7.x-3.x
 
-projects[entity][version] = 1.1
+projects[entity][version] = 1.2
 projects[entity][subdir] = contrib
 
 projects[entityreference][version] = 1.0
