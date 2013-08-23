@@ -50,7 +50,7 @@ projects[diff][download][type] = git
 projects[diff][download][revision] = adb4304
 projects[diff][download][branch] = 7.x-3.x
 
-projects[entity][version] = 1.2
+projects[entity][version] = 1.1
 projects[entity][subdir] = contrib
 
 projects[entityreference][version] = 1.0
@@ -69,7 +69,7 @@ projects[fape][download][type] = git
 projects[fape][download][revision] = 1143ee2
 projects[fape][download][branch] = 7.x-1.x
 
-projects[features][version] = 2.0-rc2
+projects[features][version] = 2.0-rc1
 projects[features][subdir] = contrib
 
 projects[fences][version] = 1.x-dev
