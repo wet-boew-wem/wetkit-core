@@ -50,7 +50,7 @@ projects[diff][download][type] = git
 projects[diff][download][revision] = adb4304
 projects[diff][download][branch] = 7.x-3.x
 
-projects[entity][version] = 1.1
+projects[entity][version] = 1.2
 projects[entity][subdir] = contrib
 
 projects[entityreference][version] = 1.0
@@ -116,7 +116,7 @@ projects[menu_block][download][revision] = 32ab1cf
 projects[menu_block][download][branch] = 7.x-2.x
 projects[menu_block][patch][1967230] = http://drupal.org/files/menu_block_show_menu_items-1967230-06.patch
 
-projects[password_policy][version] = 1.3
+projects[password_policy][version] = 1.5
 projects[password_policy][subdir] = contrib
 
 projects[panelizer][version] = 3.x-dev
@@ -138,11 +138,8 @@ projects[panels][patch][1179034] = http://drupal.org/files/panels-1179034-41____
 projects[panels_breadcrumbs][version] = 2.1
 projects[panels_breadcrumbs][subdir] = contrib
 
-projects[panopoly_magic][version] = 1.x-dev
+projects[panopoly_magic][version] = 1.0-rc5
 projects[panopoly_magic][subdir] = contrib
-projects[panopoly_magic][download][type] = git
-projects[panopoly_magic][download][revision] = 7dc1a5e
-projects[panopoly_magic][download][branch] = 7.x-1.x
 
 projects[pathauto][version] = 1.x-dev
 projects[pathauto][subdir] = contrib
