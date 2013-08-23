@@ -69,7 +69,7 @@ projects[fape][download][type] = git
 projects[fape][download][revision] = 1143ee2
 projects[fape][download][branch] = 7.x-1.x
 
-projects[features][version] = 2.0-rc1
+projects[features][version] = 2.0-rc2
 projects[features][subdir] = contrib
 
 projects[fences][version] = 1.x-dev
@@ -176,6 +176,16 @@ projects[uuid][download][revision] = a383295
 projects[uuid][download][branch] = 7.x-1.x
 projects[uuid][patch][1969222] = http://drupal.org/files/uuid-file-entity-1969222-1.patch
 projects[uuid][patch][1694972] = http://drupal.org/files/uuid-fix-uuid-save-1694972-30.patch
+
+projects[uuid_features][version] = 1.x-dev
+projects[uuid_features][subdir] = contrib
+projects[uuid_features][download][type] = git
+projects[uuid_features][download][revision] = d34d00f
+projects[uuid_features][download][branch] = 7.x-1.x
+projects[uuid_features][patch][1812876] = http://drupal.org/files/uuid_features-node_ref_term_uuid-1812876-7.patch
+projects[uuid_features][patch][2017221] = http://drupal.org/files/uuid_features-incompatible_title_module-2017221-1.patch
+projects[uuid_features][patch][2052387] = http://drupal.org/files/uuid_features-2052387-clone-export.patch
+projects[uuid_features][patch][2056851] = http://drupal.org/files/uuid-features-use-features-get-default-1.patch
 
 projects[views][version] = 3.7
 projects[views][subdir] = contrib
