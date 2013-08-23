@@ -116,7 +116,7 @@ projects[menu_block][download][revision] = 32ab1cf
 projects[menu_block][download][branch] = 7.x-2.x
 projects[menu_block][patch][1967230] = http://drupal.org/files/menu_block_show_menu_items-1967230-06.patch
 
-projects[password_policy][version] = 1.3
+projects[password_policy][version] = 1.5
 projects[password_policy][subdir] = contrib
 
 projects[panelizer][version] = 3.x-dev
