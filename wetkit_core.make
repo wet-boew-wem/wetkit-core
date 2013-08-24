@@ -5,9 +5,6 @@ core = 7.x
 
 ; Modules
 
-projects[admin_menu][version] = 3.0-rc4
-projects[admin_menu][subdir] = contrib
-
 projects[advanced_help][version] = 1.x-dev
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][type] = module
