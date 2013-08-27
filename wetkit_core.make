@@ -36,6 +36,8 @@ projects[date][subdir] = contrib
 
 projects[defaultconfig][version] = 1.0-alpha9
 projects[defaultconfig][subdir] = contrib
+projects[defaultconfig][patch][2008178] = http://drupal.org/files/defaultconfig-rebuild-filters-2008178-4_0.patch
+projects[defaultconfig][patch][2043307] = http://drupal.org/files/defaultconfig_include_features_file.patch
 
 projects[devel][version] = 1.3
 projects[devel][subdir] = contrib
