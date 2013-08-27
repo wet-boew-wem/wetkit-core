@@ -68,7 +68,7 @@ projects[fape][download][type] = git
 projects[fape][download][revision] = 1143ee2
 projects[fape][download][branch] = 7.x-1.x
 
-projects[features][version] = 2.0-rc2
+projects[features][version] = 2.0-rc3
 projects[features][subdir] = contrib
 
 projects[fences][version] = 1.x-dev
