@@ -182,6 +182,7 @@ projects[uuid_features][patch][1812876] = http://drupal.org/files/uuid_features-
 projects[uuid_features][patch][2017221] = http://drupal.org/files/uuid_features-incompatible_title_module-2017221-1.patch
 projects[uuid_features][patch][2052387] = http://drupal.org/files/uuid_features-2052387-clone-export.patch
 projects[uuid_features][patch][2056851] = http://drupal.org/files/uuid-features-use-features-get-default-1.patch
+projects[uuid_features][patch][2072943] = http://drupal.org/files/uuid_features-bean-titles-2072943-1.patch
 
 projects[views][version] = 3.7
 projects[views][subdir] = contrib
