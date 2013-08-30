@@ -51,6 +51,7 @@ dependencies[] = token
 dependencies[] = total_control
 dependencies[] = transliteration
 dependencies[] = uuid
+dependencies[] = uuid_features
 dependencies[] = views
 dependencies[] = views_autocomplete_filters
 dependencies[] = views_content
