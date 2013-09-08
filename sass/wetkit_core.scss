@@ -69,18 +69,7 @@
 
 .ctools-modal-content {
   .modal-header{
-    background: none;
-    color: white;
-    text-shadow: none;
-    background-repeat:repeat-x;
-    background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#176ca7),color-stop(100%,#135888))!important;
-    background-image:-webkit-linear-gradient(#176ca7,#135888)!important;
-    background-image:-moz-linear-gradient(#176ca7,#135888)!important;
-    background-image:-o-linear-gradient(#176ca7,#135888)!important;
-    background-image:linear-gradient(#176ca7,#135888)!important;
-    @if $legacy-support-for-ie8 {
-      @include filter-gradient(#176ca7, #135888);
-    }
+    background-color: #008fdc;
   }
 }
 
@@ -165,16 +154,7 @@
       @include filter-gradient(#666, #545454);
     }
     .toggle {
-      text-shadow:#222 0 1px 1px;
-      background-repeat:repeat-x;
-      background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#176ca7),color-stop(100%,#135888))!important;
-      background-image:-webkit-linear-gradient(#176ca7,#135888)!important;
-      background-image:-moz-linear-gradient(#176ca7,#135888)!important;
-      background-image:-o-linear-gradient(#176ca7,#135888)!important;
-      background-image:linear-gradient(#176ca7,#135888)!important;
-      @if $legacy-support-for-ie8 {
-        @include filter-gradient(#176ca7, #135888);
-      }
+      background-color: #008fdc;
     }
   }
 }
@@ -225,12 +205,6 @@
  .form-autocomplete {
    padding: 0px 4px;
  }
-}
-
-/* Media Screen */
-
-#media-browser-page .media-item {
-  width: auto;
 }
 
 /* CTools Collapsible Container */
