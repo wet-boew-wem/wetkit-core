@@ -95,8 +95,12 @@ projects[hierarchical_select][patch][1587570] = http://drupal.org/files/hierarch
 projects[libraries][version] = 2.1
 projects[libraries][subdir] = contrib
 
-projects[link][version] = 1.1
+projects[link][version] = 1.x-dev
+projects[link][type] = module
 projects[link][subdir] = contrib
+projects[link][download][type] = git
+projects[link][download][revision] = 6ae1ff0
+projects[link][download][branch] = 7.x-1.x
 
 projects[linkchecker][version] = 1.x-dev
 projects[linkchecker][type] = module
