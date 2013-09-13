@@ -265,10 +265,11 @@ function wetkit_core_views_default_views_alter(&$views) {
         'label' => 'Update node alias',
       ),
     );
-    /* Field: Content: Title */
-    $handler->display->display_options['fields']['title']['id'] = 'title';
-    $handler->display->display_options['fields']['title']['table'] = 'node';
-    $handler->display->display_options['fields']['title']['field'] = 'title';
+    /* Field: Field: Title */
+    $handler->display->display_options['fields']['title_field']['id'] = 'title_field';
+    $handler->display->display_options['fields']['title_field']['table'] = 'field_data_title_field';
+    $handler->display->display_options['fields']['title_field']['field'] = 'title_field';
+    $handler->display->display_options['fields']['title_field']['link_to_entity'] = 1;
     /* Field: Content: Has new content */
     $handler->display->display_options['fields']['timestamp']['id'] = 'timestamp';
     $handler->display->display_options['fields']['timestamp']['table'] = 'history';
