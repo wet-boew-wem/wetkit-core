@@ -46,6 +46,8 @@
 
 #edit-menu-options-attributes-rel, #edit-menu-options-attributes-class { width: 75%; }
 
+h1.node-edit-title { margin-left: 0px; margin-right: 0px; }
+
 #node-edit .form-item-field-featured-image-und-0-title label { font-weight: normal; float: left; margin: 4px 10px 0 0; }
 #node-edit .form-item-field-archived-content-und { margin-top: 0px; }
 #node-edit #edit-field-featured-image-und-0-title { width: 180px; }
