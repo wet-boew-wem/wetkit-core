@@ -82,3 +82,13 @@ function wetkit_core_uninstall() {
     }
   }
 }
+
+/**
+ * Implements hook_update_n().
+ */
+function wetkit_core_update_7101() {
+  if (!module_exists('uuid_link')) {
+    module_enable(array('uuid_link'));
+  }
+}
+

@@ -52,6 +52,7 @@ dependencies[] = total_control
 dependencies[] = transliteration
 dependencies[] = uuid
 dependencies[] = uuid_features
+dependencies[] = uuid_link
 dependencies[] = views
 dependencies[] = views_autocomplete_filters
 dependencies[] = views_content

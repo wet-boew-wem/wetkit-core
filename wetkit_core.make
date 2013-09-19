@@ -193,6 +193,13 @@ projects[uuid_features][patch][2052387] = http://drupal.org/files/uuid_features-
 projects[uuid_features][patch][2056851] = http://drupal.org/files/uuid-features-use-features-get-default-1.patch
 projects[uuid_features][patch][2072943] = http://drupal.org/files/uuid_features-bean-titles-2072943-1.patch
 
+projects[uuid_link][version] = 1.x-dev
+projects[uuid_link][subdir] = contrib
+projects[uuid_link][type] = module
+projects[uuid_link][download][type] = git
+projects[uuid_link][download][revision] = dd716df
+projects[uuid_link][download][branch] = 7.x-1.x
+
 projects[views][version] = 3.7
 projects[views][subdir] = contrib
 
