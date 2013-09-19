@@ -10,7 +10,7 @@
 function wetkit_core_taxonomy_default_vocabularies() {
   return array(
     'wetkit_categories' => array(
-      'name' => 'WetKit Categories',
+      'name' => 'Categories',
       'machine_name' => 'wetkit_categories',
       'description' => 'Default Vocabulary for the Web Experience Toolkit',
       'hierarchy' => 0,

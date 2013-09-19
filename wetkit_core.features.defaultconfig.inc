@@ -646,7 +646,7 @@ function wetkit_core_defaultconfig_strongarm() {
 function wetkit_core_defaultconfig_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: access site-wide contact form.
+  // Exported permission: 'access site-wide contact form'.
   $permissions['access site-wide contact form'] = array(
     'name' => 'access site-wide contact form',
     'roles' => array(
@@ -656,7 +656,7 @@ function wetkit_core_defaultconfig_user_default_permissions() {
     'module' => 'contact',
   );
 
-  // Exported permission: administer panels styles.
+  // Exported permission: 'administer panels styles'.
   $permissions['administer panels styles'] = array(
     'name' => 'administer panels styles',
     'roles' => array(
@@ -666,7 +666,7 @@ function wetkit_core_defaultconfig_user_default_permissions() {
     'module' => 'panels',
   );
 
-  // Exported permission: change layouts in place editing.
+  // Exported permission: 'change layouts in place editing'.
   $permissions['change layouts in place editing'] = array(
     'name' => 'change layouts in place editing',
     'roles' => array(
@@ -676,7 +676,7 @@ function wetkit_core_defaultconfig_user_default_permissions() {
     'module' => 'panels',
   );
 
-  // Exported permission: search content.
+  // Exported permission: 'search content'.
   $permissions['search content'] = array(
     'name' => 'search content',
     'roles' => array(
@@ -688,7 +688,7 @@ function wetkit_core_defaultconfig_user_default_permissions() {
     'module' => 'search',
   );
 
-  // Exported permission: use advanced search.
+  // Exported permission: 'use advanced search'.
   $permissions['use advanced search'] = array(
     'name' => 'use advanced search',
     'roles' => array(
@@ -698,7 +698,7 @@ function wetkit_core_defaultconfig_user_default_permissions() {
     'module' => 'search',
   );
 
-  // Exported permission: use page manager.
+  // Exported permission: 'use page manager'.
   $permissions['use page manager'] = array(
     'name' => 'use page manager',
     'roles' => array(
@@ -708,7 +708,7 @@ function wetkit_core_defaultconfig_user_default_permissions() {
     'module' => 'page_manager',
   );
 
-  // Exported permission: use panels in place editing.
+  // Exported permission: 'use panels in place editing'.
   $permissions['use panels in place editing'] = array(
     'name' => 'use panels in place editing',
     'roles' => array(
@@ -718,7 +718,7 @@ function wetkit_core_defaultconfig_user_default_permissions() {
     'module' => 'panels',
   );
 
-  // Exported permission: view the administration theme.
+  // Exported permission: 'view the administration theme'.
   $permissions['view the administration theme'] = array(
     'name' => 'view the administration theme',
     'roles' => array(
