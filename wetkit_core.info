@@ -138,6 +138,7 @@ features[variable][] = page_manager_term_view_disabled
 features[variable][] = panopoly_admin_advanced_plugins
 features[variable][] = panopoly_core_breadcrumb_title
 features[variable][] = panopoly_magic_live_preview
+features[variable][] = panopoly_magic_modal_style
 features[variable][] = panopoly_magic_pane_add_preview
 features[variable][] = preprocess_css
 features[variable][] = preprocess_js
