@@ -1,25 +1,28 @@
 <?php
 /**
  * @file
- * wetkit_core.install
+ * wetkit_core.install.
  */
 
 include_once 'wetkit_core.block.inc';
 
+/**
+ * Implements hook_requirements().
+ */
 function wetkit_core_requirements($phase) {
 
-  // Kick us off
+  // Kick us off.
   $requirements = array();
 
-  // Ensure translations don't break at install time
+  // Ensure translations don't break at install time.
   $t = get_t();
 
-  // Let's require more memory and force Drupal core to accept it
+  // Let's require more memory and force Drupal core to accept it.
   $memory_limit = ini_get('memory_limit');
   $wetkit_memory_limit = '196M';
   $requirements['wetkit_core_memory_limit'] = array(
     'title' => $t('PHP memory limit'),
-    'value' => $memory_limit == -1 ? t('-1 (Unlimited)') : $memory_limit,
+    'value' => $memory_limit == -1 ? $t('-1 (Unlimited)') : $memory_limit,
     'weight' => 0,
   );
 
@@ -54,7 +57,7 @@ function wetkit_core_requirements($phase) {
  * Implements hook_install().
  */
 function wetkit_core_install() {
-  // Add login link for users to log in
+  // Add login link for users to log in.
   $item = array(
     'link_path' => 'user/login',
     'link_title' => 'Log in',
@@ -91,4 +94,3 @@ function wetkit_core_update_7101() {
     module_enable(array('uuid_link'));
   }
 }
-

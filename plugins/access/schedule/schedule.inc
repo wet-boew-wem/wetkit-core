@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Plugin to provide access control/visibility based on a defined visibility schedule.
+ * Plugin to provide access control/visibility for schedule.
  */
 
 $plugin = array(
@@ -16,7 +16,7 @@ $plugin = array(
 );
 
 /**
- * Settings form
+ * Settings form.
  */
 function wetkit_core_schedule_ctools_access_settings($form, &$form_state, $conf) {
   if (!isset($conf['preview_parameter'])) {
@@ -44,8 +44,8 @@ function wetkit_core_schedule_ctools_access_settings($form, &$form_state, $conf)
     '#title'         => t('Allow Live Preview'),
     '#description'   => t('Should previewing be allowed by providing a timestamp with a parameter on the url?'),
     '#options'       => array(
-      1 => 'Yes',
-      0 => 'No',
+      1 => t('Yes'),
+      0 => t('No'),
     ),
     '#default_value' => (!is_null($conf['allow_get_param'])) ? $conf['allow_get_param'] : 0,
   );
@@ -61,6 +61,7 @@ function wetkit_core_schedule_ctools_access_settings($form, &$form_state, $conf)
 
 /**
  * Implements hook_validate().
+ *
  * Validation for plugin settings form.
  */
 function wetkit_core_schedule_ctools_access_settings_validate($form, &$form_state) {
@@ -72,8 +73,9 @@ function wetkit_core_schedule_ctools_access_settings_validate($form, &$form_stat
       form_set_error('settings][end_date', t('End Date must occur after start date if set.'));
     }
   }
-  
-  // Preview validation. Ensure a preview keyword is specified if allow live preview is set.
+
+  // Preview validation. Ensure a preview keyword is specified if
+  // allow live preview is set.
   if ($form_state['values']['settings']['allow_get_param'] && !$form_state['values']['settings']['preview_parameter']) {
     form_set_error('settings][preview_parameter', t('A preview keyword is required if live preview is allowed.'));
   }
@@ -81,10 +83,11 @@ function wetkit_core_schedule_ctools_access_settings_validate($form, &$form_stat
 
 /**
  * Implements hook_submit().
+ *
  * Submit handler for plugin settings form to set system-wide preview parameter variable.
  */
 function wetkit_core_schedule_ctools_access_settings_submit($form, &$form_state) {
-  if(isset($form_state['values']['settings']['preview_parameter'])) {
+  if (isset($form_state['values']['settings']['preview_parameter'])) {
     variable_set('wetkit_core_schedule_preview_param', $form_state['values']['settings']['preview_parameter']);
   }
 }
@@ -96,10 +99,12 @@ function wetkit_core_schedule_ctools_access_check($conf, $context) {
   // Set default request time to the actual request time.
   $request_time = REQUEST_TIME;
 
-  // If configured to allow "live preview" check for the configured parameter, and adjust request time as appropriate
+  // If configured to allow "live preview" check for the configured parameter
+  // and adjust request time as appropriate.
   if ($conf['allow_get_param']) {
     if (isset($_GET[variable_get('wetkit_core_schedule_preview_param')])) {
-      // if the parameter is set, replace underscores with spaces, and convert to unix timestamp.
+      // If the parameter is set, replace underscores with spaces
+      // and convert to unix timestamp.
       $request_time = strtotime(str_replace('_', ' ', $_GET[variable_get('wetkit_core_schedule_preview_param')]));
     }
   }
@@ -120,16 +125,16 @@ function wetkit_core_schedule_ctools_access_check($conf, $context) {
  */
 function wetkit_core_schedule_ctools_access_summary($conf, $context) {
   if ($conf['end_date']) {
-    return t('The page request occurs within the scheduled range: @start_date - @end_date', 
+    return t('The page request occurs within the scheduled range: @start_date - @end_date',
       array(
         '@start_date' => $conf['start_date'],
-        '@end_date' => $conf['end_date']
+        '@end_date' => $conf['end_date'],
       ));
   }
   else {
-    return t('The page request occurs on or after the scheduled start date: @start_date', 
+    return t('The page request occurs on or after the scheduled start date: @start_date',
       array(
-        '@start_date' => $conf['start_date']
+        '@start_date' => $conf['start_date'],
       ));
   }
 }

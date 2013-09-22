@@ -51,7 +51,7 @@ function wetkit_core_node_content_type_render($subtype, $conf, $panel_args) {
   }
 
   $node = _wetkit_core_node_get_by_uuid($uuid);
-  if(!$node) {
+  if (!$node) {
     return;
   }
 
@@ -114,54 +114,54 @@ function wetkit_core_node_content_type_edit_form($form, &$form_state) {
   $conf = $form_state['conf'];
 
   $form['leave_node_title'] = array(
-      '#type' => 'checkbox',
-      '#default_value' => !empty($conf['leave_node_title']),
-      '#title' => t('Leave node title'),
-      '#description' => t('Advanced: if checked, do not touch the node title; this can cause the node title to appear twice unless your theme is aware of this.'),
+    '#type' => 'checkbox',
+    '#default_value' => !empty($conf['leave_node_title']),
+    '#title' => t('Leave node title'),
+    '#description' => t('Advanced: if checked, do not touch the node title; this can cause the node title to appear twice unless your theme is aware of this.'),
   );
 
   $form['link_node_title'] = array(
-      '#type' => 'checkbox',
-      '#default_value' => !empty($conf['link_node_title']),
-      '#title' => t('Link the node title to the node'),
-      '#description' => t('Check this box if you would like your pane title to link to the node.'),
+    '#type' => 'checkbox',
+    '#default_value' => !empty($conf['link_node_title']),
+    '#title' => t('Link the node title to the node'),
+    '#description' => t('Check this box if you would like your pane title to link to the node.'),
   );
 
 
   if ($form_state['op'] == 'add') {
     $form['nid'] = array(
-        '#prefix' => '<div class="no-float">',
-        '#title' => t('Enter the title or NID of a node'),
-        '#description' => t('To use a NID from the URL, you may use %0, %1, ..., %N to get URL arguments. Or use @0, @1, @2, ..., @N to use arguments passed into the panel.'),
-        '#type' => 'textfield',
-        '#maxlength' => 512,
-        '#autocomplete_path' => 'ctools/autocomplete/node',
-        '#weight' => -10,
-        '#suffix' => '</div>',
+      '#prefix' => '<div class="no-float">',
+      '#title' => t('Enter the title or NID of a node'),
+      '#description' => t('To use a NID from the URL, you may use %0, %1, ..., %N to get URL arguments. Or use @0, @1, @2, ..., @N to use arguments passed into the panel.'),
+      '#type' => 'textfield',
+      '#maxlength' => 512,
+      '#autocomplete_path' => 'ctools/autocomplete/node',
+      '#weight' => -10,
+      '#suffix' => '</div>',
     );
   }
   else {
     $form['nid'] = array(
-        '#type' => 'value',
-        '#value' => $conf['nid'],
+      '#type' => 'value',
+      '#value' => $conf['nid'],
     );
   }
   $form['uuid'] = array(
-      '#type' => 'value',
-      '#value' => $conf['uuid'],
+    '#type' => 'value',
+    '#value' => $conf['uuid'],
   );
 
   $form['links'] = array(
-      '#type' => 'checkbox',
-      '#default_value' => $conf['links'],
-      '#title' => t('Include node links for "add comment", "read more" etc.'),
+    '#type' => 'checkbox',
+    '#default_value' => $conf['links'],
+    '#title' => t('Include node links for "add comment", "read more" etc.'),
   );
 
   $form['identifier'] = array(
-      '#type' => 'textfield',
-      '#default_value' => !empty($conf['identifier']) ? $conf['identifier'] : '',
-      '#title' => t('Template identifier'),
-      '#description' => t('This identifier will be added as a template suggestion to display this node: node--panel--IDENTIFIER.tpl.php. Please see the Drupal theming guide for information about template suggestions.'),
+    '#type' => 'textfield',
+    '#default_value' => !empty($conf['identifier']) ? $conf['identifier'] : '',
+    '#title' => t('Template identifier'),
+    '#description' => t('This identifier will be added as a template suggestion to display this node: node--panel--IDENTIFIER.tpl.php. Please see the Drupal theming guide for information about template suggestions.'),
   );
 
   $entity = entity_get_info('node');
@@ -177,11 +177,11 @@ function wetkit_core_node_content_type_edit_form($form, &$form_state) {
     $conf['build_mode'] = $conf['teaser'] ? 'teaser' : 'full';
   }
   $form['build_mode'] = array(
-      '#title' => t('Build mode'),
-      '#type' => 'select',
-      '#description' => t('Select a build mode for this node.'),
-      '#options' => $build_mode_options,
-      '#default_value' => $conf['build_mode'],
+    '#title' => t('Build mode'),
+    '#type' => 'select',
+    '#description' => t('Select a build mode for this node.'),
+    '#options' => $build_mode_options,
+    '#default_value' => $conf['build_mode'],
   );
   return $form;
 }
@@ -239,7 +239,7 @@ function wetkit_core_node_content_type_edit_form_submit($form, &$form_state) {
  * Returns the administrative title for a node.
  */
 function wetkit_core_node_content_type_admin_title($subtype, $conf) {
-  if(!isset($conf['uuid'])) {
+  if (!isset($conf['uuid'])) {
     return;
   }
   if (!is_numeric($conf['uuid'])) {
@@ -270,8 +270,9 @@ function wetkit_core_node_content_type_admin_info($subtype, $conf) {
 
 /**
  * Function to load the node by uuid.
- * @param type $uuid
- * @return type
+ * @param int $uuid
+ * @return array
+ *   The returned node object.
  */
 function _wetkit_core_node_get_by_uuid($uuid) {
   $node = db_select('node', 'n')

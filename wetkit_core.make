@@ -55,6 +55,9 @@ projects[entity][subdir] = contrib
 projects[entityreference][version] = 1.0
 projects[entityreference][subdir] = contrib
 
+projects[entityreference_prepopulate][version] = 1.3
+projects[entityreference_prepopulate][subdir] = contrib
+
 projects[entity_view_mode][version] = 1.x-dev
 projects[entity_view_mode][subdir] = contrib
 projects[entity_view_mode][type] = module
