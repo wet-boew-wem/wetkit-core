@@ -218,6 +218,32 @@ function wetkit_core_default_page_manager_pages() {
     $display->content['new-e835e473-a22c-5054-9903-1dee16581e9b'] = $pane;
     $display->panels['column1'][3] = 'new-e835e473-a22c-5054-9903-1dee16581e9b';
     $pane = new stdClass();
+    $pane->pid = 'new-3f402146-b479-b8f4-e1e3-7c950fdd0445';
+    $pane->panel = 'column1';
+    $pane->type = 'taxonomy';
+    $pane->subtype = 'taxonomy';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'vids' => array(
+        2 => '2',
+        1 => 0,
+      ),
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 4;
+    $pane->locks = array();
+    $pane->uuid = '3f402146-b479-b8f4-e1e3-7c950fdd0445';
+    $display->content['new-3f402146-b479-b8f4-e1e3-7c950fdd0445'] = $pane;
+    $display->panels['column1'][4] = 'new-3f402146-b479-b8f4-e1e3-7c950fdd0445';
+    $pane = new stdClass();
     $pane->pid = 'new-b59c0474-c570-39f4-619d-3d343e2dd265';
     $pane->panel = 'column2';
     $pane->type = 'node_types';
@@ -277,32 +303,6 @@ function wetkit_core_default_page_manager_pages() {
     $display->content['new-06b79b3d-699c-c4f4-b1e4-157e6d4d2b04'] = $pane;
     $display->panels['column2'][1] = 'new-06b79b3d-699c-c4f4-b1e4-157e6d4d2b04';
     $pane = new stdClass();
-    $pane->pid = 'new-3f402146-b479-b8f4-e1e3-7c950fdd0445';
-    $pane->panel = 'column2';
-    $pane->type = 'taxonomy';
-    $pane->subtype = 'taxonomy';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'vids' => array(
-        2 => '2',
-        1 => 0,
-      ),
-      'override_title' => 0,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 2;
-    $pane->locks = array();
-    $pane->uuid = '3f402146-b479-b8f4-e1e3-7c950fdd0445';
-    $display->content['new-3f402146-b479-b8f4-e1e3-7c950fdd0445'] = $pane;
-    $display->panels['column2'][2] = 'new-3f402146-b479-b8f4-e1e3-7c950fdd0445';
-    $pane = new stdClass();
     $pane->pid = 'new-10b83a18-18ef-6b54-8132-12a6a829e7a6';
     $pane->panel = 'column2';
     $pane->type = 'panel_pages';
@@ -319,11 +319,11 @@ function wetkit_core_default_page_manager_pages() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 3;
+    $pane->position = 2;
     $pane->locks = array();
     $pane->uuid = '10b83a18-18ef-6b54-8132-12a6a829e7a6';
     $display->content['new-10b83a18-18ef-6b54-8132-12a6a829e7a6'] = $pane;
-    $display->panels['column2'][3] = 'new-10b83a18-18ef-6b54-8132-12a6a829e7a6';
+    $display->panels['column2'][2] = 'new-10b83a18-18ef-6b54-8132-12a6a829e7a6';
     $pane = new stdClass();
     $pane->pid = 'new-747a8bc4-909e-aa94-11a7-6d8532376fe5';
     $pane->panel = 'header';
