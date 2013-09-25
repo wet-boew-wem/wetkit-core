@@ -70,3 +70,6 @@ h1.node-edit-title { margin-left: 0px; margin-right: 0px; }
 
 /* Twitter Bean */
 .pane-bean-panels .wet-boew-webwidget a { display: inline !important; width: auto !important; padding: 0px; }
+
+/* Devel */
+.krumo-version img { width: auto; }

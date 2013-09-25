@@ -203,8 +203,13 @@ projects[uuid_link][download][type] = git
 projects[uuid_link][download][revision] = dd716df
 projects[uuid_link][download][branch] = 7.x-1.x
 
-projects[views][version] = 3.7
+projects[views][version] = 3.x-dev
 projects[views][subdir] = contrib
+projects[views][type] = module
+projects[views][download][type] = git
+projects[views][download][revision] = d1f2fd7
+projects[views][download][branch] = 7.x-3.x
+projects[views][patch][1331056] = http://drupal.org/files/views-3.x-dev-issue_1331056-36.patch
 
 projects[views_autocomplete_filters][version] = 1.0
 projects[views_autocomplete_filters][subdir] = contrib
