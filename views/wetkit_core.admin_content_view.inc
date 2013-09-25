@@ -410,6 +410,97 @@ function wetkit_core_views_default_views_alter(&$views) {
     $handler = $view->new_display('system', 'System', 'system_1');
     $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
     $handler->display->display_options['defaults']['access'] = FALSE;
+    $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+    $handler->display->display_options['defaults']['filters'] = FALSE;
+    /* Filter criterion: Field: Title (title_field) */
+    $handler->display->display_options['filters']['title_field_value']['id'] = 'title_field_value';
+    $handler->display->display_options['filters']['title_field_value']['table'] = 'field_data_title_field';
+    $handler->display->display_options['filters']['title_field_value']['field'] = 'title_field_value';
+    $handler->display->display_options['filters']['title_field_value']['group'] = 1;
+    $handler->display->display_options['filters']['title_field_value']['exposed'] = TRUE;
+    $handler->display->display_options['filters']['title_field_value']['expose']['operator_id'] = 'title_field_value_op';
+    $handler->display->display_options['filters']['title_field_value']['expose']['label'] = 'Title';
+    $handler->display->display_options['filters']['title_field_value']['expose']['operator'] = 'title_field_value_op';
+    $handler->display->display_options['filters']['title_field_value']['expose']['identifier'] = 'title_field_value';
+    $handler->display->display_options['filters']['title_field_value']['expose']['remember_roles'] = array(
+      2 => '2',
+      1 => 0,
+      3 => 0,
+      4 => 0,
+    );
+    $handler->display->display_options['filters']['title_field_value']['expose']['autocomplete_items'] = '10';
+    $handler->display->display_options['filters']['title_field_value']['expose']['autocomplete_field'] = 'title_field';
+    $handler->display->display_options['filters']['title_field_value']['expose']['autocomplete_raw_suggestion'] = 1;
+    $handler->display->display_options['filters']['title_field_value']['expose']['autocomplete_raw_dropdown'] = 1;
+    $handler->display->display_options['filters']['title_field_value']['expose']['autocomplete_dependent'] = 0;
+    /* Filter criterion: Content: Type */
+    $handler->display->display_options['filters']['type']['id'] = 'type';
+    $handler->display->display_options['filters']['type']['table'] = 'node';
+    $handler->display->display_options['filters']['type']['field'] = 'type';
+    $handler->display->display_options['filters']['type']['group'] = 1;
+    $handler->display->display_options['filters']['type']['exposed'] = TRUE;
+    $handler->display->display_options['filters']['type']['expose']['operator_id'] = 'type_op';
+    $handler->display->display_options['filters']['type']['expose']['label'] = 'Type';
+    $handler->display->display_options['filters']['type']['expose']['operator'] = 'type_op';
+    $handler->display->display_options['filters']['type']['expose']['identifier'] = 'type';
+    $handler->display->display_options['filters']['type']['expose']['remember'] = TRUE;
+    /* Filter criterion: User: Name */
+    $handler->display->display_options['filters']['uid']['id'] = 'uid';
+    $handler->display->display_options['filters']['uid']['table'] = 'users';
+    $handler->display->display_options['filters']['uid']['field'] = 'uid';
+    $handler->display->display_options['filters']['uid']['relationship'] = 'uid';
+    $handler->display->display_options['filters']['uid']['value'] = '';
+    $handler->display->display_options['filters']['uid']['group'] = 1;
+    $handler->display->display_options['filters']['uid']['exposed'] = TRUE;
+    $handler->display->display_options['filters']['uid']['expose']['operator_id'] = 'uid_op';
+    $handler->display->display_options['filters']['uid']['expose']['label'] = 'Author';
+    $handler->display->display_options['filters']['uid']['expose']['operator'] = 'uid_op';
+    $handler->display->display_options['filters']['uid']['expose']['identifier'] = 'author';
+    $handler->display->display_options['filters']['uid']['expose']['remember'] = TRUE;
+    /* Filter criterion: Content: Published */
+    $handler->display->display_options['filters']['status']['id'] = 'status';
+    $handler->display->display_options['filters']['status']['table'] = 'node';
+    $handler->display->display_options['filters']['status']['field'] = 'status';
+    $handler->display->display_options['filters']['status']['value'] = 'All';
+    $handler->display->display_options['filters']['status']['group'] = 1;
+    $handler->display->display_options['filters']['status']['exposed'] = TRUE;
+    $handler->display->display_options['filters']['status']['expose']['operator_id'] = '';
+    $handler->display->display_options['filters']['status']['expose']['label'] = 'Published';
+    $handler->display->display_options['filters']['status']['expose']['operator'] = 'status_op';
+    $handler->display->display_options['filters']['status']['expose']['identifier'] = 'status';
+    $handler->display->display_options['filters']['status']['expose']['remember'] = TRUE;
+    /* Filter criterion: Taxonomy term: Vocabulary */
+    $handler->display->display_options['filters']['vid']['id'] = 'vid';
+    $handler->display->display_options['filters']['vid']['table'] = 'taxonomy_term_data';
+    $handler->display->display_options['filters']['vid']['field'] = 'vid';
+    $handler->display->display_options['filters']['vid']['relationship'] = 'term_node_tid';
+    $handler->display->display_options['filters']['vid']['group'] = 1;
+    $handler->display->display_options['filters']['vid']['exposed'] = TRUE;
+    $handler->display->display_options['filters']['vid']['expose']['operator_id'] = 'vid_op';
+    $handler->display->display_options['filters']['vid']['expose']['label'] = 'Vocabulary';
+    $handler->display->display_options['filters']['vid']['expose']['operator'] = 'vid_op';
+    $handler->display->display_options['filters']['vid']['expose']['identifier'] = 'vid';
+    $handler->display->display_options['filters']['vid']['expose']['remember'] = TRUE;
+    /* Filter criterion: Entity translation: Language */
+    $handler->display->display_options['filters']['language']['id'] = 'language';
+    $handler->display->display_options['filters']['language']['table'] = 'entity_translation';
+    $handler->display->display_options['filters']['language']['field'] = 'language';
+    $handler->display->display_options['filters']['language']['relationship'] = 'entity_translations';
+    $handler->display->display_options['filters']['language']['value'] = array(
+      '***CURRENT_LANGUAGE***' => '***CURRENT_LANGUAGE***',
+      'und' => 'und',
+    );
+    $handler->display->display_options['filters']['language']['group'] = 1;
+    $handler->display->display_options['filters']['language']['expose']['operator_id'] = 'language_op';
+    $handler->display->display_options['filters']['language']['expose']['label'] = 'Language';
+    $handler->display->display_options['filters']['language']['expose']['operator'] = 'language_op';
+    $handler->display->display_options['filters']['language']['expose']['identifier'] = 'language';
+    $handler->display->display_options['filters']['language']['expose']['remember_roles'] = array(
+      2 => '2',
+      1 => 0,
+      3 => 0,
+      4 => 0,
+    );
     $handler->display->display_options['path'] = 'admin/content';
     $translatables['admin_views_node'] = array(
       t('Defaults'),
@@ -440,6 +531,7 @@ function wetkit_core_views_default_views_alter(&$views) {
       t('Vocabulary'),
       t('System'),
     );
+
     $views['admin_views_node'] = $view;
   }
 }
