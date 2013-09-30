@@ -202,6 +202,7 @@ projects[uuid_link][type] = module
 projects[uuid_link][download][type] = git
 projects[uuid_link][download][revision] = dd716df
 projects[uuid_link][download][branch] = 7.x-1.x
+projects[uuid_link][patch][2101455] = http://drupal.org/files/uuid_link_entity_translation-2101455-1.patch
 
 projects[views][version] = 3.x-dev
 projects[views][subdir] = contrib
