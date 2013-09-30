@@ -416,6 +416,7 @@ function wetkit_core_views_default_views_alter(&$views) {
     $handler->display->display_options['filters']['title_field_value']['id'] = 'title_field_value';
     $handler->display->display_options['filters']['title_field_value']['table'] = 'field_data_title_field';
     $handler->display->display_options['filters']['title_field_value']['field'] = 'title_field_value';
+    $handler->display->display_options['filters']['title_field_value']['operator'] = 'contains';
     $handler->display->display_options['filters']['title_field_value']['group'] = 1;
     $handler->display->display_options['filters']['title_field_value']['exposed'] = TRUE;
     $handler->display->display_options['filters']['title_field_value']['expose']['operator_id'] = 'title_field_value_op';
