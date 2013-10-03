@@ -74,10 +74,8 @@ projects[fape][download][branch] = 7.x-1.x
 projects[features][version] = 1.x-dev
 projects[features][subdir] = contrib
 projects[features][download][type] = git
-projects[features][download][revision] = 70daa4a
+projects[features][download][revision] = ac15c4e
 projects[features][download][branch] = 7.x-1.x
-projects[features][patch][1042088] = http://drupal.org/files/features-get-component-status-1042088-24.patch
-;projects[features][patch][2071073] = http://drupal.org/files/features-get-component-status-do-not-test.patch
 
 projects[fences][version] = 1.x-dev
 projects[fences][subdir] = contrib
