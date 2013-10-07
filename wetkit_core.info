@@ -35,7 +35,6 @@ dependencies[] = options
 dependencies[] = page_manager
 dependencies[] = panelizer
 dependencies[] = panels
-dependencies[] = panels_breadcrumbs
 dependencies[] = panels_ipe
 dependencies[] = panopoly_magic
 dependencies[] = password_policy

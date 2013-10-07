@@ -94,3 +94,13 @@ function wetkit_core_update_7101() {
     module_enable(array('uuid_link'));
   }
 }
+
+/**
+ * Implements hook_update_n().
+ */
+function wetkit_core_update_7102() {
+  if(module_exists('panels_breadcrumbs')) {
+    module_disable(array('panels_breadcrumbs'));
+    drupal_uninstall_modules(array('panels_breadcrumbs'));
+  }
+}
