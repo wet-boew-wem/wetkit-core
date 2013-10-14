@@ -144,9 +144,6 @@ projects[panels][download][revision] = 2bb470e
 projects[panels][download][branch] = 7.x-3.x
 projects[panels][patch][1179034] = http://drupal.org/files/panels-1179034-41_____panels-uuids-127790-100__-80.patch
 
-projects[panels_breadcrumbs][version] = 2.1
-projects[panels_breadcrumbs][subdir] = contrib
-
 projects[panopoly_magic][version] = 1.0-rc5
 projects[panopoly_magic][subdir] = contrib
 

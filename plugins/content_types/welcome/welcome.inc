@@ -49,7 +49,7 @@ function wetkit_core_welcome_content_type_render($subtype, $conf, $panel_args, &
 
   $block = new stdClass();
   $block->module = t('wetkit_core');
-  $block->title = t('WetKit Dashboards');
+  $block->title = t('Administrative Dashboard');
   $block->content = $content;
 
   return $block;
