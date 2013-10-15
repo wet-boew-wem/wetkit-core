@@ -201,11 +201,11 @@ h1.node-edit-title {
   margin-bottom: 0em;
 }
 
-/* Translation */
-
-.form-item {
- .form-autocomplete {
-   padding: 0px 4px;
+.views-widget {
+ .form-item-author {
+   .description {
+     display: none;
+   }
  }
 }
 
