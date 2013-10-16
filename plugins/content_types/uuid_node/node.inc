@@ -265,7 +265,7 @@ function wetkit_core_node_content_type_admin_title($subtype, $conf) {
  */
 function wetkit_core_node_content_type_admin_info($subtype, $conf) {
   // Just render the node.
-  return uuid_panel_node_node_content_type_render($subtype, $conf, array());
+  return wetkit_core_node_content_type_render($subtype, $conf, array());
 }
 
 /**
