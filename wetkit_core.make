@@ -51,6 +51,7 @@ projects[diff][download][branch] = 7.x-3.x
 
 projects[entity][version] = 1.2
 projects[entity][subdir] = contrib
+projects[entity][patch][2104461] = http://drupal.org/files/hook_features_export_options-2104461-21.patch
 
 projects[entityreference][version] = 1.0
 projects[entityreference][subdir] = contrib
@@ -74,7 +75,7 @@ projects[fape][download][branch] = 7.x-1.x
 projects[features][version] = 1.x-dev
 projects[features][subdir] = contrib
 projects[features][download][type] = git
-projects[features][download][revision] = ac15c4e
+projects[features][download][revision] = 78772d5
 projects[features][download][branch] = 7.x-1.x
 
 projects[fences][version] = 1.x-dev
