@@ -38,11 +38,13 @@ function wetkit_core_views_default_views_alter(&$views) {
     $handler->display->display_options['style_plugin'] = 'table';
     $handler->display->display_options['style_options']['columns'] = array(
       'views_bulk_operations' => 'views_bulk_operations',
-      'title' => 'title',
-      'timestamp' => 'title',
+      'title_field' => 'title_field',
+      'path' => 'title_field',
+      'timestamp' => 'timestamp',
       'type' => 'type',
       'name' => 'name',
       'status' => 'status',
+      'language_1' => 'language_1',
       'changed' => 'changed',
       'edit_node' => 'edit_node',
       'delete_node' => 'delete_node',
@@ -54,11 +56,16 @@ function wetkit_core_views_default_views_alter(&$views) {
         'separator' => '',
         'empty_column' => 0,
       ),
-      'title' => array(
+      'title_field' => array(
         'sortable' => 1,
         'default_sort_order' => 'asc',
         'align' => '',
-        'separator' => '&nbsp;',
+        'separator' => '',
+        'empty_column' => 0,
+      ),
+      'path' => array(
+        'align' => '',
+        'separator' => '',
         'empty_column' => 0,
       ),
       'timestamp' => array(
@@ -83,6 +90,13 @@ function wetkit_core_views_default_views_alter(&$views) {
       'status' => array(
         'sortable' => 1,
         'default_sort_order' => 'desc',
+        'align' => '',
+        'separator' => '',
+        'empty_column' => 0,
+      ),
+      'language_1' => array(
+        'sortable' => 0,
+        'default_sort_order' => 'asc',
         'align' => '',
         'separator' => '',
         'empty_column' => 0,
@@ -274,6 +288,13 @@ function wetkit_core_views_default_views_alter(&$views) {
     $handler->display->display_options['fields']['title_field']['table'] = 'field_data_title_field';
     $handler->display->display_options['fields']['title_field']['field'] = 'title_field';
     $handler->display->display_options['fields']['title_field']['link_to_entity'] = 1;
+    /* Field: Content: Path */
+    $handler->display->display_options['fields']['path']['id'] = 'path';
+    $handler->display->display_options['fields']['path']['table'] = 'node';
+    $handler->display->display_options['fields']['path']['field'] = 'path';
+    $handler->display->display_options['fields']['path']['label'] = 'URL';
+    $handler->display->display_options['fields']['path']['alter']['alter_text'] = TRUE;
+    $handler->display->display_options['fields']['path']['alter']['text'] = '<div class="content-path">[path]</div>';
     /* Field: Content: Has new content */
     $handler->display->display_options['fields']['timestamp']['id'] = 'timestamp';
     $handler->display->display_options['fields']['timestamp']['table'] = 'history';
