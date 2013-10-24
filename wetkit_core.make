@@ -88,16 +88,8 @@ projects[fences][download][branch] = 7.x-1.x
 projects[field_group][version] = 1.1
 projects[field_group][subdir] = contrib
 
-projects[hierarchical_select][version] = 3.x-dev
+projects[hierarchical_select][version] = 7.x-3.0-alpha6
 projects[hierarchical_select][subdir] = contrib
-projects[hierarchical_select][type] = module
-projects[hierarchical_select][download][type] = git
-projects[hierarchical_select][download][revision] = 1da92c0
-projects[hierarchical_select][download][branch] = 7.x-3.x
-projects[hierarchical_select][patch][1457252] = http://drupal.org/files/hierarchical_select-config_not_defined_1457252-2.patch
-projects[hierarchical_select][patch][1649706] = http://drupal.org/files/hs-menu-with-taxonomy-fix.patch
-projects[hierarchical_select][patch][1315192] = http://drupal.org/files/1315192-fix-syntax-error-8.patch
-projects[hierarchical_select][patch][1587570] = http://drupal.org/files/hierarchical_select-remove-array-to-string-error.patch
 
 projects[libraries][version] = 2.1
 projects[libraries][subdir] = contrib
