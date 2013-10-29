@@ -17,11 +17,13 @@
 
 #modal-content #status-messages { margin: 0px; }
 #modal-content .form-item { position: static; border: none; padding: 0px; }
+#modal-content form .option-text-aligner { float: left; width: 100%; }
+#modal-content form .description { float: left; }
 #modal-content .form-submit { float: left; }
 #modal-content .form-actions { width: auto; }
 #modal-content form-wrapper.form-actions { border: none; background: none; }
 #modal-content .widget-preview .fieldset-wrapper table img { width: auto; }
-#modal-content fieldset legend { background: none; background-repeat: repeat-x; background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, gainsboro)) !important; background-image: -webkit-linear-gradient(#eeeeee, gainsboro) !important; background-image: -moz-linear-gradient(#eeeeee, gainsboro) !important; background-image: -o-linear-gradient(#eeeeee, gainsboro) !important; background-image: linear-gradient(#eeeeee, #dcdcdc) !important; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEEEEEE', endColorstr='#FFDCDCDC'); }
+#modal-content fieldset legend { margin-left: 0px; background: none; background-repeat: repeat-x; background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, gainsboro)) !important; background-image: -webkit-linear-gradient(#eeeeee, gainsboro) !important; background-image: -moz-linear-gradient(#eeeeee, gainsboro) !important; background-image: -o-linear-gradient(#eeeeee, gainsboro) !important; background-image: linear-gradient(#eeeeee, #dcdcdc) !important; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEEEEEE', endColorstr='#FFDCDCDC'); }
 #modal-content fieldset legend span { color: #145E91; }
 
 /* IPE Styles */

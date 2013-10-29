@@ -77,6 +77,15 @@
     border: none;
     padding: 0px;
   }
+  form {
+    .option-text-aligner {
+      float: left;
+      width: 100%;
+    }
+    .description {
+      float: left;
+    }
+  }
   .form-submit {
     float: left;
   }
@@ -90,6 +99,7 @@
   .widget-preview .fieldset-wrapper table img {width: auto;}
   fieldset {
     legend {
+      margin-left: 0px;
       background: none;
       background-repeat:repeat-x;
       background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#eee),color-stop(100%,#dcdcdc))!important;
