@@ -88,7 +88,7 @@ projects[fences][download][branch] = 7.x-1.x
 projects[field_group][version] = 1.1
 projects[field_group][subdir] = contrib
 
-projects[hierarchical_select][version] = 7.x-3.0-alpha6
+projects[hierarchical_select][version] = 3.0-alpha6
 projects[hierarchical_select][subdir] = contrib
 
 projects[libraries][version] = 2.1
