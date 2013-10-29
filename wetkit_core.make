@@ -210,7 +210,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[webform][version] = 3.18
 projects[webform][subdir] = contrib
 
-projects[workbench][version] = 7.x-dev
+projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
 projects[workbench][type] = module
 projects[workbench][download][type] = git
