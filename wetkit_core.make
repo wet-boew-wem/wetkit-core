@@ -108,8 +108,11 @@ projects[linkchecker][download][type] = git
 projects[linkchecker][download][revision] = 0e7fc34
 projects[linkchecker][download][branch] = 7.x-1.x
 
-projects[menu_attributes][version] = 1.0-rc2
+projects[menu_attributes][version] = 1.x-dev
 projects[menu_attributes][subdir] = contrib
+projects[menu_attributes][download][type] = git
+projects[menu_attributes][download][revision] = ed7e9aa
+projects[menu_attributes][download][branch] = 7.x-1.x
 
 projects[menu_block][version] = 2.x-dev
 projects[menu_block][subdir] = contrib
