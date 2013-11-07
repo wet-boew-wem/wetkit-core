@@ -75,8 +75,9 @@ projects[fape][download][branch] = 7.x-1.x
 projects[features][version] = 2.x-dev
 projects[features][subdir] = contrib
 projects[features][download][type] = git
-projects[features][download][revision] = 78772d5
+projects[features][download][revision] = a338503
 projects[features][download][branch] = 7.x-2.x
+projects[features][patch][766264] = http://drupal.org/files/766264-25-alter-override.patch
 
 projects[fences][version] = 1.x-dev
 projects[fences][subdir] = contrib
