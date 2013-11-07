@@ -143,6 +143,10 @@ function wetkit_core_views_default_views_alter(&$views) {
     $handler->display->display_options['relationships']['entity_translations']['id'] = 'entity_translations';
     $handler->display->display_options['relationships']['entity_translations']['table'] = 'node';
     $handler->display->display_options['relationships']['entity_translations']['field'] = 'entity_translations';
+    /* Relationship: Content revision: User */
+    $handler->display->display_options['relationships']['uid_1']['id'] = 'uid_1';
+    $handler->display->display_options['relationships']['uid_1']['table'] = 'node_revision';
+    $handler->display->display_options['relationships']['uid_1']['field'] = 'uid';
     /* Field: Bulk operations: Content */
     $handler->display->display_options['fields']['views_bulk_operations']['id'] = 'views_bulk_operations';
     $handler->display->display_options['fields']['views_bulk_operations']['table'] = 'node';
@@ -309,7 +313,7 @@ function wetkit_core_views_default_views_alter(&$views) {
     $handler->display->display_options['fields']['name']['id'] = 'name';
     $handler->display->display_options['fields']['name']['table'] = 'users';
     $handler->display->display_options['fields']['name']['field'] = 'name';
-    $handler->display->display_options['fields']['name']['relationship'] = 'uid';
+    $handler->display->display_options['fields']['name']['relationship'] = 'uid_1';
     $handler->display->display_options['fields']['name']['label'] = 'Author';
     $handler->display->display_options['fields']['name']['hide_alter_empty'] = FALSE;
     /* Field: Content: Published */
@@ -544,7 +548,10 @@ function wetkit_core_views_default_views_alter(&$views) {
       t('author'),
       t('term'),
       t('Translations'),
+      t('revision user'),
       t('Title'),
+      t('URL'),
+      t('<div class="content-path">[path]</div>'),
       t('Type'),
       t('Author'),
       t('Published'),
