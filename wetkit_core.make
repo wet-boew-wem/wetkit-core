@@ -87,6 +87,16 @@ projects[fences][download][type] = git
 projects[fences][download][revision] = 67206b5
 projects[fences][download][branch] = 7.x-1.x
 
+projects[field_collection][version] = 1.x-dev
+projects[field_collection][subdir] = contrib
+projects[field_collection][download][type] = git
+projects[field_collection][download][revision] = 0fd332e
+projects[field_collection][download][branch] = 7.x-1.x
+projects[field_collection][patch][707484] = http://drupal.org/files/field_collection-remove_button-707484-2.patch
+projects[field_collection][patch][1344672] = http://drupal.org/files/issues/field_collection-et-1344672-89.patch
+projects[field_collection][patch][2075325] = http://drupal.org/files/field_collection-field_collection_uuid-2075325-2.patch
+;projects[field_collection][patch][1807460] = http://drupal.org/files/field_collection_with_workbench_moderation-1807460-46.patch
+
 projects[field_group][version] = 1.1
 projects[field_group][subdir] = contrib
 
@@ -175,10 +185,9 @@ projects[transliteration][subdir] = contrib
 projects[uuid][version] = 1.x-dev
 projects[uuid][subdir] = contrib
 projects[uuid][download][type] = git
-projects[uuid][download][revision] = a383295
+projects[uuid][download][revision] = 3f4d9fb
 projects[uuid][download][branch] = 7.x-1.x
 projects[uuid][patch][1969222] = http://drupal.org/files/uuid-file-entity-1969222-1.patch
-projects[uuid][patch][1694972] = http://drupal.org/files/uuid-fix-uuid-save-1694972-30.patch
 
 projects[uuid_features][version] = 1.x-dev
 projects[uuid_features][subdir] = contrib
@@ -215,6 +224,7 @@ projects[views_bulk_operations][subdir] = contrib
 
 projects[webform][version] = 4.0-beta1
 projects[webform][subdir] = contrib
+projects[webform][patch][2134401] = http://drupal.org/files/webform_uuid_0.patch
 
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
@@ -222,6 +232,7 @@ projects[workbench][type] = module
 projects[workbench][download][type] = git
 projects[workbench][download][revision] = 6856e4a
 projects[workbench][download][branch] = 7.x-1.x
+projects[workbench][patch][2075467] = http://drupal.org/files/issues/workbench_uuid-2075467-01.patch
 
 projects[workbench_moderation][version] = 1.x-dev
 projects[workbench_moderation][subdir] = contrib
