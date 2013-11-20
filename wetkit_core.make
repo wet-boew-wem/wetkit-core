@@ -188,6 +188,7 @@ projects[uuid][download][type] = git
 projects[uuid][download][revision] = 3f4d9fb
 projects[uuid][download][branch] = 7.x-1.x
 projects[uuid][patch][1969222] = http://drupal.org/files/uuid-file-entity-1969222-1.patch
+projects[uuid][patch][2074599] = http://drupal.org/files/uuid_remove_contrib_support-2074599-2.patch
 
 projects[uuid_features][version] = 1.x-dev
 projects[uuid_features][subdir] = contrib
