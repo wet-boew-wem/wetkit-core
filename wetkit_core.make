@@ -241,19 +241,22 @@ projects[workbench_moderation][type] = module
 projects[workbench_moderation][download][type] = git
 projects[workbench_moderation][download][revision] = a90378d
 projects[workbench_moderation][download][branch] = 7.x-1.x
+; Stable Patches
 projects[workbench_moderation][patch][1237558] = http://drupal.org/files/double-messages-1237558-7.patch
-projects[workbench_moderation][patch][1285090] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
 projects[workbench_moderation][patch][1260112] = http://drupal.org/files/workbench_moderation_is_current-1260112-58.patch
 projects[workbench_moderation][patch][1330562] = http://drupal.org/files/workbench_moderation-entity-cache-1330562-22.patch
-projects[workbench_moderation][patch][1408858] = http://drupal.org/files/default-moderation-state-1408858-12.patch
-projects[workbench_moderation][patch][1436260] = http://drupal.org/files/workbench_moderation-1436260-20.patch
 projects[workbench_moderation][patch][1571614] = http://drupal.org/files/workbench-moderation-1571614-1.patch
 projects[workbench_moderation][patch][1732802] = http://drupal.org/files/workbench-moderation-draft-terminology-1732802-1.patch
 projects[workbench_moderation][patch][1785798] = http://drupal.org/files/workbench_moderation-revision-moderation-edit-link-1785798-14.patch
 projects[workbench_moderation][patch][1836680] = http://drupal.org/files/workbench-moderation-solr-index-1836680-1.patch
-projects[workbench_moderation][patch][1919706] = http://drupal.org/files/1919706-1-no-node.patch
+; Potentially Stable
 projects[workbench_moderation][patch][1946392] = http://drupal.org/files/et_language-1946392-1.patch
 projects[workbench_moderation][patch][1445824] = http://drupal.org/files/workbench_moderation-better_migration_support-1445824-11.patch
+projects[workbench_moderation][patch][2098151] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
+; Hacky Patches (Needs more Testing)
+projects[workbench_moderation][patch][1408858] = http://drupal.org/files/default-moderation-state-1408858-12.patch
+projects[workbench_moderation][patch][1436260] = http://drupal.org/files/issues/1436260-workbench_moderation-states-vbo-38.patch
+projects[workbench_moderation][patch][1919706] = http://drupal.org/files/issues/workbench_moderation-entitymalformed-1919706-3.patch
 
 ; Libraries
 
