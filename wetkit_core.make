@@ -193,13 +193,11 @@ projects[uuid][patch][2074599] = http://drupal.org/files/uuid_remove_contrib_sup
 projects[uuid_features][version] = 1.x-dev
 projects[uuid_features][subdir] = contrib
 projects[uuid_features][download][type] = git
-projects[uuid_features][download][revision] = d34d00f
+projects[uuid_features][download][revision] = ebf5fd1
 projects[uuid_features][download][branch] = 7.x-1.x
 projects[uuid_features][patch][1812876] = http://drupal.org/files/uuid_features-node_ref_term_uuid-1812876-7.patch
 projects[uuid_features][patch][2017221] = http://drupal.org/files/uuid_features-incompatible_title_module-2017221-1.patch
 projects[uuid_features][patch][2052387] = http://drupal.org/files/uuid_features-2052387-clone-export.patch
-projects[uuid_features][patch][2056851] = http://drupal.org/files/uuid-features-use-features-get-default-1.patch
-projects[uuid_features][patch][2072943] = http://drupal.org/files/uuid_features-bean-titles-2072943-1.patch
 
 projects[uuid_link][version] = 1.x-dev
 projects[uuid_link][subdir] = contrib
