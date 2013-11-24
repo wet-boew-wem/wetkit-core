@@ -54,7 +54,7 @@ projects[entity][subdir] = contrib
 projects[entity][patch][2104461] = http://drupal.org/files/hook_features_export_options-2104461-21.patch
 projects[entity][patch][1780646] = http://drupal.org/files/issues/entity-node_access-1780646-273.diagnostic.patch
 
-projects[entityreference][version] = 1.0
+projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
 
 projects[entityreference_prepopulate][version] = 1.3
