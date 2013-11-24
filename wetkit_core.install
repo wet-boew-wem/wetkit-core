@@ -87,7 +87,7 @@ function wetkit_core_uninstall() {
 }
 
 /**
- * Implements hook_update_n().
+ * Install the uuid_link contrib module.
  */
 function wetkit_core_update_7101() {
   if (!module_exists('uuid_link')) {
@@ -96,11 +96,30 @@ function wetkit_core_update_7101() {
 }
 
 /**
- * Implements hook_update_n().
+ * Remove the panels_breadcrumb contrib module.
  */
 function wetkit_core_update_7102() {
   if (module_exists('panels_breadcrumbs')) {
     module_disable(array('panels_breadcrumbs'));
     drupal_uninstall_modules(array('panels_breadcrumbs'));
+  }
+}
+
+/**
+ * UUID has exported specific contrib module logic
+ * to the contrib module themselves.
+ *
+ * Additionally installs the field_collection
+ * contrib module.
+ */
+function wetkit_core_update_7103() {
+  if (!module_exists('workbench_uuid')) {
+    module_enable(array('workbench_uuid'));
+  }
+  if (!module_exists('field_collection')) {
+    module_enable(array('field_collection'));
+  }
+  if (!module_exists('field_collection_uuid')) {
+    module_enable(array('field_collection_uuid'));
   }
 }
