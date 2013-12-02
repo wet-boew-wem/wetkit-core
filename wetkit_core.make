@@ -49,6 +49,9 @@ projects[diff][download][type] = git
 projects[diff][download][revision] = adb4304
 projects[diff][download][branch] = 7.x-3.x
 
+projects[elements][version] = 1.4
+projects[elements][subdir] = contrib
+
 projects[entity][version] = 1.2
 projects[entity][subdir] = contrib
 projects[entity][patch][2104461] = http://drupal.org/files/hook_features_export_options-2104461-21.patch
