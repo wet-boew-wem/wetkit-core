@@ -100,7 +100,7 @@ projects[field_collection][patch][1344672] = http://drupal.org/files/issues/fiel
 projects[field_collection][patch][2075325] = http://drupal.org/files/issues/field_collection-field_collection_uuid-2075325-3.patch
 ;projects[field_collection][patch][1807460] = http://drupal.org/files/field_collection_with_workbench_moderation-1807460-46.patch
 
-projects[field_group][version] = 1.1
+projects[field_group][version] = 1.3
 projects[field_group][subdir] = contrib
 
 projects[hierarchical_select][version] = 3.x-dev
