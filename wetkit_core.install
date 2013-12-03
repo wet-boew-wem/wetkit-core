@@ -106,8 +106,7 @@ function wetkit_core_update_7102() {
 }
 
 /**
- * UUID has exported specific contrib module logic
- * to the contrib module themselves.
+ * UUID has exported specific contrib module logic.
  *
  * Additionally installs the field_collection
  * contrib module.

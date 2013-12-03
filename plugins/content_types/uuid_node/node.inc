@@ -57,7 +57,7 @@ function wetkit_core_node_content_type_render($subtype, $conf, $panel_args) {
 
   $nid = $node->nid;
 
-  // Support node translation
+  // Support node translation.
   if (module_exists('translation')) {
     if ($translations = module_invoke('translation', 'node_get_translations', $nid)) {
       if (isset($translations[$GLOBALS['language']->language])) {
@@ -126,7 +126,6 @@ function wetkit_core_node_content_type_edit_form($form, &$form_state) {
     '#title' => t('Link the node title to the node'),
     '#description' => t('Check this box if you would like your pane title to link to the node.'),
   );
-
 
   if ($form_state['op'] == 'add') {
     $form['nid'] = array(
@@ -219,9 +218,7 @@ function wetkit_core_node_content_type_edit_form_validate(&$form, &$form_state) 
     $form_state['values']['uuid'] = $node->uuid;
   }
 
-  if (!($node || preg_match('/^[@%]\d+$/', $nid)) ||
-          // Do not allow unpublished nodes to be selected by unprivileged users
-          (empty($node->status) && !user_access('administer nodes'))) {
+  if (!($node || preg_match('/^[@%]\d+$/', $nid)) || (empty($node->status) && !user_access('administer nodes'))) {
     form_error($form['nid'], t('Invalid node'));
   }
 }
@@ -270,9 +267,11 @@ function wetkit_core_node_content_type_admin_info($subtype, $conf) {
 
 /**
  * Function to load the node by uuid.
+ *
  * @param int $uuid
+ *
  * @return array
- *   The returned node object.
+ * The returned node object.
  */
 function _wetkit_core_node_get_by_uuid($uuid) {
   $node = db_select('node', 'n')
