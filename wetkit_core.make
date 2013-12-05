@@ -149,7 +149,6 @@ projects[panelizer][download][type] = git
 projects[panelizer][download][revision] = 1e050d3
 projects[panelizer][download][branch] = 7.x-3.x
 projects[panelizer][patch][2053721] = http://drupal.org/files/panelizer-clone-display-node-revisions-2053721-9_0.patch
-projects[panelizer][patch][2039025] = http://drupal.org/files/panelizer-workbench-moderation-2039025-1.patch
 projects[panelizer][patch][1992106] = http://drupal.org/files/1992106_panelizer_features_pipe-1.patch
 
 projects[panels][version] = 3.x-dev
@@ -256,13 +255,15 @@ projects[workbench_moderation][patch][1732802] = http://drupal.org/files/workben
 projects[workbench_moderation][patch][1785798] = http://drupal.org/files/workbench_moderation-revision-moderation-edit-link-1785798-14.patch
 projects[workbench_moderation][patch][1836680] = http://drupal.org/files/workbench-moderation-solr-index-1836680-1.patch
 ; Potentially Stable
-projects[workbench_moderation][patch][1946392] = http://drupal.org/files/et_language-1946392-1.patch
+projects[workbench_moderation][patch][1402860] = http://drupal.org/files/workbench_moderation-panelizer_revisions-1402860-36.patch
+projects[workbench_moderation][patch][1408838] = http://drupal.org/files/workbench_moderation-revision-operations-performance-1408838-38.patch
 projects[workbench_moderation][patch][1445824] = http://drupal.org/files/workbench_moderation-better_migration_support-1445824-11.patch
-projects[workbench_moderation][patch][2098151] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
-; Hacky Patches (Needs more Testing)
 projects[workbench_moderation][patch][1408858] = http://drupal.org/files/default-moderation-state-1408858-12.patch
 projects[workbench_moderation][patch][1436260] = http://drupal.org/files/issues/1436260-workbench_moderation-states-vbo-38.patch
 projects[workbench_moderation][patch][1919706] = http://drupal.org/files/issues/workbench_moderation-entitymalformed-1919706-3.patch
+projects[workbench_moderation][patch][1946392] = http://drupal.org/files/et_language-1946392-1.patch
+projects[workbench_moderation][patch][2098151] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
+projects[workbench_moderation][patch][2070389] = http://drupal.org/files/workbench_moderation-correctly_update_status-2070389-2.patch
 
 ; Libraries
 
