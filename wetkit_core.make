@@ -171,7 +171,7 @@ projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
 
-projects[rules][version] = 2.5
+projects[rules][version] = 2.6
 projects[rules][subdir] = contrib
 projects[rules][patch][1810656] = http://drupal.org/files/rules-1810656-25.patch
 
