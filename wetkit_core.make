@@ -124,7 +124,7 @@ projects[linkchecker][version] = 1.x-dev
 projects[linkchecker][type] = module
 projects[linkchecker][subdir] = contrib
 projects[linkchecker][download][type] = git
-projects[linkchecker][download][revision] = 0e7fc34
+projects[linkchecker][download][revision] = 6665254
 projects[linkchecker][download][branch] = 7.x-1.x
 
 projects[menu_attributes][version] = 1.x-dev
@@ -146,10 +146,9 @@ projects[password_policy][subdir] = contrib
 projects[panelizer][version] = 3.x-dev
 projects[panelizer][subdir] = contrib
 projects[panelizer][download][type] = git
-projects[panelizer][download][revision] = 1e050d3
+projects[panelizer][download][revision] = 13e12a4
 projects[panelizer][download][branch] = 7.x-3.x
 projects[panelizer][patch][2053721] = http://drupal.org/files/panelizer-clone-display-node-revisions-2053721-9_0.patch
-projects[panelizer][patch][1992106] = http://drupal.org/files/1992106_panelizer_features_pipe-1.patch
 
 projects[panels][version] = 3.x-dev
 projects[panels][subdir] = contrib
@@ -214,13 +213,9 @@ projects[uuid_link][download][revision] = dd716df
 projects[uuid_link][download][branch] = 7.x-1.x
 projects[uuid_link][patch][2101455] = http://drupal.org/files/uuid_link_entity_translation-2101455-9.patch
 
-projects[views][version] = 3.x-dev
+projects[views][version] = 3.7
 projects[views][subdir] = contrib
-projects[views][type] = module
-projects[views][download][type] = git
-projects[views][download][revision] = d1f2fd7
-projects[views][download][branch] = 7.x-3.x
-projects[views][patch][1331056] = http://drupal.org/files/views-3.x-dev-issue_1331056-36.patch
+projects[views][patch][1810656] = http://drupal.org/files/views-3.x-dev-issue_1331056-36.patch
 
 projects[views_autocomplete_filters][version] = 1.0
 projects[views_autocomplete_filters][subdir] = contrib
