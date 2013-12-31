@@ -214,6 +214,7 @@ projects[uuid_link][patch][2101455] = http://drupal.org/files/uuid_link_entity_t
 projects[views][version] = 3.7
 projects[views][subdir] = contrib
 projects[views][patch][1810656] = http://drupal.org/files/views-3.x-dev-issue_1331056-36.patch
+projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
 
 projects[views_autocomplete_filters][version] = 1.0
 projects[views_autocomplete_filters][subdir] = contrib
