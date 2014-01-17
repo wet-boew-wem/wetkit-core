@@ -234,7 +234,7 @@ function wetkit_core_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'page_cache_maximum_age';
-  $strongarm->value = '21600';
+  $strongarm->value = '86400';
   $export['page_cache_maximum_age'] = $strongarm;
 
   $strongarm = new stdClass();
