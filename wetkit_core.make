@@ -5,23 +5,17 @@ core = 7.x
 
 ; Modules
 
-projects[advanced_help][version] = 1.x-dev
+projects[advanced_help][version] = 1.1
 projects[advanced_help][subdir] = contrib
-projects[advanced_help][type] = module
-projects[advanced_help][download][type] = git
-projects[advanced_help][download][revision] = 26437d8
-projects[advanced_help][download][branch] = 7.x-1.x
 
 projects[apps][version] = 1.0-beta7
 projects[apps][subdir] = contrib
 projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
 
-projects[better_formats][version] = 1.x-dev
+projects[better_formats][version] = 1.0-beta1
 projects[better_formats][subdir] = contrib
-projects[better_formats][type] = module
-projects[better_formats][download][type] = git
-projects[better_formats][download][revision] = 3b4a8c9
-projects[better_formats][download][branch] = 7.x-1.x
+projects[better_formats][patch][1717470] = http://drupalcode.org/project/better_formats.git/patch/ca0822a94fc79a3b3b69ae96d1e3cb43c61aaa15
+projects[better_formats][patch][1790902] = http://drupalcode.org/project/better_formats.git/patch/3b4a8c92b317add4e218216a002b2bc777fbc736
 
 projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
@@ -42,20 +36,14 @@ projects[defaultconfig][patch][2043307] = http://drupal.org/files/defaultconfig_
 projects[devel][version] = 1.3
 projects[devel][subdir] = contrib
 
-projects[diff][version] = 3.x-dev
+projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
-projects[diff][type] = module
-projects[diff][download][type] = git
-projects[diff][download][revision] = adb4304
-projects[diff][download][branch] = 7.x-3.x
 
 projects[elements][version] = 1.4
 projects[elements][subdir] = contrib
 
-projects[entity][version] = 1.2
+projects[entity][version] = 1.3
 projects[entity][subdir] = contrib
-projects[entity][patch][2104461] = http://drupal.org/files/hook_features_export_options-2104461-21.patch
-projects[entity][patch][1780646] = http://drupal.org/files/issues/entity-node_access-1780646-273.diagnostic.patch
 
 projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
@@ -76,12 +64,9 @@ projects[fape][download][type] = git
 projects[fape][download][revision] = 1143ee2
 projects[fape][download][branch] = 7.x-1.x
 
-projects[features][version] = 2.x-dev
+projects[features][version] = 2.0
 projects[features][subdir] = contrib
-projects[features][download][type] = git
-projects[features][download][revision] = a338503
-projects[features][download][branch] = 7.x-2.x
-;projects[features][patch][766264] = http://drupal.org/files/766264-25-alter-override.patch
+projects[features][patch][2047253] = http://drupalcode.org/project/features.git/patch/a338503bd0b149475fe5ece85d0c9e4314300c06
 
 projects[fences][version] = 1.x-dev
 projects[fences][subdir] = contrib
@@ -103,22 +88,15 @@ projects[field_collection][patch][2075325] = http://drupal.org/files/issues/fiel
 projects[field_group][version] = 1.3
 projects[field_group][subdir] = contrib
 
-projects[hierarchical_select][version] = 3.x-dev
+projects[hierarchical_select][version] = 3.0-alpha7
 projects[hierarchical_select][subdir] = contrib
-projects[hierarchical_select][type] = module
-projects[hierarchical_select][download][type] = git
-projects[hierarchical_select][download][revision] = b3e34d9
-projects[hierarchical_select][download][branch] = 7.x-3.x
+projects[hierarchical_select][patch][828418] = http://drupalcode.org/project/hierarchical_select.git/patch/b3e34d9c2a0493108481b78ea5ad75c432a1318d
 
 projects[libraries][version] = 2.1
 projects[libraries][subdir] = contrib
 
-projects[link][version] = 1.x-dev
-projects[link][type] = module
+projects[link][version] = 1.2
 projects[link][subdir] = contrib
-projects[link][download][type] = git
-projects[link][download][revision] = 6ae1ff0
-projects[link][download][branch] = 7.x-1.x
 
 projects[linkchecker][version] = 1.x-dev
 projects[linkchecker][type] = module
