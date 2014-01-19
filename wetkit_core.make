@@ -30,8 +30,10 @@ projects[date][subdir] = contrib
 
 projects[defaultconfig][version] = 1.0-alpha9
 projects[defaultconfig][subdir] = contrib
+projects[defaultconfig][patch][1861054] = http://drupal.org/files/fix-defaultconfig_rebuild_all.patch
 projects[defaultconfig][patch][2008178] = http://drupal.org/files/defaultconfig-rebuild-filters-2008178-4_0.patch
 projects[defaultconfig][patch][2043307] = http://drupal.org/files/defaultconfig_include_features_file.patch
+projects[defaultconfig][patch][2042799] = http://drupal.org/files/default_config_delete_only_if_overriden.patch
 
 projects[devel][version] = 1.3
 projects[devel][subdir] = contrib
@@ -63,6 +65,7 @@ projects[fape][subdir] = contrib
 projects[fape][download][type] = git
 projects[fape][download][revision] = 1143ee2
 projects[fape][download][branch] = 7.x-1.x
+projects[fape][patch][1846156] = http://drupal.org/files/fape-1846156-5.patch
 
 projects[features][version] = 2.0
 projects[features][subdir] = contrib
@@ -135,7 +138,7 @@ projects[panels][download][revision] = 2bb470e
 projects[panels][download][branch] = 7.x-3.x
 projects[panels][patch][1179034] = http://drupal.org/files/panels-1179034-41_____panels-uuids-127790-100__-80.patch
 
-projects[panopoly_magic][version] = 1.0-rc5
+projects[panopoly_magic][version] = 1.0
 projects[panopoly_magic][subdir] = contrib
 
 projects[pathauto][version] = 1.x-dev
