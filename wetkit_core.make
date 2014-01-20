@@ -14,8 +14,8 @@ projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modi
 
 projects[better_formats][version] = 1.0-beta1
 projects[better_formats][subdir] = contrib
-projects[better_formats][patch][1717470] = http://drupalcode.org/project/better_formats.git/patch/ca0822a94fc79a3b3b69ae96d1e3cb43c61aaa15
-projects[better_formats][patch][1790902] = http://drupalcode.org/project/better_formats.git/patch/3b4a8c92b317add4e218216a002b2bc777fbc736
+projects[better_formats][patch][1717470] = http://drupal.org/files/issues/better_formats_strict_warning-1717470-03.patch
+projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better_formats_description-1712360-02.patch
 
 projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
@@ -69,7 +69,7 @@ projects[fape][patch][1846156] = http://drupal.org/files/fape-1846156-5.patch
 
 projects[features][version] = 2.0
 projects[features][subdir] = contrib
-projects[features][patch][2047253] = http://drupalcode.org/project/features.git/patch/a338503bd0b149475fe5ece85d0c9e4314300c06
+projects[features][patch][2047253] = http://drupal.org/files/issues/features_lock_functionality-2047253-01.patch
 
 projects[fences][version] = 1.x-dev
 projects[fences][subdir] = contrib
