@@ -182,7 +182,7 @@ projects[uuid_features][subdir] = contrib
 projects[uuid_features][download][type] = git
 projects[uuid_features][download][revision] = 3b0dca6
 projects[uuid_features][download][branch] = 7.x-1.x
-projects[uuid_features][patch][2153157] = https://drupal.org/files/issues/uuid_features-undefined_index_when_processing_orphanned_bundles-2153157-2.patch
+projects[uuid_features][patch][2153157] = http://drupal.org/files/issues/uuid_features-undefined_index_when_processing_orphanned_bundles-2153157-2.patch
 
 projects[uuid_link][version] = 1.x-dev
 projects[uuid_link][subdir] = contrib
