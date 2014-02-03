@@ -41,6 +41,10 @@ projects[devel][subdir] = contrib
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
+projects[edit][type] = module
+projects[edit][version] = 1.0
+projects[edit][subdir] = contrib
+
 projects[elements][version] = 1.4
 projects[elements][subdir] = contrib
 
@@ -120,6 +124,10 @@ projects[menu_block][download][type] = git
 projects[menu_block][download][revision] = 32ab1cf
 projects[menu_block][download][branch] = 7.x-2.x
 projects[menu_block][patch][1967230] = http://drupal.org/files/menu_block_show_menu_items-1967230-06.patch
+
+projects[navbar][type] = module
+projects[navbar][version] = 1.4
+projects[navbar][subdir] = contrib
 
 projects[password_policy][version] = 1.5
 projects[password_policy][subdir] = contrib
@@ -243,6 +251,19 @@ projects[workbench_moderation][patch][2070389] = http://drupal.org/files/workben
 ;projects[workbench_moderation][patch][1408838] = http://drupal.org/files/workbench_moderation-revision-operations-performance-1408838-38.patch
 
 ; Libraries
+
+libraries[json2][download][type] = get
+libraries[json2][download][url] = https://raw.github.com/douglascrockford/JSON-js/master/json2.js
+libraries[json2][revision] = fc535e9cc8fa78bbf45a85835c830e7f799a5084
+
+libraries[underscore][download][type] = get
+libraries[underscore][download][url] = https://github.com/jashkenas/underscore/archive/1.5.2.zip
+
+libraries[backbone][download][type] = get
+libraries[backbone][download][url] = https://github.com/jashkenas/backbone/archive/1.1.0.zip
+
+libraries[modernizr][download][type] = "get"
+libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.7.0.tar.gz"
 
 libraries[querypath][download][type] = git
 libraries[querypath][download][branch] = 3.x
