@@ -134,7 +134,7 @@ projects[panels][subdir] = contrib
 projects[panels][download][type] = git
 projects[panels][download][revision] = a879ecc
 projects[panels][download][branch] = 7.x-3.x
-projects[panels][patch][2192355] = https://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
+projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 
 projects[panopoly_magic][version] = 1.0
 projects[panopoly_magic][subdir] = contrib
