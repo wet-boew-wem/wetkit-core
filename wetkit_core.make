@@ -20,10 +20,8 @@ projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better
 projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
 projects[ctools][download][type] = git
-projects[ctools][download][revision] = e81da7a
+projects[ctools][download][revision] = a333dfc
 projects[ctools][download][branch] = 7.x-1.x
-projects[ctools][patch][1630820] = http://drupal.org/files/entity-field-value-1630820-45.patch
-projects[ctools][patch][1277908] = http://drupal.org/files/ctools-uuids_for_exported_objects-1277908-118.patch
 
 projects[date][version] = 2.6
 projects[date][subdir] = contrib
@@ -134,9 +132,9 @@ projects[panelizer][patch][2053721] = http://drupal.org/files/panelizer-clone-di
 projects[panels][version] = 3.x-dev
 projects[panels][subdir] = contrib
 projects[panels][download][type] = git
-projects[panels][download][revision] = 2bb470e
+projects[panels][download][revision] = a879ecc
 projects[panels][download][branch] = 7.x-3.x
-projects[panels][patch][1179034] = http://drupal.org/files/panels-1179034-41_____panels-uuids-127790-100__-80.patch
+projects[panels][patch][2192355] = https://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 
 projects[panopoly_magic][version] = 1.0
 projects[panopoly_magic][subdir] = contrib
