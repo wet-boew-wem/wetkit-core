@@ -35,7 +35,7 @@ projects[defaultconfig][patch][2008178] = http://drupal.org/files/defaultconfig-
 projects[defaultconfig][patch][2043307] = http://drupal.org/files/defaultconfig_include_features_file.patch
 projects[defaultconfig][patch][2042799] = http://drupal.org/files/default_config_delete_only_if_overriden.patch
 
-projects[devel][version] = 1.3
+projects[devel][version] = 1.4
 projects[devel][subdir] = contrib
 
 projects[diff][version] = 3.2
@@ -50,7 +50,7 @@ projects[entity][subdir] = contrib
 projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
 
-projects[entityreference_prepopulate][version] = 1.3
+projects[entityreference_prepopulate][version] = 1.4
 projects[entityreference_prepopulate][subdir] = contrib
 
 projects[entity_view_mode][version] = 1.x-dev
@@ -171,7 +171,7 @@ projects[transliteration][subdir] = contrib
 projects[uuid][version] = 1.x-dev
 projects[uuid][subdir] = contrib
 projects[uuid][download][type] = git
-projects[uuid][download][revision] = 3f4d9fb
+projects[uuid][download][revision] = 45d745c
 projects[uuid][download][branch] = 7.x-1.x
 projects[uuid][patch][1969222] = http://drupal.org/files/uuid-file-entity-1969222-1.patch
 projects[uuid][patch][2074599] = http://drupal.org/files/uuid_remove_contrib_support-2074599-2.patch
@@ -180,7 +180,7 @@ projects[uuid][patch][2145567] = http://drupal.org/files/issues/uuid_ctools_cont
 projects[uuid_features][version] = 1.x-dev
 projects[uuid_features][subdir] = contrib
 projects[uuid_features][download][type] = git
-projects[uuid_features][download][revision] = 3b0dca6
+projects[uuid_features][download][revision] = aa514d6
 projects[uuid_features][download][branch] = 7.x-1.x
 projects[uuid_features][patch][2153157] = http://drupal.org/files/issues/uuid_features-undefined_index_when_processing_orphanned_bundles-2153157-2.patch
 
