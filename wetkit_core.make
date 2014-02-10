@@ -23,7 +23,7 @@ projects[ctools][download][type] = git
 projects[ctools][download][revision] = a333dfc
 projects[ctools][download][branch] = 7.x-1.x
 
-projects[date][version] = 2.6
+projects[date][version] = 2.7
 projects[date][subdir] = contrib
 
 projects[defaultconfig][version] = 1.0-alpha9
@@ -136,8 +136,9 @@ projects[panels][download][revision] = a879ecc
 projects[panels][download][branch] = 7.x-3.x
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 
-projects[panopoly_magic][version] = 1.0
+projects[panopoly_magic][version] = 1.1
 projects[panopoly_magic][subdir] = contrib
+projects[panopoly_magic][patch][2179413] = https://drupal.org/files/issues/panels_undefined_styles-2179413-04.patch
 
 projects[pathauto][version] = 1.x-dev
 projects[pathauto][subdir] = contrib
