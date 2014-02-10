@@ -93,7 +93,7 @@ projects[hierarchical_select][version] = 3.0-alpha6
 projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][patch][828418] = http://drupal.org/files/issues/hierarchical_select_attachbehavior-828418-37.patch
 
-projects[libraries][version] = 2.1
+projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
 
 projects[link][version] = 1.2
