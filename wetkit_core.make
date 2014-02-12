@@ -17,11 +17,8 @@ projects[better_formats][subdir] = contrib
 projects[better_formats][patch][1717470] = http://drupal.org/files/issues/better_formats_strict_warning-1717470-03.patch
 projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better_formats_description-1712360-02.patch
 
-projects[ctools][version] = 1.x-dev
+projects[ctools][version] = 1.4
 projects[ctools][subdir] = contrib
-projects[ctools][download][type] = git
-projects[ctools][download][revision] = a333dfc
-projects[ctools][download][branch] = 7.x-1.x
 
 projects[date][version] = 2.7
 projects[date][subdir] = contrib
@@ -129,11 +126,8 @@ projects[panelizer][download][revision] = 13e12a4
 projects[panelizer][download][branch] = 7.x-3.x
 projects[panelizer][patch][2053721] = http://drupal.org/files/panelizer-clone-display-node-revisions-2053721-9_0.patch
 
-projects[panels][version] = 3.x-dev
+projects[panels][version] = 3.4
 projects[panels][subdir] = contrib
-projects[panels][download][type] = git
-projects[panels][download][revision] = a879ecc
-projects[panels][download][branch] = 7.x-3.x
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 
 projects[panopoly_magic][version] = 1.1
