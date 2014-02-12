@@ -196,9 +196,9 @@ projects[views_autocomplete_filters][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.0-beta1
+projects[webform][version] = 4.0-beta2
 projects[webform][subdir] = contrib
-projects[webform][patch][2134401] = http://drupal.org/files/webform_uuid_0.patch
+projects[webform][patch][2076483] = https://drupal.org/files/issues/webform_uuid-2076483-4.patch
 
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
