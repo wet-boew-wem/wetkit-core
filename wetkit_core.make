@@ -53,8 +53,8 @@ projects[entity_view_mode][subdir] = contrib
 
 projects[fape][version] = 1.1
 projects[fape][subdir] = contrib
-projects[fape][patch][1607652] = http://drupal.org/files/cancel_button-1607652-1.patch
-projects[fape][patch][1785056] = http://drupal.org/files/remove-contextual-dep.patch
+projects[fape][patch][1607652] = http://drupal.org/files/issues/fape_fix_1-2192275-05.patch
+projects[fape][patch][1785056] = http://drupal.org/files/issues/fape_fix_2-2192275-05.patch
 projects[fape][patch][1846156] = http://drupal.org/files/fape-1846156-5.patch
 
 projects[features][version] = 2.0
@@ -194,7 +194,7 @@ projects[webform][patch][2076483] = https://drupal.org/files/issues/webform_uuid
 projects[workbench][version] = 1.2
 projects[workbench][subdir] = contrib
 projects[workbench][patch][1354320] = http://drupal.org/files/content-creation-permissions-1354320-6.patch
-projects[workbench][patch][1354320] = http://drupal.org/files/workbench-my_edits_view-1354320-14.patch
+projects[workbench][patch][1388220] = http://drupal.org/files/workbench-my_edits_view-1388220-14.patch
 projects[workbench][patch][2075467] = http://drupal.org/files/issues/workbench_uuid-2075467-01.patch
 
 projects[workbench_moderation][version] = 1.x-dev
