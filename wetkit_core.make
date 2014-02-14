@@ -51,9 +51,12 @@ projects[entityreference_prepopulate][subdir] = contrib
 projects[entity_view_mode][version] = 1.0-rc1
 projects[entity_view_mode][subdir] = contrib
 
-projects[fape][version] = 1.1
+projects[fape][version] = 1.x-dev
 projects[fape][subdir] = contrib
-projects[fape][patch][2192275] = http://drupal.org/files/issues/fape_fix_context-2192275-07.patch
+projects[fape][download][type] = git
+projects[fape][download][revision] = 1143ee2
+projects[fape][download][branch] = 7.x-1.x
+projects[fape][patch][1846156] = http://drupal.org/files/fape-1846156-5.patch
 
 projects[features][version] = 2.0
 projects[features][subdir] = contrib
