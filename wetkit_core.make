@@ -53,9 +53,8 @@ projects[entity_view_mode][subdir] = contrib
 
 projects[fape][version] = 1.1
 projects[fape][subdir] = contrib
-projects[fape][patch][1607652] = http://drupal.org/files/issues/fape_fix_1-2192275-05.patch
-projects[fape][patch][1785056] = http://drupal.org/files/issues/fape_fix_2-2192275-05.patch
 projects[fape][patch][1846156] = http://drupal.org/files/fape-1846156-5.patch
+projects[fape][patch][2192275] = http://drupal.org/files/issues/fape_fix-2192275-06.patch
 
 projects[features][version] = 2.0
 projects[features][subdir] = contrib
