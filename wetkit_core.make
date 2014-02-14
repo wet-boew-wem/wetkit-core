@@ -48,18 +48,13 @@ projects[entityreference][subdir] = contrib
 projects[entityreference_prepopulate][version] = 1.4
 projects[entityreference_prepopulate][subdir] = contrib
 
-projects[entity_view_mode][version] = 1.x-dev
+projects[entity_view_mode][version] = 1.0-rc1
 projects[entity_view_mode][subdir] = contrib
-projects[entity_view_mode][type] = module
-projects[entity_view_mode][download][type] = git
-projects[entity_view_mode][download][revision] = a518484
-projects[entity_view_mode][download][branch] = 7.x-1.x
 
-projects[fape][version] = 1.x-dev
+projects[fape][version] = 1.1
 projects[fape][subdir] = contrib
-projects[fape][download][type] = git
-projects[fape][download][revision] = 1143ee2
-projects[fape][download][branch] = 7.x-1.x
+projects[fape][patch][1607652] = http://drupal.org/files/cancel_button-1607652-1.patch
+projects[fape][patch][1785056] = http://drupal.org/files/remove-contextual-dep.patch
 projects[fape][patch][1846156] = http://drupal.org/files/fape-1846156-5.patch
 
 projects[features][version] = 2.0
@@ -122,7 +117,7 @@ projects[password_policy][subdir] = contrib
 projects[panelizer][version] = 3.x-dev
 projects[panelizer][subdir] = contrib
 projects[panelizer][download][type] = git
-projects[panelizer][download][revision] = 13e12a4
+projects[panelizer][download][revision] = ca7e1cb
 projects[panelizer][download][branch] = 7.x-3.x
 projects[panelizer][patch][2053721] = http://drupal.org/files/panelizer-clone-display-node-revisions-2053721-9_0.patch
 
@@ -177,12 +172,8 @@ projects[uuid_features][download][revision] = aa514d6
 projects[uuid_features][download][branch] = 7.x-1.x
 projects[uuid_features][patch][2153157] = http://drupal.org/files/issues/uuid_features-undefined_index_when_processing_orphanned_bundles-2153157-2.patch
 
-projects[uuid_link][version] = 1.x-dev
+projects[uuid_link][version] = 1.0-beta3
 projects[uuid_link][subdir] = contrib
-projects[uuid_link][type] = module
-projects[uuid_link][download][type] = git
-projects[uuid_link][download][revision] = dd716df
-projects[uuid_link][download][branch] = 7.x-1.x
 projects[uuid_link][patch][2101455] = http://drupal.org/files/uuid_link_entity_translation-2101455-9.patch
 
 projects[views][version] = 3.7
@@ -200,12 +191,10 @@ projects[webform][version] = 4.0-beta2
 projects[webform][subdir] = contrib
 projects[webform][patch][2076483] = https://drupal.org/files/issues/webform_uuid-2076483-4.patch
 
-projects[workbench][version] = 1.x-dev
+projects[workbench][version] = 1.2
 projects[workbench][subdir] = contrib
-projects[workbench][type] = module
-projects[workbench][download][type] = git
-projects[workbench][download][revision] = 6856e4a
-projects[workbench][download][branch] = 7.x-1.x
+projects[workbench][patch][1354320] = http://drupal.org/files/content-creation-permissions-1354320-6.patch
+projects[workbench][patch][1354320] = http://drupal.org/files/workbench-my_edits_view-1354320-14.patch
 projects[workbench][patch][2075467] = http://drupal.org/files/issues/workbench_uuid-2075467-01.patch
 
 projects[workbench_moderation][version] = 1.x-dev
