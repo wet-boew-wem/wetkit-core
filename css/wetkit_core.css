@@ -18,6 +18,7 @@
 #modal-content #status-messages { margin: 0px; }
 #modal-content .form-item { position: static; border: none; padding: 0px; }
 #modal-content form .option-text-aligner { float: left; width: 100%; }
+#modal-content form .description { float: left; }
 #modal-content .form-submit { float: left; }
 #modal-content .form-actions { width: auto; }
 #modal-content form-wrapper.form-actions { border: none; background: none; }
