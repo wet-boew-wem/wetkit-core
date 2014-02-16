@@ -122,3 +122,12 @@ function wetkit_core_update_7103() {
     module_enable(array('field_collection_uuid'));
   }
 }
+
+/**
+ * Install the wetkit update module.
+ */
+function wetkit_core_update_7104() {
+  if (!module_exists('wetkit_update')) {
+    module_enable(array('wetkit_update'));
+  }
+}

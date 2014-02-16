@@ -1,0 +1,5 @@
+name = WetKit Update
+description = Configures the core update module needed for the WetKit Installation Profile.
+core = 7.x
+dependencies[] = update
+package = WetKit
