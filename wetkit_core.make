@@ -120,7 +120,7 @@ projects[panelizer][subdir] = contrib
 projects[panelizer][download][type] = git
 projects[panelizer][download][revision] = ca7e1cb
 projects[panelizer][download][branch] = 7.x-3.x
-projects[panelizer][patch][2053721] = http://drupal.org/files/panelizer-clone-display-node-revisions-2053721-9_0.patch
+projects[panelizer][patch][2053721] = https://drupal.org/files/issues/panelizer-n2053721-15.patch
 
 projects[panels][version] = 3.4
 projects[panels][subdir] = contrib
