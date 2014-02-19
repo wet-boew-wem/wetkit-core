@@ -17,6 +17,8 @@
 
 #modal-content #status-messages { margin: 0px; }
 #modal-content .form-item { position: static; border: none; padding: 0px; }
+#modal-content .form-item-title-embed, #modal-content .form-item-title-link { float: left; }
+#modal-content .form-type-radios.form-item-display-options { margin: 0px; padding: 0px; text-align: left; background-color: #FFF; }
 #modal-content form .option-text-aligner { float: left; width: 100%; }
 #modal-content form .description { float: left; }
 #modal-content .form-submit { float: left; }

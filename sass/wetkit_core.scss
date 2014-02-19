@@ -77,6 +77,16 @@
     border: none;
     padding: 0px;
   }
+  .form-item-title-embed,
+  .form-item-title-link {
+    float: left;
+  }
+  .form-type-radios.form-item-display-options {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    background-color: #FFF;
+  }
   form {
     .option-text-aligner {
       float: left;
