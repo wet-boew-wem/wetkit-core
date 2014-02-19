@@ -110,7 +110,7 @@ projects[menu_block][subdir] = contrib
 projects[menu_block][download][type] = git
 projects[menu_block][download][revision] = 32ab1cf
 projects[menu_block][download][branch] = 7.x-2.x
-projects[menu_block][patch][1967230] = http://drupal.org/files/menu_block_show_menu_items-1967230-06.patch
+projects[menu_block][patch][2199997] = http://drupal.org/files/issues/fix_menu_system-2199997-01.patch
 
 projects[password_policy][version] = 1.5
 projects[password_policy][subdir] = contrib
@@ -120,7 +120,7 @@ projects[panelizer][subdir] = contrib
 projects[panelizer][download][type] = git
 projects[panelizer][download][revision] = ca7e1cb
 projects[panelizer][download][branch] = 7.x-3.x
-projects[panelizer][patch][2053721] = https://drupal.org/files/issues/panelizer-n2053721-15.patch
+projects[panelizer][patch][2053721] = http://drupal.org/files/issues/panelizer-n2053721-15.patch
 
 projects[panels][version] = 3.4
 projects[panels][subdir] = contrib
