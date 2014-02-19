@@ -110,7 +110,7 @@ projects[menu_block][subdir] = contrib
 projects[menu_block][download][type] = git
 projects[menu_block][download][revision] = 32ab1cf
 projects[menu_block][download][branch] = 7.x-2.x
-projects[menu_block][patch][2199997] = http://drupal.org/files/issues/fix_menu_system-2199997-01.patch
+projects[menu_block][patch][2199997] = http://drupal.org/files/issues/fix_menu_system-2199997-13.patch
 
 projects[password_policy][version] = 1.5
 projects[password_policy][subdir] = contrib
