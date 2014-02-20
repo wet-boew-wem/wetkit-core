@@ -126,6 +126,7 @@ projects[panelizer][patch][2053721] = http://drupal.org/files/issues/panelizer-n
 projects[panels][version] = 3.4
 projects[panels][subdir] = contrib
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
+projects[panels][patch][2199391] = https://drupal.org/files/issues/panels_layout_undefined_js-2199391-04.patch
 
 projects[panopoly_magic][version] = 1.1
 projects[panopoly_magic][subdir] = contrib
