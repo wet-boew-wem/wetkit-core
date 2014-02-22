@@ -168,11 +168,8 @@ projects[uuid][patch][1969222] = http://drupal.org/files/uuid-file-entity-196922
 projects[uuid][patch][2074599] = http://drupal.org/files/uuid_remove_contrib_support-2074599-2.patch
 projects[uuid][patch][2145567] = http://drupal.org/files/issues/uuid_ctools_context-2145567-01.patch
 
-projects[uuid_features][version] = 1.x-dev
+projects[uuid_features][version] = 1.0-alpha4
 projects[uuid_features][subdir] = contrib
-projects[uuid_features][download][type] = git
-projects[uuid_features][download][revision] = aa514d6
-projects[uuid_features][download][branch] = 7.x-1.x
 projects[uuid_features][patch][2153157] = http://drupal.org/files/issues/uuid_features-undefined_index_when_processing_orphanned_bundles-2153157-2.patch
 
 projects[uuid_link][version] = 1.0-beta3
