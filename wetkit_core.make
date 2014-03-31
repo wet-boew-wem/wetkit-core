@@ -162,6 +162,7 @@ projects[token][subdir] = contrib
 projects[total_control][version] = 2.4
 projects[total_control][subdir] = contrib
 projects[total_control][patch][2134401] = http://drupal.org/files/issues/filtered_html_dashboard-2134401-01.patch
+projects[total_control][patch][2230019] = http://drupal.org/files/issues/array_key_exists_comments-2230019-01.patch
 
 projects[transliteration][version] = 3.1
 projects[transliteration][subdir] = contrib
