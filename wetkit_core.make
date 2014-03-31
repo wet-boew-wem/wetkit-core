@@ -43,7 +43,7 @@ projects[diff][subdir] = contrib
 projects[elements][version] = 1.4
 projects[elements][subdir] = contrib
 
-projects[entity][version] = 1.3
+projects[entity][version] = 1.4
 projects[entity][subdir] = contrib
 
 projects[entityreference][version] = 1.1
@@ -130,11 +130,14 @@ projects[panelizer][patch][2053721] = http://drupal.org/files/issues/panelizer-n
 projects[panels][version] = 3.4
 projects[panels][subdir] = contrib
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
-projects[panels][patch][2199391] = https://drupal.org/files/issues/panels_layout_undefined_js-2199391-04.patch
+projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_undefined_js-2199391-04.patch
 
 projects[panopoly_magic][version] = 1.1
 projects[panopoly_magic][subdir] = contrib
-projects[panopoly_magic][patch][2179413] = https://drupal.org/files/issues/panels_undefined_styles-2179413-04.patch
+projects[panopoly_magic][patch][1983788] = http://drupal.org/files/issues/panopoly_magic-1983788-6.patch
+projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-04.patch
+;projects[panopoly_magic][patch][2144021] = http://drupal.org/files/issues/panopoly_magic_entity_view_modes-2144021-7.patch
+;projects[panopoly_magic][patch][2160731] = http://drupal.org/files/issues/panopoly_magic-respect-views-configured-view-mode-2160731.patch
 
 projects[pathauto][version] = 1.x-dev
 projects[pathauto][subdir] = contrib
@@ -194,7 +197,7 @@ projects[views_bulk_operations][subdir] = contrib
 
 projects[webform][version] = 4.0-beta2
 projects[webform][subdir] = contrib
-projects[webform][patch][2076483] = https://drupal.org/files/issues/webform_uuid-2076483-4.patch
+projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-4.patch
 
 projects[workbench][version] = 1.2
 projects[workbench][subdir] = contrib
