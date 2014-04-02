@@ -33,6 +33,14 @@ function wetkit_core_theme() {
 }
 
 /**
+ * Implements hook_admin_menu_output_alter().
+ */
+function wetkit_core_admin_menu_output_alter(&$content) {
+  // Remove the 'Disable developer modules' link.
+  unset($content['icon']['icon']['toggle-modules']);
+}
+
+/**
  * Implements hook_panels_pane_content_alter().
  *
  * Hold the title of the pane for later use (i.e. show it as the tab's title),
