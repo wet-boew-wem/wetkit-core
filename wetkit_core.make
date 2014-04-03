@@ -85,6 +85,7 @@ projects[field_collection][patch][2075325] = http://drupal.org/files/issues/fiel
 
 projects[field_group][version] = 1.3
 projects[field_group][subdir] = contrib
+projects[field_group][patch][2129805] = http://drupal.org/files/issues/incorrect_markup_2129805_1.patch
 
 projects[hierarchical_select][version] = 3.0-alpha6
 projects[hierarchical_select][subdir] = contrib
