@@ -133,7 +133,7 @@ projects[panels][subdir] = contrib
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_undefined_js-2199391-04.patch
 
-projects[panopoly_magic][version] = 1.1
+projects[panopoly_magic][version] = 1.2
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-04.patch
 ;projects[panopoly_magic][patch][1983788] = http://drupal.org/files/issues/panopoly_magic-1983788-6.patch
@@ -165,7 +165,7 @@ projects[total_control][subdir] = contrib
 projects[total_control][patch][2134401] = http://drupal.org/files/issues/filtered_html_dashboard-2134401-01.patch
 projects[total_control][patch][2230019] = http://drupal.org/files/issues/array_key_exists_comments-2230019-01.patch
 
-projects[transliteration][version] = 3.1
+projects[transliteration][version] = 3.2
 projects[transliteration][subdir] = contrib
 
 projects[uuid][version] = 1.x-dev
@@ -191,7 +191,7 @@ projects[views][patch][1810656] = http://drupal.org/files/views-3.x-dev-issue_13
 projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
 projects[views][patch][2037469] = http://drupal.org/files/views-exposed-sorts-2037469-1.patch
 
-projects[views_autocomplete_filters][version] = 1.0
+projects[views_autocomplete_filters][version] = 1.1
 projects[views_autocomplete_filters][subdir] = contrib
 
 projects[views_bulk_operations][version] = 3.2
