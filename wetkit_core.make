@@ -137,6 +137,7 @@ projects[panopoly_magic][version] = 1.2
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-04.patch
 projects[panopoly_magic][patch][2242663] = http://drupal.org/files/issues/ajax_form_page_callback-2242663-13.patch
+projects[panopoly_magic][patch][2246859] = http://drupal.org/files/issues/panopoly_magic_invalid_font-2246859-01.patch
 ;projects[panopoly_magic][patch][1983788] = http://drupal.org/files/issues/panopoly_magic-1983788-6.patch
 ;projects[panopoly_magic][patch][2144021] = http://drupal.org/files/issues/panopoly_magic_entity_view_modes-2144021-7.patch
 ;projects[panopoly_magic][patch][2160731] = http://drupal.org/files/issues/panopoly_magic-respect-views-configured-view-mode-2160731.patch
