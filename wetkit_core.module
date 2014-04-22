@@ -318,8 +318,10 @@ function wetkit_core_apps_app_info() {
  *   A keyed array containing the current state of the form.
  */
 function wetkit_core_configure_form($form, &$form_state) {
-  drupal_add_js(drupal_get_path('module', 'system') . '/system.js');
   $form = array();
+  $form['#attached']['js'] = array(
+    drupal_get_path('module', 'system') . '/system.js',
+  );
   $form['wetkit_core'] = array(
     '#type' => 'fieldset',
     '#title' => t('WetKit Core Settings'),
