@@ -13,7 +13,7 @@
 .panel-portlet .grab-title { background: #008fdc; }
 
 #modalContent div.ctools-modal-content .modal-header { background: #2fa6e5; }
-#modalContent div.ctools-modal-content .modal-title { color: #fff; font: bold 20px/50px 'Open Sans','Lucida Sans','Lucida Grande',verdana sans-serif; text-shadow: none; padding: 0; }
+#modalContent div.ctools-modal-content .modal-title { color: #fff; font: bold 20px/50px 'Open Sans','Lucida Sans','Lucida Grande', Verdana, sans-serif; text-shadow: none; padding: 0; }
 
 #modal-content #status-messages { margin: 0px; }
 #modal-content .form-item { position: static; border: none; padding: 0px; }
