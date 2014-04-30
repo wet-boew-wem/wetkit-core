@@ -55,12 +55,8 @@ projects[entityreference_prepopulate][subdir] = contrib
 projects[entity_view_mode][version] = 1.0-rc1
 projects[entity_view_mode][subdir] = contrib
 
-projects[fape][version] = 1.x-dev
+projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
-projects[fape][download][type] = git
-projects[fape][download][revision] = 1143ee2
-projects[fape][download][branch] = 7.x-1.x
-projects[fape][patch][1846156] = http://drupal.org/files/fape-1846156-5.patch
 
 projects[features][version] = 2.0
 projects[features][subdir] = contrib
@@ -76,12 +72,10 @@ projects[fences][download][branch] = 7.x-1.x
 projects[field_collection][version] = 1.x-dev
 projects[field_collection][subdir] = contrib
 projects[field_collection][download][type] = git
-projects[field_collection][download][revision] = 0fd332e
+projects[field_collection][download][revision] = ae778f2
 projects[field_collection][download][branch] = 7.x-1.x
-projects[field_collection][patch][707484] = http://drupal.org/files/field_collection-remove_button-707484-2.patch
-projects[field_collection][patch][1344672] = http://drupal.org/files/issues/field_collection-et-1344672-89.patch
+projects[field_collection][patch][1344672] = http://drupal.org/files/issues/field_collection-et-1344672-177.patch
 projects[field_collection][patch][2075325] = http://drupal.org/files/issues/field_collection-field_collection_uuid-2075325-3.patch
-;projects[field_collection][patch][1807460] = http://drupal.org/files/field_collection_with_workbench_moderation-1807460-46.patch
 
 projects[field_group][version] = 1.3
 projects[field_group][subdir] = contrib
@@ -133,10 +127,9 @@ projects[panels][subdir] = contrib
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_undefined_js-2199391-04.patch
 
-projects[panopoly_magic][version] = 1.2
+projects[panopoly_magic][version] = 1.5
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-04.patch
-projects[panopoly_magic][patch][2242663] = http://drupal.org/files/issues/ajax_form_page_callback-2242663-13.patch
 projects[panopoly_magic][patch][2246859] = http://drupal.org/files/issues/panopoly_magic_invalid_font-2246859-01.patch
 ;projects[panopoly_magic][patch][1983788] = http://drupal.org/files/issues/panopoly_magic-1983788-6.patch
 ;projects[panopoly_magic][patch][2144021] = http://drupal.org/files/issues/panopoly_magic_entity_view_modes-2144021-7.patch
@@ -177,6 +170,7 @@ projects[uuid][download][revision] = 45d745c
 projects[uuid][download][branch] = 7.x-1.x
 projects[uuid][patch][1969222] = http://drupal.org/files/uuid-file-entity-1969222-1.patch
 projects[uuid][patch][2074599] = http://drupal.org/files/uuid_remove_contrib_support-2074599-2.patch
+projects[uuid][patch][2074621] = http://drupal.org/files/uuid_services_field_collection_revisions.patch
 projects[uuid][patch][2145567] = http://drupal.org/files/issues/uuid_ctools_context-2145567-01.patch
 
 projects[uuid_features][version] = 1.0-alpha4
