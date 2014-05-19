@@ -57,7 +57,6 @@ dependencies[] = views
 dependencies[] = views_autocomplete_filters
 dependencies[] = views_content
 dependencies[] = views_ui
-dependencies[] = wetkit_update
 dependencies[] = workbench
 dependencies[] = workbench_moderation
 dependencies[] = workbench_uuid
