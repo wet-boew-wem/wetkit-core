@@ -114,6 +114,7 @@ projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_l
 
 projects[password_policy][version] = 1.5
 projects[password_policy][subdir] = contrib
+projects[password_policy][patch][1623138] = http://drupal.org/files/issues/1623138-password-policy-force-change-2.patch
 
 projects[panelizer][version] = 3.x-dev
 projects[panelizer][subdir] = contrib
