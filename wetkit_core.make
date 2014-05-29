@@ -19,10 +19,12 @@ projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better
 
 projects[ctools][version] = 1.4
 projects[ctools][subdir] = contrib
+projects[ctools][patch][813754] = http://drupal.org/files/issues/ctools-n813754-28.patch
 projects[ctools][patch][1630820] = http://drupal.org/files/issues/ctools-entity_field_value-1630820-72.patch
 projects[ctools][patch][2195211] = http://drupal.org/files/issues/ctools-n2195211-entity-from-field-access-callback-15.patch
 projects[ctools][patch][2195471] = http://drupal.org/files/issues/ctools-n2195471-29.patch
 projects[ctools][patch][2198447] = http://drupal.org/files/issues/fix-panel-arguments-to-views-2198447-8.patch
+projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
 
 projects[date][version] = 2.7
 projects[date][subdir] = contrib
@@ -125,11 +127,9 @@ projects[panelizer][patch][2053721] = http://drupal.org/files/issues/panelizer-n
 
 projects[panels][version] = 3.4
 projects[panels][subdir] = contrib
-projects[panels][patch][813754] = http://drupal.org/files/issues/ctools-n813754-28.patch
 projects[panels][patch][2120849] = http://drupal.org/files/issues/panels-ipe-save-2120849-27.patch
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_undefined_js-2199391-04.patch
-projects[panels][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
 
 projects[panopoly_magic][version] = 1.5
 projects[panopoly_magic][subdir] = contrib
