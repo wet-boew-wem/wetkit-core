@@ -36,7 +36,7 @@ projects[defaultconfig][patch][2008178] = http://drupal.org/files/defaultconfig-
 projects[defaultconfig][patch][2043307] = http://drupal.org/files/defaultconfig_include_features_file.patch
 projects[defaultconfig][patch][2042799] = http://drupal.org/files/default_config_delete_only_if_overriden.patch
 
-projects[devel][version] = 1.4
+projects[devel][version] = 1.5
 projects[devel][subdir] = contrib
 
 projects[diff][version] = 3.2
@@ -114,9 +114,8 @@ projects[menu_block][download][branch] = 7.x-2.x
 projects[menu_block][patch][2199997] = http://drupal.org/files/issues/fix_menu_system-2199997-14.patch
 projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_language-2199997-20.patch
 
-projects[password_policy][version] = 1.5
+projects[password_policy][version] = 1.6
 projects[password_policy][subdir] = contrib
-projects[password_policy][patch][1623138] = http://drupal.org/files/issues/1623138-password-policy-force-change-2.patch
 
 projects[panelizer][version] = 3.x-dev
 projects[panelizer][subdir] = contrib
@@ -131,7 +130,7 @@ projects[panels][patch][2120849] = http://drupal.org/files/issues/panels-ipe-sav
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_undefined_js-2199391-04.patch
 
-projects[panopoly_magic][version] = 1.5
+projects[panopoly_magic][version] = 1.6
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-04.patch
 ;projects[panopoly_magic][patch][1983788] = http://drupal.org/files/issues/panopoly_magic-1983788-6.patch
@@ -184,7 +183,7 @@ projects[uuid_link][version] = 1.0-beta3
 projects[uuid_link][subdir] = contrib
 projects[uuid_link][patch][2101455] = http://drupal.org/files/uuid_link_entity_translation-2101455-9.patch
 
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 projects[views][subdir] = contrib
 projects[views][patch][1810656] = http://drupal.org/files/views-3.x-dev-issue_1331056-36.patch
 projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
