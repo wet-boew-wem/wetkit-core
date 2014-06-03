@@ -173,7 +173,7 @@ projects[uuid][download][branch] = 7.x-1.x
 projects[uuid][patch][1969222] = http://drupal.org/files/uuid-file-entity-1969222-1.patch
 projects[uuid][patch][2074599] = http://drupal.org/files/uuid_remove_contrib_support-2074599-2.patch
 projects[uuid][patch][2074621] = http://drupal.org/files/uuid_services_field_collection_revisions.patch
-projects[uuid][patch][2145567] = http://drupal.org/files/issues/uuid_ctools_context-2145567-01.patch
+projects[uuid][patch][2145567] = http://drupal.org/files/issues/uuid_ctools_context-2145567-5.patch
 projects[uuid][patch][2279081] = http://drupal.org/files/issues/term_access_uuid-2279081-01.patch
 
 projects[uuid_features][version] = 1.0-alpha4
