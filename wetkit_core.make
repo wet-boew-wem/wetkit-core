@@ -20,6 +20,7 @@ projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better
 projects[ctools][version] = 1.4
 projects[ctools][subdir] = contrib
 projects[ctools][patch][813754] = http://drupal.org/files/issues/ctools-n813754-28.patch
+projects[ctools][patch][1300562] = http://drupal.org/files/ctools-n1300562-8.patch
 projects[ctools][patch][1630820] = http://drupal.org/files/issues/ctools-entity_field_value-1630820-72.patch
 projects[ctools][patch][2195211] = http://drupal.org/files/issues/ctools-n2195211-entity-from-field-access-callback-15.patch
 projects[ctools][patch][2195471] = http://drupal.org/files/issues/ctools-n2195471-29.patch
