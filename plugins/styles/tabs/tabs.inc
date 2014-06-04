@@ -51,6 +51,9 @@ function theme_wetkit_core_tabs_style_render_region($vars) {
     if (!empty($panes[$pane_id])) {
       $title = wetkit_core_pane_titles($display->did, $pane_id);
       $title = $title ? $title : t('Tab @delta', array('@delta' => $delta));
+      if (isset($display->content[$pane_id]->configuration['override_title']) && $display->content[$pane_id]->configuration['override_title']) {
+        $title = ($display->content[$pane_id]->configuration['override_title_text'] != '') ? $display->content[$pane_id]->configuration['override_title_text'] : $title;
+      }
       $items[] = '<a href="#' . $tab_id . '-' . $delta . '">' . $title . '</a>';
       ++$delta;
     }
