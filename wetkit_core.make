@@ -217,6 +217,7 @@ projects[workbench_moderation][download][branch] = 7.x-1.x
 projects[workbench_moderation][patch][1237558] = http://drupal.org/files/double-messages-1237558-7.patch
 projects[workbench_moderation][patch][1732802] = http://drupal.org/files/workbench-moderation-draft-terminology-1732802-1.patch
 projects[workbench_moderation][patch][1785798] = http://drupal.org/files/workbench_moderation-revision-moderation-edit-link-1785798-14.patch
+projects[workbench_moderation][patch][1787214] = http://drupal.org/files/workbench_moderation-vbo-revision-1787214-13.patch
 projects[workbench_moderation][patch][1836680] = http://drupal.org/files/workbench-moderation-solr-index-1836680-1.patch
 projects[workbench_moderation][patch][1445824] = http://drupal.org/files/workbench_moderation-better_migration_support-1445824-11.patch
 projects[workbench_moderation][patch][1919706] = http://drupal.org/files/issues/workbench_moderation-entitymalformed-1919706-3.patch
@@ -231,8 +232,6 @@ projects[workbench_moderation][patch][1408858] = http://drupal.org/files/default
 projects[workbench_moderation][patch][1436260] = http://drupal.org/files/issues/1436260-workbench_moderation-states-vbo-38.patch
 projects[workbench_moderation][patch][2098151] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
 projects[workbench_moderation][patch][2070389] = http://drupal.org/files/workbench_moderation-correctly_update_status-2070389-2.patch
-; Queued
-;projects[workbench_moderation][patch][1408838] = http://drupal.org/files/workbench_moderation-revision-operations-performance-1408838-38.patch
 
 ; Libraries
 
