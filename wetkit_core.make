@@ -121,9 +121,8 @@ projects[password_policy][subdir] = contrib
 projects[panelizer][version] = 3.x-dev
 projects[panelizer][subdir] = contrib
 projects[panelizer][download][type] = git
-projects[panelizer][download][revision] = ca7e1cb
+projects[panelizer][download][revision] = 8cd1cda
 projects[panelizer][download][branch] = 7.x-3.x
-projects[panelizer][patch][2053721] = http://drupal.org/files/issues/panelizer-n2053721-15.patch
 
 projects[panels][version] = 3.4
 projects[panels][subdir] = contrib
