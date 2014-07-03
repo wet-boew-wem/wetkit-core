@@ -5,6 +5,13 @@ core = 7.x
 
 ; Modules
 
+projects[accessibility][version] = 1.x-dev
+projects[accessibility][subdir] = contrib
+projects[accessibility][type] = module
+projects[accessibility][download][type] = git
+projects[accessibility][download][revision] = 79ab4e6
+projects[accessibility][download][branch] = 7.x-1.x
+
 projects[advanced_help][version] = 1.1
 projects[advanced_help][subdir] = contrib
 
@@ -84,9 +91,17 @@ projects[field_group][version] = 1.3
 projects[field_group][subdir] = contrib
 projects[field_group][patch][2129805] = http://drupal.org/files/issues/incorrect_markup_2129805_1.patch
 
+projects[fontawesome][version] = 1.0
+projects[fontawesome][subdir] = contrib
+
 projects[hierarchical_select][version] = 3.0-alpha6
 projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][patch][828418] = http://drupal.org/files/issues/hierarchical_select_attachbehavior-828418-37.patch
+
+projects[icon][version] = 1.0-beta5
+projects[icon][subdir] = contrib
+projects[icon][patch][2200087] = http://drupal.org/files/issues/icon-menu_item_loop-2200087-4.patch
+projects[icon][patch][2213243] = http://drupal.org/files/issues/date_facets-undefined-index-2213243-2.patch
 
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
@@ -150,6 +165,9 @@ projects[pm_existing_pages][subdir] = contrib
 projects[rules][version] = 2.6
 projects[rules][subdir] = contrib
 projects[rules][patch][1810656] = http://drupal.org/files/rules-1810656-25.patch
+
+projects[splashify][version] = 1.3
+projects[splashify][subdir] = contrib
 
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
@@ -234,7 +252,14 @@ projects[workbench_moderation][patch][2070389] = http://drupal.org/files/workben
 
 ; Libraries
 
-libraries[querypath][download][type] = git
-libraries[querypath][download][branch] = 3.x
-libraries[querypath][download][revision] = eeb67cc
-libraries[querypath][download][url] = https://github.com/technosophos/querypath.git
+libraries[backbone][download][type] = get
+libraries[backbone][download][url] = https://github.com/jashkenas/backbone/archive/1.1.0.zip
+
+libraries[jstorage][download][type] = get
+libraries[jstorage][download][url] = https://github.com/andris9/jStorage/archive/v0.4.11.tar.gz
+
+libraries[underscore][download][type] = get
+libraries[underscore][download][url] = https://github.com/jashkenas/underscore/archive/1.5.2.zip
+
+libraries[quail][download][type] = get
+libraries[quail][download][url] = https://github.com/quailjs/quail/archive/2.0.3.tar.gz

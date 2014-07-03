@@ -8,6 +8,11 @@
 # This config file is borrowed from Zen, so thanks JohnAlbin for your hard work
 # in bringing such fine tools to Drupal so us mere mortals may benefit.
 
+# Require any additional compass plugins installed on your system.
+require 'rgbapng'
+require 'toolkit'
+require 'sass-globbing'
+
 # Set the Environment Variable
 # Using :development enables the use of FireSass but will bloat the stylesheets
 # with debug code, be sure to change to :production when moving from development
@@ -51,6 +56,6 @@ relative_assets = true
 #   the debug info removed.
 sass_options = (environment == :development) ? {:debug_info => true} : {:always_update => true}
 
-sass_options = {:debug_info=>false} # by Compass.app 
-output_style = :compact # by Compass.app 
-line_comments = false # by Compass.app 
+sass_options = {:debug_info=>false} # by Compass.app
+output_style = :compact # by Compass.app
+line_comments = false # by Compass.app

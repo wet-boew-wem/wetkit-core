@@ -3,15 +3,7 @@
 #admin-menu .dropdown li li.expandable ul { margin: -22px 0 0 160px !important; }
 #admin-menu .shortcut-toolbar { text-shadow: #222 0 1px 1px; background-repeat: repeat-x; background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #666666), color-stop(100%, #545454)) !important; background-image: -webkit-linear-gradient(#666666, #545454) !important; background-image: -moz-linear-gradient(#666666, #545454) !important; background-image: -o-linear-gradient(#666666, #545454) !important; background-image: linear-gradient(#666666, #545454) !important; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF666666', endColorstr='#FF545454'); }
 
-/* Global Navigation Bar Fixes */
-#navbar-actions li, #navbar-user li { border: none; }
-
-/* Revision Screen */
-.page-node-revisions div img.wetkit-image-half { float: none; width: auto; }
-
-/* Panels Screen */
-.panel-portlet .grab-title { background: #008fdc; }
-
+/* CTools */
 #modalContent div.ctools-modal-content .modal-header { background: #2fa6e5; }
 #modalContent div.ctools-modal-content .modal-title { color: #fff; font: bold 20px/50px 'Open Sans','Lucida Sans','Lucida Grande', Verdana, sans-serif; text-shadow: none; padding: 0; }
 
@@ -28,6 +20,21 @@
 #modal-content fieldset legend { margin-left: 0px; background: none; background-repeat: repeat-x; background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, gainsboro)) !important; background-image: -webkit-linear-gradient(#eeeeee, gainsboro) !important; background-image: -moz-linear-gradient(#eeeeee, gainsboro) !important; background-image: -o-linear-gradient(#eeeeee, gainsboro) !important; background-image: linear-gradient(#eeeeee, #dcdcdc) !important; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEEEEEE', endColorstr='#FFDCDCDC'); }
 #modal-content fieldset legend span { color: #145E91; }
 
+/* l10n Client Styles */
+#l10n-client h2 { color: white; }
+#l10n-client #l10n-client-form .form-submit { display: inline; }
+#l10n-client .labels { text-shadow: #222 0 1px 1px; background-repeat: repeat-x; background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #666666), color-stop(100%, #545454)) !important; background-image: -webkit-linear-gradient(#666666, #545454) !important; background-image: -moz-linear-gradient(#666666, #545454) !important; background-image: -o-linear-gradient(#666666, #545454) !important; background-image: linear-gradient(#666666, #545454) !important; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF666666', endColorstr='#FF545454'); }
+#l10n-client .labels .toggle { background-color: #008fdc; }
+
+/* Global Navigation Bar Fixes */
+#navbar-actions li, #navbar-user li { border: none; }
+
+/* Revision Screen */
+.page-node-revisions div img.wetkit-image-half { float: none; width: auto; }
+
+/* Panels Screen */
+.panel-portlet .grab-title { background: #008fdc; }
+
 /* IPE Styles */
 .panels-ipe-newblock ul { margin: 0px; }
 .panels-ipe-newblock li { padding: 0; float: left; }
@@ -38,12 +45,6 @@
 
 /* Panelizer Styles */
 #panelizer-settings-form .tabs { position: relative; right: 0px; }
-
-/* l10n Client Styles */
-#l10n-client h2 { color: white; }
-#l10n-client #l10n-client-form .form-submit { display: inline; }
-#l10n-client .labels { text-shadow: #222 0 1px 1px; background-repeat: repeat-x; background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #666666), color-stop(100%, #545454)) !important; background-image: -webkit-linear-gradient(#666666, #545454) !important; background-image: -moz-linear-gradient(#666666, #545454) !important; background-image: -o-linear-gradient(#666666, #545454) !important; background-image: linear-gradient(#666666, #545454) !important; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF666666', endColorstr='#FF545454'); }
-#l10n-client .labels .toggle { background-color: #008fdc; }
 
 /* Fields */
 .views-widget-filter-vid { clear: both; }
