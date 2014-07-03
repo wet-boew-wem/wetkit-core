@@ -101,7 +101,6 @@ projects[hierarchical_select][patch][828418] = http://drupal.org/files/issues/hi
 projects[icon][version] = 1.0-beta5
 projects[icon][subdir] = contrib
 projects[icon][patch][2200087] = http://drupal.org/files/issues/icon-menu_item_loop-2200087-4.patch
-projects[icon][patch][2213243] = http://drupal.org/files/issues/date_facets-undefined-index-2213243-2.patch
 
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
