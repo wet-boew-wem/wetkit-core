@@ -211,6 +211,9 @@ projects[views][patch][2037469] = http://drupal.org/files/views-exposed-sorts-20
 projects[views_autocomplete_filters][version] = 1.1
 projects[views_autocomplete_filters][subdir] = contrib
 
+projects[views_bootstrap][version] = 3.1
+projects[views_bootstrap][subdir] = contrib
+
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
