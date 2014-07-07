@@ -153,6 +153,5 @@ features[variable][] = pathauto_transliterate
 features[variable][] = pathauto_update_action
 features[variable][] = preprocess_css
 features[variable][] = preprocess_js
-features[variable][] = theme_rubik_settings
 features[views_view][] = headlines_front_page
 features[views_view][] = wetkit_taxonomy_term
