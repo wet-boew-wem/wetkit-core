@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * wetkit_slider.strongarm.inc
+ * wetkit_splash.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function wetkit_slider_strongarm() {
+function wetkit_splash_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();
