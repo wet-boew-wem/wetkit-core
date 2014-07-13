@@ -88,9 +88,8 @@ projects[field_collection][patch][1344672] = http://drupal.org/files/issues/fiel
 projects[field_collection][patch][2075325] = http://drupal.org/files/issues/field_collection-field_collection_uuid-2075325-3.patch
 projects[field_collection][patch][2298877] = http://drupal.org/files/issues/migration_field_collection-2298877-01.patch
 
-projects[field_group][version] = 1.3
+projects[field_group][version] = 1.4
 projects[field_group][subdir] = contrib
-projects[field_group][patch][2129805] = http://drupal.org/files/issues/incorrect_markup_2129805_1.patch
 
 projects[fontawesome][version] = 1.0
 projects[fontawesome][subdir] = contrib
@@ -130,7 +129,7 @@ projects[menu_block][download][branch] = 7.x-2.x
 projects[menu_block][patch][2199997] = http://drupal.org/files/issues/fix_menu_system-2199997-14.patch
 projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_language-2199997-20.patch
 
-projects[password_policy][version] = 1.6
+projects[password_policy][version] = 1.8
 projects[password_policy][subdir] = contrib
 
 projects[panelizer][version] = 3.x-dev
