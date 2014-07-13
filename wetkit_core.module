@@ -107,6 +107,17 @@ function wetkit_core_page_build() {
 }
 
 /**
+ * Implements hook_preprocess_icon().
+ */
+function wetkit_core_preprocess_icon(&$variables) {
+  // TODO: We shoudn't have to unset the icon class but WxT customizes this class.
+  $key = array_search('icon', $variables['attributes']['class']);
+  if (isset($key)) {
+    unset($variables['attributes']['class'][$key]);
+  }
+}
+
+/**
  * Implements hook_menu_edit_item_alter().
  */
 function wetkit_core_page_alter(&$page) {
