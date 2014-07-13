@@ -15,12 +15,6 @@
 }
 
 #modal-content {
-  #status-messages { margin: 0px; }
-  .form-item {
-    position: static;
-    border: none;
-    padding: 0px;
-  }
   .form-item-title-embed,
   .form-item-title-link {
     float: left;
@@ -31,15 +25,15 @@
     text-align: left;
     background-color: #FFF;
   }
-  form {
-    .option-text-aligner {
-      float: left;
-      width: 100%;
-    }
-    .description {
-      float: left;
-    }
-  }
+  //form {
+  //  .option-text-aligner {
+  //    float: left;
+  //    width: 100%;
+  //  }
+  //  .description {
+  //    float: left;
+  //  }
+  //}
   .form-submit {
     float: left;
   }
@@ -49,22 +43,5 @@
   form-wrapper.form-actions {
     border: none;
     background: none;
-  }
-  .widget-preview .fieldset-wrapper table img {width: auto;}
-  fieldset {
-    legend {
-      margin-left: 0px;
-      background: none;
-      background-repeat:repeat-x;
-      background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#eee),color-stop(100%,#dcdcdc))!important;
-      background-image:-webkit-linear-gradient(#eee,#dcdcdc)!important;
-      background-image:-moz-linear-gradient(#eee,#dcdcdc)!important;
-      background-image:-o-linear-gradient(#eee,#dcdcdc)!important;
-      background-image:linear-gradient(#eee,#dcdcdc)!important;
-      @if $legacy-support-for-ie8 {
-        @include filter-gradient(#eee, #dcdcdc);
-      }
-      span { color: #145E91;}
-    }
   }
 }
