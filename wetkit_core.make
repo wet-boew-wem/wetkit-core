@@ -129,7 +129,7 @@ projects[menu_block][download][branch] = 7.x-2.x
 projects[menu_block][patch][2199997] = http://drupal.org/files/issues/fix_menu_system-2199997-14.patch
 projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_language-2199997-20.patch
 
-projects[password_policy][version] = 1.8
+projects[password_policy][version] = 1.9
 projects[password_policy][subdir] = contrib
 
 projects[panelizer][version] = 3.x-dev
@@ -144,12 +144,9 @@ projects[panels][patch][2120849] = http://drupal.org/files/issues/panels-ipe-sav
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_undefined_js-2199391-04.patch
 
-projects[panopoly_magic][version] = 1.6
+projects[panopoly_magic][version] = 1.8
 projects[panopoly_magic][subdir] = contrib
-projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-04.patch
-;projects[panopoly_magic][patch][1983788] = http://drupal.org/files/issues/panopoly_magic-1983788-6.patch
-;projects[panopoly_magic][patch][2144021] = http://drupal.org/files/issues/panopoly_magic_entity_view_modes-2144021-7.patch
-;projects[panopoly_magic][patch][2160731] = http://drupal.org/files/issues/panopoly_magic-respect-views-configured-view-mode-2160731.patch
+projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-12.patch
 
 projects[pathauto][version] = 1.x-dev
 projects[pathauto][subdir] = contrib
