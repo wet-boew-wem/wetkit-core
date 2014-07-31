@@ -145,7 +145,7 @@ projects[panels][subdir] = contrib
 projects[panels][patch][2120849] = http://drupal.org/files/issues/panels-ipe-save-2120849-27.patch
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_undefined_js-2199391-04.patch
-projects[panels][patch][2280797] = http://drupal.org/files/issues/panels-ipe-keyboard-focus-2280797-2.patch
+;projects[panels][patch][2280797] = http://drupal.org/files/issues/panels-ipe-keyboard-focus-2280797-2.patch
 projects[panels][patch][2283719] = http://drupal.org/files/issues/panels-icon-text-renderer-2283719-1.patch
 
 projects[panopoly_magic][version] = 1.8
