@@ -90,7 +90,7 @@ function wetkit_core_pane_titles($did = NULL, $pid = NULL, $title = NULL) {
 function wetkit_core_page_build() {
   // Set Flag.
   if ((variable_get('wetkit_core_load', 1) == 1)) {
-    drupal_flush_all_caches();
+    //drupal_flush_all_caches();
     variable_set('wetkit_core_load', 0);
   }
   // Some Default messages to let the user know where to begin.
