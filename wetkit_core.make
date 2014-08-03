@@ -35,8 +35,9 @@ projects[ctools][patch][2195471] = http://drupal.org/files/issues/ctools-n219547
 projects[ctools][patch][2198447] = http://drupal.org/files/issues/fix-panel-arguments-to-views-2198447-8.patch
 projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
 projects[ctools][patch][2280875] = http://drupal.org/files/issues/ctools-icon-text-renderer-2280875-5.patch
+projects[ctools][patch][2312505] = http://drupal.org/files/issues/ctools-views-pane-more-link-2312505-1.patch
 
-projects[date][version] = 2.7
+projects[date][version] = 2.8
 projects[date][subdir] = contrib
 
 projects[defaultconfig][version] = 1.0-alpha9
