@@ -15,7 +15,7 @@ projects[accessibility][download][branch] = 7.x-1.x
 projects[advanced_help][version] = 1.1
 projects[advanced_help][subdir] = contrib
 
-projects[apps][version] = 1.0-beta7
+projects[apps][version] = 1.0-beta14
 projects[apps][subdir] = contrib
 projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
 
@@ -62,7 +62,7 @@ projects[entity][subdir] = contrib
 projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
 
-projects[entityreference_prepopulate][version] = 1.4
+projects[entityreference_prepopulate][version] = 1.5
 projects[entityreference_prepopulate][subdir] = contrib
 
 projects[entity_view_mode][version] = 1.0-rc1
@@ -71,9 +71,8 @@ projects[entity_view_mode][subdir] = contrib
 projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
 
-projects[features][version] = 2.0
+projects[features][version] = 2.1
 projects[features][subdir] = contrib
-projects[features][patch][2047253] = http://drupal.org/files/issues/features_lock_functionality-2047253-01.patch
 
 projects[fences][version] = 1.x-dev
 projects[fences][subdir] = contrib
@@ -149,7 +148,7 @@ projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_
 ;projects[panels][patch][2280797] = http://drupal.org/files/issues/panels-ipe-keyboard-focus-2280797-2.patch
 projects[panels][patch][2283719] = http://drupal.org/files/issues/panels-icon-text-renderer-2283719-1.patch
 
-projects[panopoly_magic][version] = 1.8
+projects[panopoly_magic][version] = 1.9
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-12.patch
 
@@ -163,9 +162,9 @@ projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
 
-projects[rules][version] = 2.6
+projects[rules][version] = 2.7
 projects[rules][subdir] = contrib
-projects[rules][patch][1810656] = http://drupal.org/files/rules-1810656-25.patch
+projects[rules][patch][1810656] = http://drupal.org/files/rules-jquery_update_compatibility-1810656-37.patch
 
 projects[splashify][version] = 1.3
 projects[splashify][subdir] = contrib
@@ -219,9 +218,9 @@ projects[views_bootstrap][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.0-beta2
+projects[webform][version] = 4.0-rc5
 projects[webform][subdir] = contrib
-projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-4.patch
+projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
 projects[workbench][version] = 1.2
 projects[workbench][subdir] = contrib
