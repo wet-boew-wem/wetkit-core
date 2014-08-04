@@ -17,7 +17,7 @@ projects[advanced_help][subdir] = contrib
 
 projects[apps][version] = 1.0-beta14
 projects[apps][subdir] = contrib
-projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
+;projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
 
 projects[better_formats][version] = 1.0-beta1
 projects[better_formats][subdir] = contrib
