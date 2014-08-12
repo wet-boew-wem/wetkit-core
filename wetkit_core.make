@@ -8,9 +8,9 @@ core = 7.x
 projects[advanced_help][version] = 1.1
 projects[advanced_help][subdir] = contrib
 
-projects[apps][version] = 1.0-beta7
+projects[apps][version] = 1.0-beta14
 projects[apps][subdir] = contrib
-projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
+;projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
 
 projects[better_formats][version] = 1.0-beta1
 projects[better_formats][subdir] = contrib
@@ -19,6 +19,7 @@ projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better
 
 projects[ctools][version] = 1.4
 projects[ctools][subdir] = contrib
+projects[ctools][patch][581670] = http://drupal.org/files/fix-autocomplete-581670.patch
 projects[ctools][patch][813754] = http://drupal.org/files/issues/ctools-n813754-28.patch
 projects[ctools][patch][1300562] = http://drupal.org/files/ctools-n1300562-8.patch
 projects[ctools][patch][1630820] = http://drupal.org/files/issues/ctools-entity_field_value-1630820-72.patch
@@ -26,8 +27,10 @@ projects[ctools][patch][2195211] = http://drupal.org/files/issues/ctools-n219521
 projects[ctools][patch][2195471] = http://drupal.org/files/issues/ctools-n2195471-29.patch
 projects[ctools][patch][2198447] = http://drupal.org/files/issues/fix-panel-arguments-to-views-2198447-8.patch
 projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
+projects[ctools][patch][2280875] = http://drupal.org/files/issues/ctools-icon-text-renderer-2280875-5.patch
+projects[ctools][patch][2312505] = http://drupal.org/files/issues/ctools-views-pane-more-link-2312505-1.patch
 
-projects[date][version] = 2.7
+projects[date][version] = 2.8
 projects[date][subdir] = contrib
 
 projects[defaultconfig][version] = 1.0-alpha9
@@ -52,7 +55,7 @@ projects[entity][subdir] = contrib
 projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
 
-projects[entityreference_prepopulate][version] = 1.4
+projects[entityreference_prepopulate][version] = 1.5
 projects[entityreference_prepopulate][subdir] = contrib
 
 projects[entity_view_mode][version] = 1.0-rc1
@@ -61,9 +64,8 @@ projects[entity_view_mode][subdir] = contrib
 projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
 
-projects[features][version] = 2.0
+projects[features][version] = 2.1
 projects[features][subdir] = contrib
-projects[features][patch][2047253] = http://drupal.org/files/issues/features_lock_functionality-2047253-01.patch
 
 projects[fences][version] = 1.x-dev
 projects[fences][subdir] = contrib
@@ -79,10 +81,10 @@ projects[field_collection][download][revision] = ae778f2
 projects[field_collection][download][branch] = 7.x-1.x
 projects[field_collection][patch][1344672] = http://drupal.org/files/issues/field_collection-et-1344672-187.patch
 projects[field_collection][patch][2075325] = http://drupal.org/files/issues/field_collection-field_collection_uuid-2075325-3.patch
+projects[field_collection][patch][2298877] = http://drupal.org/files/issues/migration_field_collection-2298877-01.patch
 
-projects[field_group][version] = 1.3
+projects[field_group][version] = 1.4
 projects[field_group][subdir] = contrib
-projects[field_group][patch][2129805] = http://drupal.org/files/issues/incorrect_markup_2129805_1.patch
 
 projects[hierarchical_select][version] = 3.0-alpha6
 projects[hierarchical_select][subdir] = contrib
@@ -115,7 +117,7 @@ projects[menu_block][download][branch] = 7.x-2.x
 projects[menu_block][patch][2199997] = http://drupal.org/files/issues/fix_menu_system-2199997-14.patch
 projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_language-2199997-20.patch
 
-projects[password_policy][version] = 1.6
+projects[password_policy][version] = 1.9
 projects[password_policy][subdir] = contrib
 
 projects[panelizer][version] = 3.x-dev
@@ -129,13 +131,12 @@ projects[panels][subdir] = contrib
 projects[panels][patch][2120849] = http://drupal.org/files/issues/panels-ipe-save-2120849-27.patch
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_undefined_js-2199391-04.patch
+;projects[panels][patch][2280797] = http://drupal.org/files/issues/panels-ipe-keyboard-focus-2280797-2.patch
+projects[panels][patch][2283719] = http://drupal.org/files/issues/panels-icon-text-renderer-2283719-1.patch
 
-projects[panopoly_magic][version] = 1.6
+projects[panopoly_magic][version] = 1.9
 projects[panopoly_magic][subdir] = contrib
-projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-04.patch
-;projects[panopoly_magic][patch][1983788] = http://drupal.org/files/issues/panopoly_magic-1983788-6.patch
-;projects[panopoly_magic][patch][2144021] = http://drupal.org/files/issues/panopoly_magic_entity_view_modes-2144021-7.patch
-;projects[panopoly_magic][patch][2160731] = http://drupal.org/files/issues/panopoly_magic-respect-views-configured-view-mode-2160731.patch
+projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-12.patch
 
 projects[pathauto][version] = 1.x-dev
 projects[pathauto][subdir] = contrib
@@ -147,9 +148,9 @@ projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
 
-projects[rules][version] = 2.6
+projects[rules][version] = 2.7
 projects[rules][subdir] = contrib
-projects[rules][patch][1810656] = http://drupal.org/files/rules-1810656-25.patch
+projects[rules][patch][1810656] = http://drupal.org/files/rules-jquery_update_compatibility-1810656-37.patch
 
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
@@ -192,13 +193,14 @@ projects[views][patch][2037469] = http://drupal.org/files/views-exposed-sorts-20
 
 projects[views_autocomplete_filters][version] = 1.1
 projects[views_autocomplete_filters][subdir] = contrib
+projects[views_autocomplete_filters][patch][2277453] = http://drupal.org/files/issues/ViewsAutocompleteFilters-no_results_on_some_environments-2277453-1.patch
 
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.0-beta2
+projects[webform][version] = 4.0-rc5
 projects[webform][subdir] = contrib
-projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-4.patch
+projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
 projects[workbench][version] = 1.2
 projects[workbench][subdir] = contrib
