@@ -123,11 +123,8 @@ projects[menu_attributes][download][type] = git
 projects[menu_attributes][download][revision] = ed7e9aa
 projects[menu_attributes][download][branch] = 7.x-1.x
 
-projects[menu_block][version] = 2.x-dev
+projects[menu_block][version] = 2.4
 projects[menu_block][subdir] = contrib
-projects[menu_block][download][type] = git
-projects[menu_block][download][revision] = 32ab1cf
-projects[menu_block][download][branch] = 7.x-2.x
 projects[menu_block][patch][2199997] = http://drupal.org/files/issues/fix_menu_system-2199997-14.patch
 projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_language-2199997-20.patch
 
@@ -204,6 +201,7 @@ projects[uuid_link][patch][2101455] = http://drupal.org/files/uuid_link_entity_t
 
 projects[views][version] = 3.8
 projects[views][subdir] = contrib
+projects[views][patch][1389720] = http://drupal.org/files/issues/views_revert_all-1389720-7_0.patch
 projects[views][patch][1810656] = http://drupal.org/files/views-3.x-dev-issue_1331056-36.patch
 projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
 projects[views][patch][2037469] = http://drupal.org/files/views-exposed-sorts-2037469-1.patch
@@ -240,7 +238,6 @@ projects[workbench_moderation][patch][1732802] = http://drupal.org/files/workben
 projects[workbench_moderation][patch][1785798] = http://drupal.org/files/workbench_moderation-revision-moderation-edit-link-1785798-14.patch
 projects[workbench_moderation][patch][1787214] = http://drupal.org/files/workbench_moderation-vbo-revision-1787214-13.patch
 projects[workbench_moderation][patch][1836680] = http://drupal.org/files/workbench-moderation-solr-index-1836680-1.patch
-projects[workbench_moderation][patch][1445824] = http://drupal.org/files/workbench_moderation-better_migration_support-1445824-11.patch
 projects[workbench_moderation][patch][1919706] = http://drupal.org/files/issues/workbench_moderation-entitymalformed-1919706-3.patch
 ; Extensively Tested
 projects[workbench_moderation][patch][1260112] = http://drupal.org/files/workbench_moderation_is_current-1260112-58.patch
@@ -248,11 +245,13 @@ projects[workbench_moderation][patch][1330562] = http://drupal.org/files/workben
 projects[workbench_moderation][patch][1571614] = http://drupal.org/files/workbench-moderation-1571614-1.patch
 projects[workbench_moderation][patch][1946392] = http://drupal.org/files/et_language-1946392-1.patch
 ; Stable
+projects[workbench_moderation][patch][1279290] = http://drupal.org/files/workbench_moderation-delete-current-unpublished-revision-1279290-16.patch
 projects[workbench_moderation][patch][1402860] = http://drupal.org/files/issues/workbench_moderation-panelizer_revisions-1402860-39.patch
 projects[workbench_moderation][patch][1408858] = http://drupal.org/files/default-moderation-state-1408858-12.patch
 projects[workbench_moderation][patch][1436260] = http://drupal.org/files/issues/1436260-workbench_moderation-states-vbo-38.patch
 projects[workbench_moderation][patch][2098151] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
 projects[workbench_moderation][patch][2070389] = http://drupal.org/files/workbench_moderation-correctly_update_status-2070389-2.patch
+projects[workbench_moderation][patch][2099151] = http://drupal.org/files/workbench_moderation-better_migration_support-1445824-11.patch
 
 ; Libraries
 
