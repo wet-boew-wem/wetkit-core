@@ -87,6 +87,10 @@ function wetkit_core_uninstall() {
 }
 
 /**
+ * Implementations of hook_update_N().
+ */
+
+/**
  * Install the uuid_link contrib module.
  */
 function wetkit_core_update_7101() {
@@ -129,5 +133,25 @@ function wetkit_core_update_7103() {
 function wetkit_core_update_7104() {
   if (!module_exists('wetkit_update')) {
     module_enable(array('wetkit_update'));
+  }
+}
+
+/**
+ *  Enable new modules for 2.x branch.
+ */
+function wetkit_theme_update_7201() {
+  // Enable new modules for 2.x branch.
+   $modules = array(
+    'accessibility',
+    'fontawesome',
+    'icon',
+    'icon_field',
+    'views_bootstrap',
+    'wetkit_splash'
+  );
+  foreach ($modules as $module) {
+    if (!module_exists($module)) {
+      module_enable(array($module));
+    }
   }
 }
