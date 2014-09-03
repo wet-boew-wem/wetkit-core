@@ -139,7 +139,7 @@ function wetkit_core_update_7104() {
 /**
  *  Enable new modules for 2.x branch.
  */
-function wetkit_theme_update_7201() {
+function wetkit_core_update_7201() {
   // Enable new modules for 2.x branch.
    $modules = array(
     'accessibility',
