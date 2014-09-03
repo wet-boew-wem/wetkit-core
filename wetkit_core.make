@@ -196,7 +196,7 @@ projects[views_autocomplete_filters][patch][2277453] = http://drupal.org/files/i
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.0-rc5
+projects[webform][version] = 4.0
 projects[webform][subdir] = contrib
 projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
