@@ -232,10 +232,3 @@ projects[workbench_moderation][patch][1436260] = http://drupal.org/files/issues/
 projects[workbench_moderation][patch][2098151] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
 projects[workbench_moderation][patch][2070389] = http://drupal.org/files/workbench_moderation-correctly_update_status-2070389-2.patch
 projects[workbench_moderation][patch][2099151] = http://drupal.org/files/workbench_moderation-better_migration_support-1445824-11.patch
-
-; Libraries
-
-libraries[querypath][download][type] = git
-libraries[querypath][download][branch] = 3.x
-libraries[querypath][download][revision] = eeb67cc
-libraries[querypath][download][url] = https://github.com/technosophos/querypath.git
