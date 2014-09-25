@@ -1,7 +1,7 @@
 name = WetKit Splash
 description = Splash configuration
 core = 7.x
-package = Features
+package = WetKit
 dependencies[] = ctools
 dependencies[] = splashify
 dependencies[] = strongarm
