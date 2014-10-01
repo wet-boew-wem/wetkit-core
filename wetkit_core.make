@@ -211,8 +211,11 @@ projects[views_autocomplete_filters][version] = 1.1
 projects[views_autocomplete_filters][subdir] = contrib
 projects[views_autocomplete_filters][patch][2277453] = http://drupal.org/files/issues/ViewsAutocompleteFilters-no_results_on_some_environments-2277453-1.patch
 
-projects[views_bootstrap][version] = 3.1
+projects[views_bootstrap][version] = 3.x-dev
 projects[views_bootstrap][subdir] = contrib
+projects[views_bootstrap][download][type] = git
+projects[views_bootstrap][download][revision] = c55affd
+projects[views_bootstrap][download][branch] = 7.x-3.x
 
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
