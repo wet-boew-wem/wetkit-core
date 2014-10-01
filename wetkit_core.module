@@ -63,6 +63,36 @@ function wetkit_core_panels_pane_content_alter(&$content, $pane, $args, $context
 }
 
 /**
+ * Implements hook_preprocess_panels_ipe_pane_wrapper().
+ */
+function wetkit_core_preprocess_panels_ipe_pane_wrapper(&$variables) {
+  $pane = $variables['pane'];
+  $display = $variables['display'];
+  $renderer = $variables['renderer'];
+
+  if (user_access('administer advanced pane settings')) {
+    $css_link = array(
+      'title' => '<span>' . t('CSS') . '</span>',
+      'href' => $renderer->get_url('pane-css', $pane->pid),
+      'html' => TRUE,
+      'attributes' => array(
+        'class' => array('ctools-use-modal', 'pane-css'),
+        'title' => t('CSS'),
+      ),
+    );
+
+    // Make sure css is added just after style.
+    $style_link_key = array_search('style', array_keys($variables['links']));
+    $links_start = array_slice($variables['links'], 0, $style_link_key + 1);
+    $links_end = array_slice($variables['links'], $style_link_key);
+
+    // Add css link
+    $links_start['css'] = $css_link;
+    $variables['links'] = array_merge($links_start, $links_end);
+  }
+}
+
+/**
  * Get or set pane title.
  *
  * @param int $did
@@ -111,10 +141,10 @@ function wetkit_core_page_build() {
  */
 function wetkit_core_preprocess_icon(&$variables) {
   // TODO: We shoudn't have to unset the icon class but WxT customizes this class.
-  $key = array_search('icon', $variables['attributes']['class']);
-  if (isset($key)) {
-    unset($variables['attributes']['class'][$key]);
-  }
+  //$key = array_search('icon', $variables['attributes']['class']);
+  //if (isset($key)) {
+  //  unset($variables['attributes']['class'][$key]);
+  //}
 }
 
 /**
