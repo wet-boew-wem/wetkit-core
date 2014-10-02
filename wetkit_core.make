@@ -191,6 +191,7 @@ projects[uuid][patch][2074599] = http://drupal.org/files/uuid_remove_contrib_sup
 projects[uuid][patch][2074621] = http://drupal.org/files/uuid_services_field_collection_revisions.patch
 projects[uuid][patch][2145567] = http://drupal.org/files/issues/uuid_ctools_context-2145567-5.patch
 projects[uuid][patch][2279081] = http://drupal.org/files/issues/term_access_uuid-2279081-01.patch
+projects[uuid][patch][2336189] = http://drupal.org/files/issues/deploying_user_cancel_trashes_anonymous_user_and_all_associated_content-2336189-23.patch
 
 projects[uuid_features][version] = 1.0-alpha4
 projects[uuid_features][subdir] = contrib
@@ -211,11 +212,8 @@ projects[views_autocomplete_filters][version] = 1.1
 projects[views_autocomplete_filters][subdir] = contrib
 projects[views_autocomplete_filters][patch][2277453] = http://drupal.org/files/issues/ViewsAutocompleteFilters-no_results_on_some_environments-2277453-1.patch
 
-projects[views_bootstrap][version] = 3.x-dev
+projects[views_bootstrap][version] = 3.1
 projects[views_bootstrap][subdir] = contrib
-projects[views_bootstrap][download][type] = git
-projects[views_bootstrap][download][revision] = c55affd
-projects[views_bootstrap][download][branch] = 7.x-3.x
 
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
