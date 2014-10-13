@@ -25,15 +25,6 @@
     text-align: left;
     background-color: #FFF;
   }
-  //form {
-  //  .option-text-aligner {
-  //    float: left;
-  //    width: 100%;
-  //  }
-  //  .description {
-  //    float: left;
-  //  }
-  //}
   .form-submit {
     float: left;
   }
@@ -45,3 +36,25 @@
     background: none;
   }
 }
+
+.ctools-collapsible-container {
+  h2 {
+    background: #eee;
+    padding: 5px;
+    margin-bottom: 0;
+    color: #000 !important;
+    font-size: 14px;
+    font-weight: normal;
+    @include border-top-radius(5px); }
+  .ctools-toggle-collapsed, .ctools-toggle {
+    margin-top: 5px;
+  }
+  .page-node-edit fieldset {
+    margin-top: 0;
+  }
+}
+
+.ctools-collapsible-content .form-item {
+  margin-bottom: 0em;
+}
+
