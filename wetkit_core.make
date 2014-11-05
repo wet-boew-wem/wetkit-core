@@ -147,7 +147,7 @@ projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_
 projects[panels][patch][2238025] = http://drupal.org/files/issues/panels-editor-cache-fix-2238025-05.patch
 projects[panels][patch][2283719] = http://drupal.org/files/issues/panels-icon-text-renderer-2283719-1.patch
 
-projects[panopoly_magic][version] = 1.9
+projects[panopoly_magic][version] = 1.11
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-12.patch
 
@@ -219,7 +219,7 @@ projects[views_bootstrap][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.0
+projects[webform][version] = 4.1
 projects[webform][subdir] = contrib
 projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
