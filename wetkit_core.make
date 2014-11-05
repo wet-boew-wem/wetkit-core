@@ -108,7 +108,7 @@ projects[icon][patch][2200087] = http://drupal.org/files/issues/icon-menu_item_l
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
 
-projects[link][version] = 1.2
+projects[link][version] = 1.3
 projects[link][subdir] = contrib
 
 projects[linkchecker][version] = 1.x-dev
