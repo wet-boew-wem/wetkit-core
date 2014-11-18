@@ -11,6 +11,9 @@ projects[accessibility][type] = module
 projects[accessibility][download][type] = git
 projects[accessibility][download][revision] = 79ab4e6
 projects[accessibility][download][branch] = 7.x-1.x
+projects[accessibility][patch][2085847] = http://drupal.org/files/issues/accessibility_ckeditor_2085847_12.patch
+projects[accessibility][patch][2221601] = http://drupal.org/files/issues/accessibility-2221601-2-features-fix.patch
+projects[accessibility][patch][2229995] = http://drupal.org/files/issues/accessibility_2229995_undefined_constant.patch
 
 projects[advanced_help][version] = 1.1
 projects[advanced_help][subdir] = contrib
