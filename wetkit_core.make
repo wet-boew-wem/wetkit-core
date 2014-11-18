@@ -263,7 +263,7 @@ projects[workbench_moderation][patch][2099151] = http://drupal.org/files/workben
 
 libraries[backbone][download][type] = get
 libraries[backbone][download][url] = https://github.com/jashkenas/backbone/archive/1.1.0.zip
-libraries[backbone][patch][2315315] = http://drupal.org/files/issues/backbone_source_map_distro-2315315-01.patch
+libraries[backbone][patch][2315315] = http://drupal.org/files/issues/backbone_source_map_distro-2315315-05.patch
 
 libraries[jstorage][download][type] = get
 libraries[jstorage][download][url] = https://github.com/andris9/jStorage/archive/v0.4.11.tar.gz
