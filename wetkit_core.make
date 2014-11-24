@@ -18,9 +18,8 @@ projects[accessibility][patch][2229995] = http://drupal.org/files/issues/accessi
 projects[advanced_help][version] = 1.1
 projects[advanced_help][subdir] = contrib
 
-projects[apps][version] = 1.0-beta14
+projects[apps][version] = 1.0-beta20
 projects[apps][subdir] = contrib
-;projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
 
 projects[better_formats][version] = 1.0-beta1
 projects[better_formats][subdir] = contrib
@@ -150,9 +149,9 @@ projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_
 projects[panels][patch][2238025] = http://drupal.org/files/issues/panels-editor-cache-fix-2238025-05.patch
 projects[panels][patch][2283719] = http://drupal.org/files/issues/panels-icon-text-renderer-2283719-1.patch
 
-projects[panopoly_magic][version] = 1.11
+projects[panopoly_magic][version] = 1.14
 projects[panopoly_magic][subdir] = contrib
-projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-12.patch
+projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
 projects[pathauto][version] = 1.x-dev
 projects[pathauto][subdir] = contrib
