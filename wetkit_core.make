@@ -152,7 +152,7 @@ projects[panels][patch][2283719] = http://drupal.org/files/issues/panels-icon-te
 projects[panopoly_magic][version] = 1.14
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
-projects[panopoly_magic][patch][2155377] = http://drupal.org/files/issues/panopoly_magic-single-preview-2155377-12.patch
+projects[panopoly_magic][patch][2155377] = http://drupal.org/files/issues/fix_for_panels_magic-2383563-1.patch
 
 projects[pathauto][version] = 1.x-dev
 projects[pathauto][subdir] = contrib
