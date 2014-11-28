@@ -137,6 +137,13 @@ function wetkit_core_update_7104() {
 }
 
 /**
+ * Install the wetkit update module.
+ */
+function wetkit_core_update_7105() {
+  variable_set('panopoly_magic_pane_add_preview', 3);
+}
+
+/**
  *  Enable new modules for 2.x branch.
  */
 function wetkit_core_update_7201() {
@@ -154,4 +161,11 @@ function wetkit_core_update_7201() {
       module_enable(array($module));
     }
   }
+}
+
+/**
+ * Install the wetkit update module.
+ */
+function wetkit_core_update_7202() {
+  variable_set('panopoly_magic_pane_add_preview', 3);
 }
