@@ -94,7 +94,7 @@ projects[hierarchical_select][patch][828418] = http://drupal.org/files/issues/hi
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
 
-projects[link][version] = 1.2
+projects[link][version] = 1.3
 projects[link][subdir] = contrib
 
 projects[linkchecker][version] = 1.x-dev
@@ -199,7 +199,7 @@ projects[views_autocomplete_filters][patch][2277453] = http://drupal.org/files/i
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.0
+projects[webform][version] = 4.2
 projects[webform][subdir] = contrib
 projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
