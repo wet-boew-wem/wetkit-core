@@ -207,7 +207,7 @@ projects[uuid_link][patch][2101455] = http://drupal.org/files/uuid_link_entity_t
 
 projects[views][version] = 3.8
 projects[views][subdir] = contrib
-projects[views][patch][1389720] = http://drupal.org/files/issues/views_revert_all-1389720-7_0.patch
+projects[views][patch][1389720] = http://drupal.org/files/issues/views_revert_all-1389720-11.patch
 projects[views][patch][1810656] = http://drupal.org/files/views-3.x-dev-issue_1331056-36.patch
 projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
 projects[views][patch][2037469] = http://drupal.org/files/views-exposed-sorts-2037469-1.patch
