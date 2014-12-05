@@ -87,7 +87,7 @@ projects[field_collection][patch][2298877] = http://drupal.org/files/issues/migr
 projects[field_group][version] = 1.4
 projects[field_group][subdir] = contrib
 
-projects[hierarchical_select][version] = 3.0-alpha6
+projects[hierarchical_select][version] = 3.0-alpha8
 projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][patch][828418] = http://drupal.org/files/issues/hierarchical_select_attachbehavior-828418-37.patch
 
