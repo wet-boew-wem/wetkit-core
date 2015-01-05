@@ -144,10 +144,10 @@ function wetkit_core_update_7105() {
 }
 
 /**
- *  Enable new modules for 2.x branch.
+ *  Enable new modules for 4.x branch.
  */
-function wetkit_core_update_7201() {
-  // Enable new modules for 2.x branch.
+function wetkit_core_update_7401() {
+  // Enable new modules for 4.x branch.
    $modules = array(
     'accessibility',
     'fontawesome',
@@ -166,6 +166,6 @@ function wetkit_core_update_7201() {
 /**
  * Install the wetkit update module.
  */
-function wetkit_core_update_7202() {
+function wetkit_core_update_7402() {
   variable_set('panopoly_magic_pane_add_preview', 3);
 }
