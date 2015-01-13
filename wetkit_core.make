@@ -90,6 +90,8 @@ projects[field_group][subdir] = contrib
 projects[hierarchical_select][version] = 3.0-alpha8
 projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][patch][828418] = http://drupal.org/files/issues/hierarchical_select_attachbehavior-828418-37.patch
+projects[hierarchical_select][patch][2226901] = http://drupal.org/files/issues/decrease_js_specificity-2226901-2.patch
+projects[hierarchical_select][patch][2393695] = http://drupal.org/files/issues/2393695-1-properly-send-theme-vars-on-ajax-call.patch
 
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
