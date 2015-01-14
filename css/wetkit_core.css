@@ -33,6 +33,7 @@
 .views-widget .form-item-author .description { display: none; }
 
 /* l10n Client Styles */
+#l10n-client { z-index: 501; }
 #l10n-client h2 { border-left: none; font-size: 1.2em; color: white; height: inherit; }
 #l10n-client #l10n-client-form .form-submit { display: inline; }
 #l10n-client #l10n-client-form .form-textarea { border-radius: inherit; margin-top: 1em; height: 15em; width: 100%; }
