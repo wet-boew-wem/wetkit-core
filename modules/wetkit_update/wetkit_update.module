@@ -88,24 +88,24 @@ function wetkit_update_admin_form() {
 
   $form['update'] = array(
     '#type' => 'fieldset',
-    '#title' => 'Update Links',
+    '#title' => t('Update Links'),
     '#collapsible' => TRUE,
     '#collapsed' => !variable_get('wetkit_update_enable', FALSE),
   );
   $form['update']['wetkit_update_enable'] = array(
     '#type' => 'checkbox',
-    '#title' => 'Enable module update status',
+    '#title' => t('Enable module update status'),
     '#description' => t('Enable this option (and Save) to access the normal update links'),
     '#default_value' => variable_get('wetkit_update_enable', FALSE),
   );
 
   if (variable_get('wetkit_update_enable', FALSE)) {
     $links[] = array(
-      'title' => 'Available updates',
+      'title' => t('Available updates'),
       'href' => 'admin/reports/wetkit_updates',
     );
     $links[] = array(
-      'title' => 'Check for available updates',
+      'title' => t('Check for available updates'),
       'href' => 'admin/reports/wetkit_updates/update',
     );
     $form['update']['links'] = array(
