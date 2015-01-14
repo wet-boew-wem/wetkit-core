@@ -117,6 +117,7 @@ projects[menu_block][version] = 2.4
 projects[menu_block][subdir] = contrib
 projects[menu_block][patch][2199997] = http://drupal.org/files/issues/fix_menu_system-2199997-14.patch
 projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_language-2199997-20.patch
+projects[menu_block][patch][2282933] = http://drupal.org/files/issues/uuid_menu_block-2282933-14.patch
 
 projects[password_policy][version] = 1.9
 projects[password_policy][subdir] = contrib
