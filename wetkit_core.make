@@ -37,7 +37,7 @@ projects[date][subdir] = contrib
 
 projects[defaultconfig][version] = 1.0-alpha10
 projects[defaultconfig][subdir] = contrib
-projects[entity][patch][2221005] = http://drupal.org/files/issues/defaultconfig-duplicate_modules_in_overview-2221005-1.patch
+projects[defaultconfig][patch][2221005] = http://drupal.org/files/issues/defaultconfig-duplicate_modules_in_overview-2221005-1.patch
 
 projects[devel][version] = 1.5
 projects[devel][subdir] = contrib
