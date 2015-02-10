@@ -17,20 +17,12 @@ projects[better_formats][subdir] = contrib
 projects[better_formats][patch][1717470] = http://drupal.org/files/issues/better_formats_strict_warning-1717470-03.patch
 projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better_formats_description-1712360-02.patch
 
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.6
 projects[ctools][subdir] = contrib
-projects[ctools][patch][581670] = http://drupal.org/files/fix-autocomplete-581670.patch
-projects[ctools][patch][742832] = http://drupal.org/files/ctools-plugins.inc-load_includes_wrong_caching_algorithm-742832-24.patch
-projects[ctools][patch][813754] = http://drupal.org/files/issues/ctools-n813754-28.patch
-projects[ctools][patch][1300562] = http://drupal.org/files/ctools-n1300562-8.patch
-projects[ctools][patch][1630820] = http://drupal.org/files/issues/ctools-entity_field_value-1630820-72.patch
-projects[ctools][patch][2195211] = http://drupal.org/files/issues/ctools-n2195211-entity-from-field-access-callback-15.patch
-projects[ctools][patch][2195471] = http://drupal.org/files/issues/ctools-n2195471-29.patch
-projects[ctools][patch][2198447] = http://drupal.org/files/issues/fix-panel-arguments-to-views-2198447-8.patch
+projects[ctools][patch][2119357] = http://drupal.org/files/issues/undefined_index_in-2119357-36.patch
 projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
-projects[ctools][patch][2280875] = http://drupal.org/files/issues/ctools-icon-text-renderer-2280875-5.patch
-projects[ctools][patch][2312505] = http://drupal.org/files/issues/ctools-views-pane-more-link-2312505-1.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
+projects[ctools][patch][2416589] = http://www.drupal.org/files/issues/ctools-illegal-offset-views-add-contextual-links-2416589-1.patch
 
 projects[date][version] = 2.8
 projects[date][subdir] = contrib
@@ -127,14 +119,9 @@ projects[panelizer][download][type] = git
 projects[panelizer][download][revision] = 8cd1cda
 projects[panelizer][download][branch] = 7.x-3.x
 
-projects[panels][version] = 3.4
+projects[panels][version] = 3.5
 projects[panels][subdir] = contrib
-projects[panels][patch][2120849] = http://drupal.org/files/issues/panels-ipe-save-2120849-27.patch
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
-projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_undefined_js-2199391-04.patch
-;projects[panels][patch][2280797] = http://drupal.org/files/issues/panels-ipe-keyboard-focus-2280797-2.patch
-projects[panels][patch][2238025] = http://drupal.org/files/issues/panels-editor-cache-fix-2238025-05.patch
-projects[panels][patch][2283719] = http://drupal.org/files/issues/panels-icon-text-renderer-2283719-1.patch
 
 projects[panopoly_magic][version] = 1.15
 projects[panopoly_magic][subdir] = contrib
