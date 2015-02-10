@@ -127,7 +127,7 @@ projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_l
 projects[menu_block][patch][2282933] = http://drupal.org/files/issues/uuid_menu_block-2282933-14.patch
 projects[menu_block][patch][2418803] = http://drupal.org/files/issues/menu_block-ctools-1.6-2418803-2.patch
 
-projects[password_policy][version] = 1.9
+projects[password_policy][version] = 1.10
 projects[password_policy][subdir] = contrib
 
 projects[panelizer][version] = 3.x-dev
@@ -140,10 +140,11 @@ projects[panels][version] = 3.5
 projects[panels][subdir] = contrib
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 
-projects[panopoly_magic][version] = 1.14
+projects[panopoly_magic][version] = 1.15
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 projects[panopoly_magic][patch][2155377] = http://drupal.org/files/issues/only_show_one_widget-2155377-18.patch
+projects[panopoly_magic][patch][2416781] = http://drupal.org/files/issues/panopoly_magic-stray-select-box-2416781-7.patch
 
 projects[pathauto][version] = 1.x-dev
 projects[pathauto][subdir] = contrib
@@ -155,9 +156,8 @@ projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
 
-projects[rules][version] = 2.7
+projects[rules][version] = 2.8
 projects[rules][subdir] = contrib
-projects[rules][patch][1810656] = http://drupal.org/files/rules-jquery_update_compatibility-1810656-37.patch
 
 projects[splashify][version] = 1.3
 projects[splashify][subdir] = contrib
@@ -213,7 +213,7 @@ projects[views_bootstrap][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.1
+projects[webform][version] = 4.2
 projects[webform][subdir] = contrib
 projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
