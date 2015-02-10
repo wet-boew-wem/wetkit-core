@@ -29,7 +29,6 @@ projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better
 projects[ctools][version] = 1.6
 projects[ctools][subdir] = contrib
 projects[ctools][patch][2119357] = http://drupal.org/files/issues/undefined_index_in-2119357-36.patch
-projects[ctools][patch][2198447] = http://drupal.org/files/issues/fix-panel-arguments-to-views-2198447-8.patch
 projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
 projects[ctools][patch][2416589] = http://www.drupal.org/files/issues/ctools-illegal-offset-views-add-contextual-links-2416589-1.patch
@@ -139,7 +138,7 @@ projects[panelizer][download][branch] = 7.x-3.x
 
 projects[panels][version] = 3.5
 projects[panels][subdir] = contrib
-projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patchprojects[panels][patch][2283719] = http://drupal.org/files/issues/panels-icon-text-renderer-2283719-1.patch
+projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 
 projects[panopoly_magic][version] = 1.14
 projects[panopoly_magic][subdir] = contrib
