@@ -110,7 +110,7 @@ projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_l
 projects[menu_block][patch][2282933] = http://drupal.org/files/issues/uuid_menu_block-2282933-14.patch
 projects[menu_block][patch][2418803] = http://drupal.org/files/issues/menu_block-ctools-1.6-2418803-2.patch
 
-projects[password_policy][version] = 1.9
+projects[password_policy][version] = 1.10
 projects[password_policy][subdir] = contrib
 
 projects[panelizer][version] = 3.x-dev
@@ -138,9 +138,8 @@ projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
 
-projects[rules][version] = 2.7
+projects[rules][version] = 2.8
 projects[rules][subdir] = contrib
-projects[rules][patch][1810656] = http://drupal.org/files/rules-jquery_update_compatibility-1810656-37.patch
 
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
