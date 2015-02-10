@@ -114,8 +114,9 @@ projects[menu_attributes][download][branch] = 7.x-1.x
 projects[menu_block][version] = 2.4
 projects[menu_block][subdir] = contrib
 projects[menu_block][patch][2199997] = http://drupal.org/files/issues/fix_menu_system-2199997-14.patch
-projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_language-2199997-20.patch
+projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_language-2199997-21.patch
 projects[menu_block][patch][2282933] = http://drupal.org/files/issues/uuid_menu_block-2282933-14.patch
+projects[menu_block][patch][2418803] = http://drupal.org/files/issues/menu_block-ctools-1.6-2418803-2.patch
 
 projects[password_policy][version] = 1.9
 projects[password_policy][subdir] = contrib
@@ -135,9 +136,10 @@ projects[panels][patch][2199391] = http://drupal.org/files/issues/panels_layout_
 projects[panels][patch][2238025] = http://drupal.org/files/issues/panels-editor-cache-fix-2238025-05.patch
 projects[panels][patch][2283719] = http://drupal.org/files/issues/panels-icon-text-renderer-2283719-1.patch
 
-projects[panopoly_magic][version] = 1.14
+projects[panopoly_magic][version] = 1.15
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
+projects[panopoly_magic][patch][2416781] = http://drupal.org/files/issues/panopoly_magic-stray-select-box-2416781-7.patch
 
 projects[pathauto][version] = 1.x-dev
 projects[pathauto][subdir] = contrib
