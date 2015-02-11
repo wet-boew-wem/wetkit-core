@@ -90,18 +90,12 @@ projects[libraries][subdir] = contrib
 projects[link][version] = 1.3
 projects[link][subdir] = contrib
 
-projects[linkchecker][version] = 1.x-dev
-projects[linkchecker][type] = module
+projects[linkchecker][version] = 1.2
 projects[linkchecker][subdir] = contrib
-projects[linkchecker][download][type] = git
-projects[linkchecker][download][revision] = 6665254
-projects[linkchecker][download][branch] = 7.x-1.x
+projects[linkchecker][patch][2340211] = http://drupal.org/files/issues/error_on_submission-2340211-10.patch.txt
 
-projects[menu_attributes][version] = 1.x-dev
+projects[menu_attributes][version] = 1.0-rc3
 projects[menu_attributes][subdir] = contrib
-projects[menu_attributes][download][type] = git
-projects[menu_attributes][download][revision] = ed7e9aa
-projects[menu_attributes][download][branch] = 7.x-1.x
 
 projects[menu_block][version] = 2.4
 projects[menu_block][subdir] = contrib
@@ -113,11 +107,8 @@ projects[menu_block][patch][2418803] = http://drupal.org/files/issues/menu_block
 projects[password_policy][version] = 1.10
 projects[password_policy][subdir] = contrib
 
-projects[panelizer][version] = 3.x-dev
+projects[panelizer][version] = 3.2-beta1
 projects[panelizer][subdir] = contrib
-projects[panelizer][download][type] = git
-projects[panelizer][download][revision] = 8cd1cda
-projects[panelizer][download][branch] = 7.x-3.x
 
 projects[panels][version] = 3.5
 projects[panels][subdir] = contrib
