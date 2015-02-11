@@ -59,7 +59,7 @@ projects[entity_view_mode][subdir] = contrib
 projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
 
-projects[features][version] = 2.2
+projects[features][version] = 2.3
 projects[features][subdir] = contrib
 
 projects[fences][version] = 1.x-dev
