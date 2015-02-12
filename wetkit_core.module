@@ -209,7 +209,7 @@ function wetkit_core_form_alter(&$form, &$form_state, $form_id) {
   }
 
   // Remove the description from the shared widget.
-  if (!empty($form['field_share_widget']) && $form['options']['#access']) {
+  if (!empty($form['field_share_widget'])) {
     $form['options']['field_share_widget'] = $form['field_share_widget'];
     $form['options']['field_share_widget']['#weight'] = '0';
     $form['field_share_widget'] = array('#language' => NULL);
