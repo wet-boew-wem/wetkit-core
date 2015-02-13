@@ -30,6 +30,7 @@ projects[ctools][version] = 1.6
 projects[ctools][subdir] = contrib
 projects[ctools][patch][2119357] = http://drupal.org/files/issues/undefined_index_in-2119357-36.patch
 projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
+projects[ctools][patch][2397783] = http://drupal.org/files/issues/ctools-cache_entity_field_content_types-2397783-8.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
 projects[ctools][patch][2416589] = http://www.drupal.org/files/issues/ctools-illegal-offset-views-add-contextual-links-2416589-1.patch
 
@@ -131,11 +132,10 @@ projects[panels][version] = 3.5
 projects[panels][subdir] = contrib
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 
-projects[panopoly_magic][version] = 1.15
+projects[panopoly_magic][version] = 1.16
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 projects[panopoly_magic][patch][2155377] = http://drupal.org/files/issues/only_show_one_widget-2155377-18.patch
-projects[panopoly_magic][patch][2416781] = http://drupal.org/files/issues/panopoly_magic-stray-select-box-2416781-7.patch
 
 projects[pathauto][version] = 1.x-dev
 projects[pathauto][subdir] = contrib
@@ -187,7 +187,7 @@ projects[uuid_link][version] = 1.0-beta3
 projects[uuid_link][subdir] = contrib
 projects[uuid_link][patch][2101455] = http://drupal.org/files/uuid_link_entity_translation-2101455-9.patch
 
-projects[views][version] = 3.8
+projects[views][version] = 3.10
 projects[views][subdir] = contrib
 projects[views][patch][1389720] = http://drupal.org/files/issues/views_revert_all-1389720-11.patch
 projects[views][patch][1810656] = http://drupal.org/files/views-3.x-dev-issue_1331056-36.patch
