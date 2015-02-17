@@ -108,6 +108,7 @@ projects[libraries][subdir] = contrib
 
 projects[link][version] = 1.3
 projects[link][subdir] = contrib
+projects[link][patch][2055111] = http://drupal.org/files/issues/why_is_re_loading_the-2055111-4.patch
 
 projects[linkchecker][version] = 1.2
 projects[linkchecker][subdir] = contrib
