@@ -45,7 +45,7 @@ projects[diff][subdir] = contrib
 projects[elements][version] = 1.4
 projects[elements][subdir] = contrib
 
-projects[entity][version] = 1.5
+projects[entity][version] = 1.6
 projects[entity][subdir] = contrib
 projects[entity][patch][2020325] = http://drupal.org/files/issues/entity-ctools-content-type-from-context-2020325-24.patch
 
