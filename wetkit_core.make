@@ -61,7 +61,7 @@ projects[entity_view_mode][subdir] = contrib
 projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
 
-projects[features][version] = 2.3
+projects[features][version] = 2.4
 projects[features][subdir] = contrib
 
 projects[fences][version] = 1.x-dev
@@ -137,7 +137,7 @@ projects[rules][subdir] = contrib
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
 
-projects[token][version] = 1.5
+projects[token][version] = 1.6
 projects[token][subdir] = contrib
 
 projects[total_control][version] = 2.4
@@ -182,7 +182,7 @@ projects[views_autocomplete_filters][patch][2277453] = http://drupal.org/files/i
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.3
+projects[webform][version] = 4.4
 projects[webform][subdir] = contrib
 projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
