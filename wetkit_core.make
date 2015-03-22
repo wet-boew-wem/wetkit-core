@@ -83,7 +83,7 @@ projects[field_collection][patch][2298877] = http://drupal.org/files/issues/migr
 projects[field_group][version] = 1.4
 projects[field_group][subdir] = contrib
 
-projects[hierarchical_select][version] = 3.0-alpha12
+projects[hierarchical_select][version] = 3.0-alpha13
 projects[hierarchical_select][subdir] = contrib
 
 projects[libraries][version] = 2.2
