@@ -17,14 +17,12 @@ projects[better_formats][subdir] = contrib
 projects[better_formats][patch][1717470] = http://drupal.org/files/issues/better_formats_strict_warning-1717470-03.patch
 projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better_formats_description-1712360-02.patch
 
-projects[ctools][version] = 1.6
+projects[ctools][version] = 1.7
 projects[ctools][subdir] = contrib
 projects[ctools][patch][1774434] = http://drupal.org/files/issues/allow_string_context_to-1774434-16.patch
-projects[ctools][patch][2119357] = http://drupal.org/files/issues/undefined_index_in-2119357-36.patch
 projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
 projects[ctools][patch][2397783] = http://drupal.org/files/issues/ctools-cache_entity_field_content_types-2397783-8.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
-projects[ctools][patch][2416589] = http://www.drupal.org/files/issues/ctools-illegal-offset-views-add-contextual-links-2416589-1.patch
 
 projects[date][version] = 2.8
 projects[date][subdir] = contrib
@@ -131,7 +129,7 @@ projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
 
-projects[rules][version] = 2.8
+projects[rules][version] = 2.9
 projects[rules][subdir] = contrib
 
 projects[strongarm][version] = 2.0
@@ -182,7 +180,7 @@ projects[views_autocomplete_filters][patch][2277453] = http://drupal.org/files/i
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.4
+projects[webform][version] = 4.6
 projects[webform][subdir] = contrib
 projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
