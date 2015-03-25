@@ -93,7 +93,7 @@ projects[field_group][subdir] = contrib
 projects[fontawesome][version] = 1.0
 projects[fontawesome][subdir] = contrib
 
-projects[hierarchical_select][version] = 3.0-alpha13
+projects[hierarchical_select][version] = 3.0-beta1
 projects[hierarchical_select][subdir] = contrib
 
 projects[icon][version] = 1.0-beta5
