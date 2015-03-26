@@ -142,7 +142,7 @@ projects[pathauto][subdir] = contrib
 projects[pathauto][download][type] = git
 projects[pathauto][download][revision] = 655e451
 projects[pathauto][download][branch] = 7.x-1.x
-projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
+projects[pathauto][patch][936222] = http://drupal.org/files/issues/pathauto-persist_pathauto_state-936222-242.patch
 
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
