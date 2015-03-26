@@ -28,7 +28,6 @@ projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better
 
 projects[ctools][version] = 1.7
 projects[ctools][subdir] = contrib
-projects[ctools][patch][1774434] = http://drupal.org/files/issues/allow_string_context_to-1774434-16.patch
 projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
 projects[ctools][patch][2397783] = http://drupal.org/files/issues/ctools-cache_entity_field_content_types-2397783-8.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
