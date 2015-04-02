@@ -121,7 +121,7 @@ projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_l
 projects[menu_block][patch][2282933] = http://drupal.org/files/issues/uuid_menu_block-2282933-14.patch
 projects[menu_block][patch][2418803] = http://drupal.org/files/issues/menu_block-ctools-1.6-2418803-2.patch
 
-projects[password_policy][version] = 1.10
+projects[password_policy][version] = 1.11
 projects[password_policy][subdir] = contrib
 
 projects[panelizer][version] = 3.2-beta1
