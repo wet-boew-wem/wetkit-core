@@ -15,10 +15,10 @@ projects[accessibility][patch][2085847] = http://drupal.org/files/issues/accessi
 projects[accessibility][patch][2221601] = http://drupal.org/files/issues/accessibility-2221601-2-features-fix.patch
 projects[accessibility][patch][2229995] = http://drupal.org/files/issues/accessibility_2229995_undefined_constant.patch
 
-projects[advanced_help][version] = 1.1
+projects[advanced_help][version] = 1.2
 projects[advanced_help][subdir] = contrib
 
-projects[apps][version] = 1.0-beta20
+projects[apps][version] = 1.0-rc1
 projects[apps][subdir] = contrib
 
 projects[better_formats][version] = 1.0-beta1
@@ -193,9 +193,8 @@ projects[views][patch][1810656] = http://drupal.org/files/views-3.x-dev-issue_13
 projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
 projects[views][patch][2037469] = http://drupal.org/files/views-exposed-sorts-2037469-1.patch
 
-projects[views_autocomplete_filters][version] = 1.1
+projects[views_autocomplete_filters][version] = 1.2
 projects[views_autocomplete_filters][subdir] = contrib
-projects[views_autocomplete_filters][patch][2277453] = http://drupal.org/files/issues/ViewsAutocompleteFilters-no_results_on_some_environments-2277453-1.patch
 
 projects[views_bootstrap][version] = 3.1
 projects[views_bootstrap][subdir] = contrib
@@ -203,7 +202,7 @@ projects[views_bootstrap][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.6
+projects[webform][version] = 4.7
 projects[webform][subdir] = contrib
 projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
