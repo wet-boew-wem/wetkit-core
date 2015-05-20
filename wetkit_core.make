@@ -133,10 +133,10 @@ projects[panels][version] = 3.5
 projects[panels][subdir] = contrib
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 
-projects[panopoly_magic][version] = 1.17
+projects[panopoly_magic][version] = 1.21
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
-projects[panopoly_magic][patch][2155377] = http://drupal.org/files/issues/only_show_one_widget-2155377-18.patch
+projects[panopoly_magic][patch][2155377] = http://drupal.org/files/issues/panopoly_magic-show-single-preview-21553377-39.patch
 
 projects[pathauto][version] = 1.x-dev
 projects[pathauto][subdir] = contrib
@@ -203,7 +203,7 @@ projects[views_bootstrap][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.7
+projects[webform][version] = 4.8
 projects[webform][subdir] = contrib
 projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
