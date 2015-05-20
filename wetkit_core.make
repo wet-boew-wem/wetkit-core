@@ -82,6 +82,8 @@ projects[field_group][subdir] = contrib
 
 projects[hierarchical_select][version] = 3.0-beta1
 projects[hierarchical_select][subdir] = contrib
+projects[hierarchical_select][patch][544324] = http://drupal.org/files/issues/hierarchical_select-high_performance_fix-544324-75.patch
+projects[hierarchical_select][patch][2483633] = http://drupal.org/files/issues/mlid_plid_infiniteloop-2483633-1.patch
 
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
