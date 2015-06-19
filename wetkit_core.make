@@ -28,6 +28,7 @@ projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better
 
 projects[ctools][version] = 1.7
 projects[ctools][subdir] = contrib
+projects[ctools][patch][1032218] = http://drupal.org/files/issues/ctools_context_optional_always_empty-1032218-13.patch
 projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
 projects[ctools][patch][2397783] = http://drupal.org/files/issues/ctools-cache_entity_field_content_types-2397783-8.patch
 projects[ctools][patch][2399313] = http://drupal.org/files/issues/ctools-2399313-1-Relationship-optional-context.patch
