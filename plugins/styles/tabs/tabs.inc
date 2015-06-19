@@ -9,6 +9,7 @@ $plugin = array(
   'title' => t('WetKit Tabs'),
   'description' => t('Show panel panes in a region as tabs.'),
   'render region' => 'wetkit_core_tabs_style_render_region',
+  'settings form' => 'wetkit_core_tabs_region_settings_form',
 );
 
 /**
@@ -34,6 +35,14 @@ function theme_wetkit_core_tabs_style_render_region($vars) {
       ),
     ),
   );
+
+  if (isset($vars['settings']['title']) && !empty($vars['settings']['title'])) {
+    $element['region_title'] = array(
+      '#prefix' => '<h2>',
+      '#suffix' => '</h2>',
+      '#markup' => $vars['settings']['title'],
+    );
+  }
 
   $settings = array();
   $settings['panelsTabs']['tabsID'][] = $tab_id;
@@ -73,4 +82,18 @@ function theme_wetkit_core_tabs_style_render_region($vars) {
   }
 
   return drupal_render($element);
+}
+
+/**
+ * Region settings form callback.
+ */
+function wetkit_core_tabs_region_settings_form($style_settings) {
+  $settings_default_value = isset($style_settings['title']) ? $style_settings['title'] : '';
+  $form['title'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Title'),
+    '#default_value' => $settings_default_value,
+    '#description' => t('The title is filtered by filter_xss, so some simple HTML is allowed.'),
+  );
+  return $form;
 }
