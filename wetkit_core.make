@@ -30,7 +30,9 @@ projects[ctools][version] = 1.7
 projects[ctools][subdir] = contrib
 projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
 projects[ctools][patch][2397783] = http://drupal.org/files/issues/ctools-cache_entity_field_content_types-2397783-8.patch
+projects[ctools][patch][2399313] = http://drupal.org/files/issues/ctools-2399313-1-Relationship-optional-context.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
+projects[ctools][patch][2405187] = http://drupal.org/files/issues/ctools-2405187-1-optional-context-checkbox.patch
 
 projects[date][version] = 2.8
 projects[date][subdir] = contrib
@@ -131,7 +133,9 @@ projects[panelizer][subdir] = contrib
 
 projects[panels][version] = 3.5
 projects[panels][subdir] = contrib
+projects[panels][patch][1588212] = http://drupal.org/files/issues/panels-1588212-10.patch
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
+projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 
 projects[panopoly_magic][version] = 1.22
 projects[panopoly_magic][subdir] = contrib
