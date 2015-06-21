@@ -15,7 +15,7 @@ projects[accessibility][patch][2085847] = http://drupal.org/files/issues/accessi
 projects[accessibility][patch][2221601] = http://drupal.org/files/issues/accessibility-2221601-2-features-fix.patch
 projects[accessibility][patch][2229995] = http://drupal.org/files/issues/accessibility_2229995_undefined_constant.patch
 
-projects[advanced_help][version] = 1.2
+projects[advanced_help][version] = 1.3
 projects[advanced_help][subdir] = contrib
 
 projects[apps][version] = 1.0-rc1
@@ -95,10 +95,8 @@ projects[field_group][subdir] = contrib
 projects[fontawesome][version] = 1.0
 projects[fontawesome][subdir] = contrib
 
-projects[hierarchical_select][version] = 3.0-beta1
+projects[hierarchical_select][version] = 3.0-beta2
 projects[hierarchical_select][subdir] = contrib
-projects[hierarchical_select][patch][544324] = http://drupal.org/files/issues/hierarchical_select-high_performance_fix-544324-75.patch
-projects[hierarchical_select][patch][2483633] = http://drupal.org/files/issues/mlid_plid_infiniteloop-2483633-1.patch
 
 projects[icon][version] = 1.0-beta5
 projects[icon][subdir] = contrib
@@ -138,7 +136,7 @@ projects[panels][patch][1588212] = http://drupal.org/files/issues/panels-1588212
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 
-projects[panopoly_magic][version] = 1.22
+projects[panopoly_magic][version] = 1.23
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
