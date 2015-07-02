@@ -203,7 +203,7 @@ projects[views_autocomplete_filters][subdir] = contrib
 projects[views_bootstrap][version] = 3.1
 projects[views_bootstrap][subdir] = contrib
 
-projects[views_bulk_operations][version] = 3.2
+projects[views_bulk_operations][version] = 3.3
 projects[views_bulk_operations][subdir] = contrib
 
 projects[webform][version] = 4.8
