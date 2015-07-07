@@ -197,6 +197,21 @@ function wetkit_core_menu_alter(&$items) {
  * Implements hook_form_alter().
  */
 function wetkit_core_form_alter(&$form, &$form_state, $form_id) {
+
+  // WxT render cache.
+  if ($form_id == 'system_performance_settings') {
+    $form['wxt'] = array(
+      '#type' => 'fieldset',
+      '#title' => t('WxT'),
+      '#weight' => 0,
+    );
+    $form['wxt']['render_cache_clear'] = array(
+      '#type' => 'submit',
+      '#value' => t('Clear all WxT render caches'),
+      '#submit' => array('wetkit_core_configure_form_submit'),
+    );
+  }
+
   // Move the featured field into publishing options.
   if (!empty($form['field_featured_status']) && $form['options']['#access']) {
     $form['options']['field_featured_status'] = $form['field_featured_status'];
@@ -358,8 +373,13 @@ function wetkit_core_configure_form($form, &$form_state) {
     '#title' => t('WetKit Core Settings'),
     '#collapsible' => TRUE,
   );
-  $form['wetkit_core']['future_options'] = array(
-    '#markup' => '<p>' . t('Future options will appear here to configure WetKit Core.') . '</p>',
+  $form['wetkit_core']['render_cache_desc'] = array(
+    '#markup' => '<p>' . t('Rebuild the WxT specific render caches on the site.') . '</p>',
+  );
+  $form['wetkit_core']['render_cache_clear'] = array(
+    '#type' => 'submit',
+    '#value' => t('Clear all WxT render caches'),
+    '#weight' => 19,
   );
   $form['#submit'][] = 'wetkit_core_configure_form_submit';
 
@@ -375,6 +395,15 @@ function wetkit_core_configure_form($form, &$form_state) {
  *   A keyed array containing the current state of the form.
  */
 function wetkit_core_configure_form_submit($form, &$form_state) {
+  // Clear WxT render cache.
+  if ($form_state['values']['op'] == t('Clear all WxT render caches')) {
+    cache_clear_all('wetkit_bean:slideout', 'cache', TRUE);
+    cache_clear_all('wetkit_bootstrap:custom_search', 'cache', TRUE);
+    cache_clear_all('wetkit_bootstrap:menu', 'cache', TRUE);
+
+    drupal_set_message(t('WxT render caches cleared.'));
+  }
+
   // Change query-strings on css/js files to enforce reload for all users.
   _drupal_flush_css_js();
 }
