@@ -203,8 +203,8 @@ function wetkit_core_update_7404() {
   );
   foreach ($modules as $module) {
     if (module_exists($module)) {
-      module_disable(array($modules));
-      drupal_uninstall_modules(array($modules));
+      module_disable(array($module));
+      drupal_uninstall_modules(array($module));
     }
   }
 }
