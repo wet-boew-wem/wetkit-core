@@ -70,7 +70,7 @@ projects[entity_view_mode][subdir] = contrib
 projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
 
-projects[features][version] = 2.5
+projects[features][version] = 2.6
 projects[features][subdir] = contrib
 
 projects[fences][version] = 1.x-dev
@@ -207,7 +207,7 @@ projects[views_bootstrap][subdir] = contrib
 projects[views_bulk_operations][version] = 3.3
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.8
+projects[webform][version] = 4.10
 projects[webform][subdir] = contrib
 projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
