@@ -137,7 +137,7 @@ projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uu
 projects[panels][patch][2253919] = http://drupal.org/files/issues/panels-re-generated-uuids-on-clone.patch
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 
-projects[panopoly_magic][version] = 1.23
+projects[panopoly_magic][version] = 1.25
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
