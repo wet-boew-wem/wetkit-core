@@ -178,9 +178,8 @@ projects[views][patch][1331056] = http://drupal.org/files/issues/views-3.x-dev-i
 projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
 projects[views][patch][2037469] = http://drupal.org/files/views-exposed-sorts-2037469-1.patch
 
-projects[views_autocomplete_filters][version] = 1.1
+projects[views_autocomplete_filters][version] = 1.2
 projects[views_autocomplete_filters][subdir] = contrib
-projects[views_autocomplete_filters][patch][2277453] = http://drupal.org/files/issues/ViewsAutocompleteFilters-no_results_on_some_environments-2277453-1.patch
 
 projects[views_bulk_operations][version] = 3.3
 projects[views_bulk_operations][subdir] = contrib
