@@ -95,7 +95,7 @@ function wetkit_core_page_build() {
   // Some Default messages to let the user know where to begin.
   if ((variable_get('wetkit_core_doc', 1) == 1)) {
     drupal_set_message(t('Thank you for installing the WxT Drupal Distribution for the Web Experience Toolkit. You may login at the following page: <a href="@login">User Login</a>', array('@login' => url('user'))), 'status');
-    drupal_set_message(t('For more information please ensure to read the online <a href="@documentation">Documentation</a>', array('@documentation' => url('http://wiki.drupalwxt.org'))), 'warning');
+    drupal_set_message(t('For more information please ensure to read the online <a href="@documentation">Documentation</a>', array('@documentation' => url('http://drupalwxt.github.io'))), 'warning');
     variable_set('wetkit_core_doc', 0);
   }
   // Solve some of the display inconsistencies between WET and Drupal.
