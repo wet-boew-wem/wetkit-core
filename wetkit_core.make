@@ -17,14 +17,10 @@ projects[better_formats][subdir] = contrib
 projects[better_formats][patch][1717470] = http://drupal.org/files/issues/better_formats_strict_warning-1717470-03.patch
 projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better_formats_description-1712360-02.patch
 
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.9
 projects[ctools][subdir] = contrib
-projects[ctools][patch][1032218] = http://drupal.org/files/issues/ctools_context_optional_always_empty-1032218-13.patch
-projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
-projects[ctools][patch][2397783] = http://drupal.org/files/issues/ctools-cache_entity_field_content_types-2397783-8.patch
 projects[ctools][patch][2399313] = http://drupal.org/files/issues/ctools-2399313-1-Relationship-optional-context.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
-projects[ctools][patch][2405187] = http://drupal.org/files/issues/ctools-2405187-1-optional-context-checkbox.patch
 
 projects[date][version] = 2.8
 projects[date][subdir] = contrib
