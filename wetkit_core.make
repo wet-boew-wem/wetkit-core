@@ -21,6 +21,7 @@ projects[ctools][version] = 1.9
 projects[ctools][subdir] = contrib
 projects[ctools][patch][2399313] = http://drupal.org/files/issues/ctools-2399313-1-Relationship-optional-context.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
+projects[ctools][patch][2265451] = http://drupal.org/files/issues/hide_empty_page_title-2265451-13.patch
 
 projects[date][version] = 2.8
 projects[date][subdir] = contrib
