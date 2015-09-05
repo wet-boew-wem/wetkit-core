@@ -6,7 +6,7 @@
 
 // Plugin definition.
 $plugin = array(
-  'title' => t('WetKit Tabs'),
+  'title' => t('jQuery Tabs'),
   'description' => t('Show panel panes in a region as tabs.'),
   'render region' => 'wetkit_core_tabs_style_render_region',
   'settings form' => 'wetkit_core_tabs_region_settings_form',

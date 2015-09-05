@@ -6,7 +6,7 @@
 
 // Plugin definition.
 $plugin = array(
-  'title' => t('WetKit Collapsible'),
+  'title' => t('Collapsible Content'),
   'description' => t('Allows the panel pane to be collapsed.'),
   'render region' => 'wetkit_core_collapsible_render_region',
   'render pane' => 'wetkit_core_collapsible_render_pane',

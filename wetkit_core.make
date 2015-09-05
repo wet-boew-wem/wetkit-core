@@ -5,16 +5,6 @@ core = 7.x
 
 ; Modules
 
-projects[accessibility][version] = 1.x-dev
-projects[accessibility][subdir] = contrib
-projects[accessibility][type] = module
-projects[accessibility][download][type] = git
-projects[accessibility][download][revision] = 79ab4e6
-projects[accessibility][download][branch] = 7.x-1.x
-projects[accessibility][patch][2085847] = http://drupal.org/files/issues/accessibility_ckeditor_2085847_12.patch
-projects[accessibility][patch][2221601] = http://drupal.org/files/issues/accessibility-2221601-2-features-fix.patch
-projects[accessibility][patch][2229995] = http://drupal.org/files/issues/accessibility_2229995_undefined_constant.patch
-
 projects[advanced_help][version] = 1.3
 projects[advanced_help][subdir] = contrib
 
@@ -135,7 +125,7 @@ projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uu
 projects[panels][patch][2253919] = http://drupal.org/files/issues/panels-re-generated-uuids-on-clone.patch
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 
-projects[panopoly_magic][version] = 1.25
+projects[panopoly_magic][version] = 1.27
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
