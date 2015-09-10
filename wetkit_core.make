@@ -23,7 +23,7 @@ projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-c
 projects[ctools][patch][2265451] = http://drupal.org/files/issues/hide_empty_page_title-2265451-13.patch
 projects[ctools][patch][2437773] = http://drupal.org/files/issues/attached_css_and_js-2437773-18.patch
 
-projects[date][version] = 2.8
+projects[date][version] = 2.9
 projects[date][subdir] = contrib
 
 projects[defaultconfig][version] = 1.0-alpha9
