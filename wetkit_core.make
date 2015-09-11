@@ -86,10 +86,8 @@ projects[fontawesome][subdir] = contrib
 projects[hierarchical_select][version] = 3.0-beta2
 projects[hierarchical_select][subdir] = contrib
 
-projects[icon][version] = 1.0-beta5
+projects[icon][version] = 1.0-beta6
 projects[icon][subdir] = contrib
-projects[icon][patch][2200087] = http://drupal.org/files/issues/icon-menu_item_loop-2200087-4.patch
-projects[icon][patch][2387921] = http://drupal.org/files/issues/drupal_7_33_and_icon-2387921-1.patch
 
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
