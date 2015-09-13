@@ -104,12 +104,11 @@ projects[linkchecker][patch][2340211] = http://drupal.org/files/issues/error_on_
 projects[menu_attributes][version] = 1.0-rc3
 projects[menu_attributes][subdir] = contrib
 
-projects[menu_block][version] = 2.4
+projects[menu_block][version] = 2.7
 projects[menu_block][subdir] = contrib
-projects[menu_block][patch][2199997] = http://drupal.org/files/issues/fix_menu_system-2199997-14.patch
-projects[menu_block][patch][2199998] = http://drupal.org/files/issues/fix_menu_language-2199997-21.patch
-projects[menu_block][patch][2282933] = http://drupal.org/files/issues/uuid_menu_block-2282933-14.patch
-projects[menu_block][patch][2418803] = http://drupal.org/files/issues/menu_block-ctools-1.6-2418803-2.patch
+projects[menu_block][patch][2567871] = http://drupal.org/files/issues/support_menu_block_mode_5-2567871-2.patch
+projects[menu_block][patch][2567875] = http://drupal.org/files/issues/support_menu_block_theme_overrides-2567875-2.patch
+projects[menu_block][patch][2282933] = http://drupal.org/files/issues/menu_block-uuid-2282933-23.patch
 
 projects[password_policy][version] = 1.11
 projects[password_policy][subdir] = contrib
