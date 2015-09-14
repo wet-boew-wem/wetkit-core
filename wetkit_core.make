@@ -110,7 +110,7 @@ projects[menu_block][patch][2567871] = http://drupal.org/files/issues/support_me
 projects[menu_block][patch][2567875] = http://drupal.org/files/issues/support_menu_block_theme_overrides-2567875-2.patch
 projects[menu_block][patch][2282933] = http://drupal.org/files/issues/menu_block-uuid-2282933-23.patch
 
-projects[password_policy][version] = 1.11
+projects[password_policy][version] = 1.12
 projects[password_policy][subdir] = contrib
 
 projects[panelizer][version] = 3.2-beta1
