@@ -208,3 +208,29 @@ function wetkit_core_update_7404() {
     }
   }
 }
+
+/**
+ * Rename "Complexity" constraint to "Character Types".
+ */
+function wetkit_core_update_7405() {
+  $result = db_query("SELECT pid, policy, warning FROM {password_policy}");
+  foreach ($result as $row) {
+    $pid = $row->pid;
+    $policy = $row->policy;
+    $policy = unserialize($policy);
+    $warning = str_replace(' ', '', $row->warning);
+    if (isset($policy['complexity'])) {
+      $policy['character_types'] = $policy['complexity'];
+      unset($policy['complexity']);
+      $policy = serialize($policy);
+      db_update('password_policy')
+        ->fields(array('policy' => $policy))
+        ->condition('pid', $pid)
+        ->execute();
+    }
+    db_update('password_policy')
+      ->fields(array('warning' => $warning))
+      ->condition('pid', $pid)
+      ->execute();
+  }
+}
