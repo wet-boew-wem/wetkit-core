@@ -240,6 +240,3 @@ libraries[jstorage][download][url] = https://github.com/andris9/jStorage/archive
 
 libraries[underscore][download][type] = get
 libraries[underscore][download][url] = https://github.com/jashkenas/underscore/archive/1.5.2.zip
-
-libraries[quail][download][type] = get
-libraries[quail][download][url] = https://github.com/quailjs/quail/archive/2.0.3.tar.gz
