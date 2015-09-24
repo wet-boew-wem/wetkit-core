@@ -193,7 +193,7 @@ projects[views_bootstrap][subdir] = contrib
 projects[views_bulk_operations][version] = 3.3
 projects[views_bulk_operations][subdir] = contrib
 
-projects[webform][version] = 4.10
+projects[webform][version] = 4.11
 projects[webform][subdir] = contrib
 projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
