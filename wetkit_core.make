@@ -76,7 +76,7 @@ projects[field_collection][patch][2298877] = http://drupal.org/files/issues/migr
 projects[field_group][version] = 1.4
 projects[field_group][subdir] = contrib
 
-projects[fontawesome][version] = 2.1
+projects[fontawesome][version] = 2.5
 projects[fontawesome][subdir] = contrib
 projects[fontawesome][patch][2550149] = http://drupal.org/files/issues/fontawesome-2550149-1.patch
 
