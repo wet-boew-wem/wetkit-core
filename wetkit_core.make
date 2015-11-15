@@ -78,7 +78,6 @@ projects[field_group][subdir] = contrib
 
 projects[fontawesome][version] = 2.5
 projects[fontawesome][subdir] = contrib
-projects[fontawesome][patch][2550149] = http://drupal.org/files/issues/fontawesome-2550149-1.patch
 
 projects[hierarchical_select][version] = 3.0-beta2
 projects[hierarchical_select][subdir] = contrib
