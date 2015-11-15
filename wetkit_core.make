@@ -150,7 +150,7 @@ projects[total_control][patch][2230019] = http://drupal.org/files/issues/array_k
 projects[transliteration][version] = 3.2
 projects[transliteration][subdir] = contrib
 
-projects[uuid][version] = 1.0=beta1
+projects[uuid][version] = 1.0-beta1
 projects[uuid][subdir] = contrib
 projects[uuid][patch][2074621] = http://drupal.org/files/uuid_services_field_collection_revisions.patch
 projects[uuid][patch][2121031] = http://drupal.org/files/issues/uuid-empty_file-2121031-1.patch
