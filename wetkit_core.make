@@ -167,7 +167,7 @@ projects[uuid_link][subdir] = contrib
 projects[uuid_link][patch][2101455] = http://drupal.org/files/uuid_link_entity_translation-2101455-9.patch
 projects[uuid_link][patch][2484927] = http://drupal.org/files/issues/linkit_uuid-2484927-8.patch
 
-projects[views][version] = 3.11
+projects[views][version] = 3.13
 projects[views][subdir] = contrib
 projects[views][patch][1331056] = http://drupal.org/files/issues/views-3.x-dev-issue_1331056-52.patch
 projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
