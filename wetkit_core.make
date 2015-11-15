@@ -128,12 +128,8 @@ projects[panopoly_magic][version] = 1.27
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
-projects[pathauto][version] = 1.x-dev
+projects[pathauto][version] = 1.3
 projects[pathauto][subdir] = contrib
-projects[pathauto][download][type] = git
-projects[pathauto][download][revision] = 655e451
-projects[pathauto][download][branch] = 7.x-1.x
-projects[pathauto][patch][936222] = http://drupal.org/files/issues/pathauto-persist_pathauto_state-936222-242.patch
 
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
