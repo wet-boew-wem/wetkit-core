@@ -8,9 +8,8 @@ core = 7.x
 projects[advanced_help][version] = 1.3
 projects[advanced_help][subdir] = contrib
 
-projects[apps][version] = 1.0-beta14
+projects[apps][version] = 1.0-rc1
 projects[apps][subdir] = contrib
-;projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
 
 projects[better_formats][version] = 1.0-beta1
 projects[better_formats][subdir] = contrib
@@ -24,15 +23,11 @@ projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-c
 projects[ctools][patch][2265451] = http://drupal.org/files/issues/hide_empty_page_title-2265451-13.patch
 projects[ctools][patch][2437773] = http://drupal.org/files/issues/attached_css_and_js-2437773-18.patch
 
-projects[date][version] = 2.8
+projects[date][version] = 2.9
 projects[date][subdir] = contrib
 
-projects[defaultconfig][version] = 1.0-alpha9
+projects[defaultconfig][version] = 1.0-alpha11
 projects[defaultconfig][subdir] = contrib
-projects[defaultconfig][patch][1861054] = http://drupal.org/files/fix-defaultconfig_rebuild_all.patch
-projects[defaultconfig][patch][2008178] = http://drupal.org/files/defaultconfig-rebuild-filters-2008178-4_0.patch
-projects[defaultconfig][patch][2043307] = http://drupal.org/files/defaultconfig_include_features_file.patch
-projects[defaultconfig][patch][2042799] = http://drupal.org/files/default_config_delete_only_if_overriden.patch
 
 projects[devel][version] = 1.5
 projects[devel][subdir] = contrib
@@ -86,6 +81,7 @@ projects[hierarchical_select][subdir] = contrib
 
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
+projects[libraries][patch][2352251] = http://drupal.org/files/issues/0001-there-is-no-hook_libraries_paths-it-should-be-hook_l.patch
 
 projects[link][version] = 1.3
 projects[link][subdir] = contrib
@@ -122,12 +118,8 @@ projects[panopoly_magic][version] = 1.21
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
-projects[pathauto][version] = 1.x-dev
+projects[pathauto][version] = 1.3
 projects[pathauto][subdir] = contrib
-projects[pathauto][download][type] = git
-projects[pathauto][download][revision] = 655e451
-projects[pathauto][download][branch] = 7.x-1.x
-projects[pathauto][patch][936222] = http://drupal.org/files/issues/pathauto-persist_pathauto_state-936222-242.patch
 
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
@@ -149,16 +141,12 @@ projects[total_control][patch][2230019] = http://drupal.org/files/issues/array_k
 projects[transliteration][version] = 3.2
 projects[transliteration][subdir] = contrib
 
-projects[uuid][version] = 1.x-dev
+projects[uuid][version] = 1.0-beta1
 projects[uuid][subdir] = contrib
-projects[uuid][download][type] = git
-projects[uuid][download][revision] = a7bf2db
-projects[uuid][download][branch] = 7.x-1.x
 projects[uuid][patch][2074621] = http://drupal.org/files/uuid_services_field_collection_revisions.patch
 projects[uuid][patch][2121031] = http://drupal.org/files/issues/uuid-empty_file-2121031-1.patch
 projects[uuid][patch][2145567] = http://drupal.org/files/issues/uuid_ctools_context-2145567-16.patch
 projects[uuid][patch][2279081] = http://drupal.org/files/issues/term_access_uuid-2279081-03.patch
-projects[uuid][patch][2374691] = http://drupal.org/files/issues/uuid-undefined-function-sync-all-2374691-3.patch
 projects[uuid][patch][2391701] = http://drupal.org/files/issues/typeo_in_uuid_services_menu_description-2391701-02.patch
 
 projects[uuid_features][version] = 1.0-alpha4
@@ -170,7 +158,7 @@ projects[uuid_link][subdir] = contrib
 projects[uuid_link][patch][2101455] = http://drupal.org/files/uuid_link_entity_translation-2101455-9.patch
 projects[uuid_link][patch][2484927] = http://drupal.org/files/issues/linkit_uuid-2484927-8.patch
 
-projects[views][version] = 3.11
+projects[views][version] = 3.13
 projects[views][subdir] = contrib
 projects[views][patch][1331056] = http://drupal.org/files/issues/views-3.x-dev-issue_1331056-52.patch
 projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
