@@ -170,6 +170,7 @@ projects[uuid_link][patch][2484927] = http://drupal.org/files/issues/linkit_uuid
 projects[views][version] = 3.13
 projects[views][subdir] = contrib
 projects[views][patch][1331056] = http://drupal.org/files/issues/views-3.x-dev-issue_1331056-52.patch
+projects[views][patch][1615438] = http://drupal.org/files/issues/search_multiple_terms-1615438-79%2830%29.patch
 projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
 projects[views][patch][2037469] = http://drupal.org/files/views-exposed-sorts-2037469-1.patch
 
@@ -181,10 +182,6 @@ projects[views_bootstrap][subdir] = contrib
 
 projects[views_bulk_operations][version] = 3.3
 projects[views_bulk_operations][subdir] = contrib
-
-projects[webform][version] = 4.11
-projects[webform][subdir] = contrib
-projects[webform][patch][2076483] = http://drupal.org/files/issues/webform_uuid-2076483-5.patch
 
 projects[workbench][version] = 1.2
 projects[workbench][subdir] = contrib
