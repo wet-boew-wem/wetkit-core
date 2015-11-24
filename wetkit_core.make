@@ -141,6 +141,8 @@ projects[strongarm][subdir] = contrib
 
 projects[token][version] = 1.6
 projects[token][subdir] = contrib
+projects[token][patch][961130] = http://drupal.org/files/issues/tokens_dropdown_arrow-2619078-14.patch
+projects[token][patch][2023423] = http://drupal.org/files/issues/token-2023423-11.patch
 
 projects[total_control][version] = 2.4
 projects[total_control][subdir] = contrib
