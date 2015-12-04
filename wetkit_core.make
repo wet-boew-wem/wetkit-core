@@ -121,6 +121,7 @@ projects[panels][patch][1588212] = http://drupal.org/files/issues/panels-1588212
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2253919] = http://drupal.org/files/issues/panels-re-generated-uuids-on-clone.patch
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
+projects[panels][patch][2557061] = http://drupal.org/files/issues/deprecated-constructor-in-php-7-2557061-3.patch
 
 projects[panopoly_magic][version] = 1.29
 projects[panopoly_magic][subdir] = contrib
