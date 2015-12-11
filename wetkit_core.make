@@ -194,31 +194,17 @@ projects[workbench][patch][1354320] = http://drupal.org/files/content-creation-p
 projects[workbench][patch][1388220] = http://drupal.org/files/workbench-my_edits_view-1388220-14.patch
 projects[workbench][patch][2075467] = http://drupal.org/files/issues/workbench_uuid-2075467-01.patch
 
-projects[workbench_moderation][version] = 1.x-dev
+projects[workbench_moderation][version] = 1.4
 projects[workbench_moderation][subdir] = contrib
-projects[workbench_moderation][type] = module
-projects[workbench_moderation][download][type] = git
-projects[workbench_moderation][download][revision] = a90378d
-projects[workbench_moderation][download][branch] = 7.x-1.x
-; Trivial
-projects[workbench_moderation][patch][1237558] = http://drupal.org/files/double-messages-1237558-7.patch
-projects[workbench_moderation][patch][1732802] = http://drupal.org/files/workbench-moderation-draft-terminology-1732802-1.patch
-projects[workbench_moderation][patch][1785798] = http://drupal.org/files/workbench_moderation-revision-moderation-edit-link-1785798-14.patch
-projects[workbench_moderation][patch][1787214] = http://drupal.org/files/workbench_moderation-vbo-revision-1787214-13.patch
-projects[workbench_moderation][patch][1836680] = http://drupal.org/files/workbench-moderation-solr-index-1836680-1.patch
-projects[workbench_moderation][patch][1919706] = http://drupal.org/files/issues/workbench_moderation-entitymalformed-1919706-3.patch
-; Extensively Tested
-projects[workbench_moderation][patch][1260112] = http://drupal.org/files/workbench_moderation_is_current-1260112-58.patch
 projects[workbench_moderation][patch][1330562] = http://drupal.org/files/workbench_moderation-entity-cache-1330562-22.patch
-projects[workbench_moderation][patch][1946392] = http://drupal.org/files/et_language-1946392-1.patch
-; Stable
-projects[workbench_moderation][patch][1279290] = http://drupal.org/files/workbench_moderation-delete-current-unpublished-revision-1279290-16.patch
-projects[workbench_moderation][patch][1402860] = http://drupal.org/files/issues/workbench_moderation-panelizer_revisions-1402860-39.patch
+projects[workbench_moderation][patch][1402860] = https://drupal.org/files/issues/workbench_moderation-n1402860-73.patch
 projects[workbench_moderation][patch][1408858] = http://drupal.org/files/default-moderation-state-1408858-12.patch
-projects[workbench_moderation][patch][1436260] = http://drupal.org/files/issues/1436260-workbench_moderation-states-node_save-999.patch
 projects[workbench_moderation][patch][2098151] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
-projects[workbench_moderation][patch][2070389] = http://drupal.org/files/workbench_moderation-correctly_update_status-2070389-2.patch
 projects[workbench_moderation][patch][2099151] = http://drupal.org/files/workbench_moderation-better_migration_support-1445824-11.patch
+projects[workbench_moderation][patch][2285931] = http://drupal.org/files/issues/wm-field_translations-2285931-1.patch
+projects[workbench_moderation][patch][2308095] = http://drupal.org/files/issues/workbench_moderation-pathauto_alias_issue-2308095-20.patch
+projects[workbench_moderation][patch][2308096] = http://drupal.org/files/issues/view_all_unpublished-1492118-78.patch
+projects[workbench_moderation][patch][2308097] = http://drupal.org/files/issues/workbench_moderation-optimize_node_revision_history-1408838-67.patch
 
 ; Libraries
 

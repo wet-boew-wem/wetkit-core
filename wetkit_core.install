@@ -234,3 +234,35 @@ function wetkit_core_update_7405() {
       ->execute();
   }
 }
+
+/**
+ * Updates to WorkBench Moderation and schema alignment with v1.4.
+ */
+function wetkit_core_update_7406() {
+  $fields = array(
+    'id' => array(
+      'type' => 'serial',
+      'not null' => TRUE,
+      'unsigned' => TRUE,
+      'description' => 'Primary Key: Unique workbench_moderation transition identifier.',
+    ),
+    'name' => array(
+      'description' => 'The machine-readable name of this workbench_moderation transition.',
+      'type' => 'varchar',
+      'length' => 255,
+      'initial' => 'from_name',
+    ),
+  );
+  // Add index too.
+  $index = array(
+    'primary key' => array('id'),
+  );
+
+  db_add_field('workbench_moderation_transitions', 'id', $fields['id'], $index);
+  db_add_field('workbench_moderation_transitions', 'name', $fields['name']);
+
+  // Fill in the blanks.
+  db_update('workbench_moderation_transitions')
+    ->expression('name', "CONCAT(from_name, '-', to_name)")
+    ->execute();
+}
