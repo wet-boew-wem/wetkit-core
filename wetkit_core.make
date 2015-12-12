@@ -117,6 +117,7 @@ projects[panelizer][subdir] = contrib
 
 projects[panels][version] = 3.5
 projects[panels][subdir] = contrib
+projects[panels][patch][1402860] = http://drupal.org/files/issues/panelizer_is-1402860-82-fix-ipe-end-js-alert.patch
 projects[panels][patch][1588212] = http://drupal.org/files/issues/panels-1588212-10.patch
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2253919] = http://drupal.org/files/issues/panels-re-generated-uuids-on-clone.patch
@@ -196,7 +197,6 @@ projects[workbench][patch][2075467] = http://drupal.org/files/issues/workbench_u
 
 projects[workbench_moderation][version] = 1.4
 projects[workbench_moderation][subdir] = contrib
-projects[workbench_moderation][patch][1402860] = http://drupal.org/files/issues/panelizer_is-1402860-82-fix-ipe-end-js-alert.patch
 projects[workbench_moderation][patch][2098151] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
 projects[workbench_moderation][patch][2099151] = http://drupal.org/files/workbench_moderation-better_migration_support-1445824-11.patch
 projects[workbench_moderation][patch][2308095] = http://drupal.org/files/issues/workbench_moderation-pathauto_alias_issue-2308095-20.patch
