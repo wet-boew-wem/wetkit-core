@@ -196,7 +196,6 @@ projects[workbench][patch][2075467] = http://drupal.org/files/issues/workbench_u
 
 projects[workbench_moderation][version] = 1.4
 projects[workbench_moderation][subdir] = contrib
-projects[workbench_moderation][patch][1330562] = http://drupal.org/files/workbench_moderation-entity-cache-1330562-22.patch
 projects[workbench_moderation][patch][1402860] = http://drupal.org/files/issues/panelizer_is-1402860-82-fix-ipe-end-js-alert.patch
 projects[workbench_moderation][patch][2098151] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
 projects[workbench_moderation][patch][2099151] = http://drupal.org/files/workbench_moderation-better_migration_support-1445824-11.patch
