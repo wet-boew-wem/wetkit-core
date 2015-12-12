@@ -58,12 +58,8 @@ projects[fape][subdir] = contrib
 projects[features][version] = 2.7
 projects[features][subdir] = contrib
 
-projects[fences][version] = 1.x-dev
+projects[fences][version] = 1.2
 projects[fences][subdir] = contrib
-projects[fences][type] = module
-projects[fences][download][type] = git
-projects[fences][download][revision] = 67206b5
-projects[fences][download][branch] = 7.x-1.x
 
 projects[field_collection][version] = 1.x-dev
 projects[field_collection][subdir] = contrib
