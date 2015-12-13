@@ -61,14 +61,12 @@ projects[features][subdir] = contrib
 projects[fences][version] = 1.2
 projects[fences][subdir] = contrib
 
-projects[field_collection][version] = 1.x-dev
+projects[field_collection][version] = 1.0-beta10
 projects[field_collection][subdir] = contrib
-projects[field_collection][download][type] = git
-projects[field_collection][download][revision] = ae778f2
-projects[field_collection][download][branch] = 7.x-1.x
-projects[field_collection][patch][1344672] = http://drupal.org/files/issues/field_collection-et-1344672-187.patch
-projects[field_collection][patch][2075325] = http://drupal.org/files/issues/field_collection-field_collection_uuid-2075325-3.patch
-projects[field_collection][patch][2298877] = http://drupal.org/files/issues/migration_field_collection-2298877-02.patch
+projects[field_collection][patch][1344672] = http://drupal.org/files/issues/1344672-489.patch
+projects[field_collection][patch][2075325] = http://drupal.org/files/issues/field_collection_uuid-2075325-18.patch
+projects[field_collection][patch][2075326] = http://drupal.org/files/issues/field_collection_uuid_services-2075325-18.patch
+projects[field_collection][patch][2599248] = http://drupal.org/files/issues/field-collection-2599248-2.patch
 
 projects[field_group][version] = 1.4
 projects[field_group][subdir] = contrib
