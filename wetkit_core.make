@@ -174,6 +174,7 @@ projects[views][patch][1331056] = http://drupal.org/files/issues/views-3.x-dev-i
 projects[views][patch][1615438] = http://drupal.org/files/issues/search_multiple_terms-1615438-79%2830%29.patch
 projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
 projects[views][patch][2037469] = http://drupal.org/files/views-exposed-sorts-2037469-1.patch
+projects[views][patch][2071607] = http://drupal.org/files/2071607-only_clear_related_cache_on_view_save.patch
 
 projects[views_autocomplete_filters][version] = 1.2
 projects[views_autocomplete_filters][subdir] = contrib
