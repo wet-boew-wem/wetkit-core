@@ -75,9 +75,8 @@ projects[fontawesome][version] = 2.5
 projects[fontawesome][subdir] = contrib
 projects[fontawesome][patch][2590491] = http://drupal.org/files/issues/wetkit_core-2590491-6.patch
 
-projects[hierarchical_select][version] = 3.0-beta2
+projects[hierarchical_select][version] = 3.0-beta3
 projects[hierarchical_select][subdir] = contrib
-projects[hierarchical_select][patch][2252949] = http://drupal.org/files/issues/hs-title-2252949-11.patch
 
 projects[icon][version] = 1.0-beta6
 projects[icon][subdir] = contrib
