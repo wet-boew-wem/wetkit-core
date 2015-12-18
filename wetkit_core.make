@@ -160,6 +160,7 @@ projects[uuid][patch][2391701] = http://drupal.org/files/issues/typeo_in_uuid_se
 
 projects[uuid_features][version] = 1.0-alpha4
 projects[uuid_features][subdir] = contrib
+projects[uuid_features][patch][2051915] = http://drupal.org/files/issues/uuid_features-uuid_term_optional_taxonomy-2051915-4.patch
 projects[uuid_features][patch][2153157] = http://drupal.org/files/issues/uuid_features-undefined_index_when_processing_orphanned_bundles-2153157-2.patch
 
 projects[uuid_link][version] = 1.0-beta3
