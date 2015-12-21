@@ -184,6 +184,7 @@ projects[views_bootstrap][subdir] = contrib
 
 projects[views_bulk_operations][version] = 3.3
 projects[views_bulk_operations][subdir] = contrib
+projects[views_bulk_operations][patch][2551301] = http://drupal.org/files/issues/multiple_vbo_views_on-2551301-6.patch
 
 projects[workbench][version] = 1.2
 projects[workbench][subdir] = contrib
