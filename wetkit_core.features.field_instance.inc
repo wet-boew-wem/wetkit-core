@@ -10,7 +10,8 @@
 function wetkit_core_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'taxonomy_term-wetkit_categories-description_field'
+  // Exported field_instance:
+  // 'taxonomy_term-wetkit_categories-description_field'.
   $field_instances['taxonomy_term-wetkit_categories-description_field'] = array(
     'bundle' => 'wetkit_categories',
     'default_value' => NULL,
@@ -55,7 +56,7 @@ function wetkit_core_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'taxonomy_term-wetkit_categories-name_field'
+  // Exported field_instance: 'taxonomy_term-wetkit_categories-name_field'.
   $field_instances['taxonomy_term-wetkit_categories-name_field'] = array(
     'bundle' => 'wetkit_categories',
     'default_value' => NULL,

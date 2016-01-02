@@ -22,8 +22,6 @@
 .krumo-version img { width: auto; }
 
 /* Fields */
-.views-widget-filter-vid { clear: both; }
-
 #edit-menu-options-attributes-rel, #edit-menu-options-attributes-class { width: 75%; }
 
 .views-widget .form-item-author .description { display: none; }

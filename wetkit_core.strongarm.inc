@@ -283,7 +283,7 @@ function wetkit_core_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'panopoly_magic_live_preview';
-  $strongarm->value = '2';
+  $strongarm->value = 0;
   $export['panopoly_magic_live_preview'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -316,7 +316,7 @@ function wetkit_core_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'panopoly_magic_pane_add_preview';
-  $strongarm->value = '3';
+  $strongarm->value = 3;
   $export['panopoly_magic_pane_add_preview'] = $strongarm;
 
   $strongarm = new stdClass();
