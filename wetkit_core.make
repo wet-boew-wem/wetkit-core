@@ -102,6 +102,7 @@ projects[menu_block][subdir] = contrib
 projects[menu_block][patch][2567871] = http://drupal.org/files/issues/support_menu_block_mode_5-2567871-2.patch
 projects[menu_block][patch][2567875] = http://drupal.org/files/issues/support_menu_block_theme_overrides-2567875-2.patch
 projects[menu_block][patch][2282933] = http://drupal.org/files/issues/menu_block-uuid-2282933-23.patch
+projects[menu_block][patch][2644630] = http://drupal.org/files/issues/menu_block_block-2644630-2.patch
 
 projects[password_policy][version] = 1.12
 projects[password_policy][subdir] = contrib

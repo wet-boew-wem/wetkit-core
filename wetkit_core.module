@@ -231,7 +231,8 @@ function wetkit_core_form_alter(&$form, &$form_state, $form_id) {
   }
 
   // Simplify the menu block edit form.
-  if ($form_id == 'menu_block_menu_tree_content_type_edit_form') {
+  if ($form_id == 'menu_block_menu_tree_content_type_edit_form' ||
+      $form_id == 'menu_block_ref_content_type_edit_form') {
     $form['admin_title']['#access'] = TRUE;
     $form['depth']['#access'] = TRUE;
     $form['display_options']['#default_value'] = 'advanced';
