@@ -191,6 +191,12 @@ function wetkit_core_menu_alter(&$items) {
   if (!empty($items['admin/workbench'])) {
     $items['admin/workbench']['title'] = 'Workbench';
   }
+  if (!empty($items['admin/dashboard'])) {
+    $items['admin/dashboard']['description'] = 'Quick view of common functionality.';
+  }
+  if (!empty($items['admin/help/ah'])) {
+    $items['admin/help/ah']['description'] = 'Renders readme files for individual projects.';
+  }
 }
 
 /**
