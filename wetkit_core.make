@@ -72,6 +72,7 @@ projects[field_collection][patch][2599248] = http://drupal.org/files/issues/fiel
 
 projects[field_group][version] = 1.5
 projects[field_group][subdir] = contrib
+projects[field_group][patch][2649648] = http://drupal.org/files/issues/php7_uniform_variable-2649648-5.patch
 
 projects[fontawesome][version] = 2.5
 projects[fontawesome][subdir] = contrib
