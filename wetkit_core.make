@@ -88,9 +88,8 @@ projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
 projects[libraries][patch][2352251] = http://drupal.org/files/issues/0001-there-is-no-hook_libraries_paths-it-should-be-hook_l.patch
 
-projects[link][version] = 1.3
+projects[link][version] = 1.4
 projects[link][subdir] = contrib
-projects[link][patch][2055111] = http://drupal.org/files/issues/why_is_re_loading_the-2055111-4.patch
 
 projects[linkchecker][version] = 1.2
 projects[linkchecker][subdir] = contrib
