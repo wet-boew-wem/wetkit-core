@@ -90,6 +90,7 @@ projects[libraries][patch][2352251] = http://drupal.org/files/issues/0001-there-
 
 projects[link][version] = 1.4
 projects[link][subdir] = contrib
+projects[link][patch][2428185] = http://drupal.org/files/issues/link-broken-relative-urls-with-language-prefix-2428185-5.patch
 
 projects[linkchecker][version] = 1.2
 projects[linkchecker][subdir] = contrib
