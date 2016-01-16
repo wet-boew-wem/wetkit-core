@@ -24,7 +24,7 @@ projects[ctools][patch][2265451] = http://drupal.org/files/issues/hide_empty_pag
 projects[ctools][patch][2416689] = http://drupal.org/files/issues/ctools-jquery-attr-removed-2416689-5.patch
 projects[ctools][patch][2437773] = http://drupal.org/files/issues/attached_css_and_js-2437773-18.patch
 projects[ctools][patch][2528736] = http://drupal.org/files/issues/Deprecating-PHP4-Style-Constructors-2528736-8.patch
-projects[ctools][patch][2635876] = http://drupal.org/files/issues/ctools-uniform-variable-syntax-2635876-1.patch
+projects[ctools][patch][2635876] = http://drupal.org/files/issues/ctools-uniform-variable-syntax-2635876-6.patch
 
 projects[date][version] = 2.9
 projects[date][subdir] = contrib
