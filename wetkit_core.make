@@ -203,6 +203,7 @@ projects[workbench_moderation][patch][2099151] = http://drupal.org/files/workben
 projects[workbench_moderation][patch][2308095] = http://drupal.org/files/issues/workbench_moderation-pathauto_alias_issue-2308095-20.patch
 projects[workbench_moderation][patch][2308096] = http://drupal.org/files/issues/view_all_unpublished-1492118-78.patch
 projects[workbench_moderation][patch][2308097] = http://drupal.org/files/issues/workbench_moderation-optimize_node_revision_history-1408838-67.patch
+projects[workbench_moderation][patch][2428371] = http://drupal.org/files/issues/upgrade_from_1x3_to_1x4_fails-2428371-30.patch
 
 ; Libraries
 
