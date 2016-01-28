@@ -25,7 +25,6 @@ projects[ctools][patch][2416689] = http://drupal.org/files/issues/ctools-jquery-
 projects[ctools][patch][2437773] = http://drupal.org/files/issues/attached_css_and_js-2437773-18.patch
 projects[ctools][patch][2528736] = http://drupal.org/files/issues/deprecating_php4_style-2528736-23.patch
 projects[ctools][patch][2635876] = http://drupal.org/files/issues/ctools-uniform-variable-syntax-2635876-6.patch
-projects[ctools][patch][2640404] = http://drupal.org/files/issues/ctools-php_7_undefined-2640404-2.patch
 
 projects[date][version] = 2.9
 projects[date][subdir] = contrib
@@ -60,7 +59,7 @@ projects[fape][subdir] = contrib
 
 projects[features][version] = 2.7
 projects[features][subdir] = contrib
-projects[entity][patch][2288395] = http://drupal.org/files/issues/features-manage_features_page-2288395-1.patch
+projects[features][patch][2288395] = http://drupal.org/files/issues/features-manage_features_page-2288395-1.patch
 
 projects[fences][version] = 1.2
 projects[fences][subdir] = contrib
