@@ -64,7 +64,7 @@ projects[features][patch][2288395] = http://drupal.org/files/issues/features-man
 projects[fences][version] = 1.2
 projects[fences][subdir] = contrib
 
-projects[field_collection][version] = 1.0-beta10
+projects[field_collection][version] = 1.0-beta11
 projects[field_collection][subdir] = contrib
 projects[field_collection][patch][1344672] = http://drupal.org/files/issues/field_collection_field-1344672-504.patch
 projects[field_collection][patch][2075325] = http://drupal.org/files/issues/field_collection_uuid-2075325-18.patch
