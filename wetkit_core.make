@@ -69,7 +69,6 @@ projects[field_collection][subdir] = contrib
 projects[field_collection][patch][1344672] = http://drupal.org/files/issues/field_collection_field-1344672-504.patch
 projects[field_collection][patch][2075325] = http://drupal.org/files/issues/field_collection_uuid-2075325-18.patch
 projects[field_collection][patch][2075326] = http://drupal.org/files/issues/field_collection_uuid_services-2075325-18.patch
-projects[field_collection][patch][2599248] = http://drupal.org/files/issues/field-collection-2599248-2.patch
 
 projects[field_group][version] = 1.5
 projects[field_group][subdir] = contrib
