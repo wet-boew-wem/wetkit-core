@@ -205,6 +205,7 @@ projects[workbench_moderation][patch][2308096] = http://drupal.org/files/issues/
 projects[workbench_moderation][patch][2308097] = http://drupal.org/files/issues/workbench_moderation-optimize_node_revision_history-1408838-67.patch
 projects[workbench_moderation][patch][2428371] = http://drupal.org/files/issues/upgrade_from_1_3_to_1_4-2428371-42.patch
 projects[workbench_moderation][patch][2633456] = http://drupal.org/files/issues/workbench_moderation-2633456-26.patch
+projects[workbench_moderation][patch][2662600] = http://drupal.org/files/issues/workbench_moderation-2662600-2.patch
 
 ; Libraries
 
