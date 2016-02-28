@@ -119,7 +119,7 @@ projects[panels][patch][2253919] = http://drupal.org/files/issues/panels-re-gene
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 projects[panels][patch][2557061] = http://drupal.org/files/issues/deprecated-constructor-in-php-7-2557061-3.patch
 
-projects[panopoly_magic][version] = 1.30
+projects[panopoly_magic][version] = 1.31
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
