@@ -73,7 +73,7 @@ projects[field_collection][patch][1344672] = http://drupal.org/files/issues/fiel
 projects[field_collection][patch][2075325] = http://drupal.org/files/issues/field_collection-field_collection_uuid-2075325-3.patch
 projects[field_collection][patch][2298877] = http://drupal.org/files/issues/migration_field_collection-2298877-02.patch
 
-projects[field_group][version] = 1.4
+projects[field_group][version] = 1.5
 projects[field_group][subdir] = contrib
 
 projects[hierarchical_select][version] = 3.0-beta2
