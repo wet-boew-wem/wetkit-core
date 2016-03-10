@@ -116,6 +116,7 @@ projects[panels][patch][1402860] = http://drupal.org/files/issues/panelizer_is-1
 projects[panels][patch][1588212] = http://drupal.org/files/issues/panels-1588212-10.patch
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2253919] = http://drupal.org/files/issues/panels-re-generated-uuids-on-clone.patch
+projects[panels][patch][2391073] = http://drupal.org/files/issues/2391073-11-cache_mini_panels_load.patch
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 projects[panels][patch][2557061] = http://drupal.org/files/issues/deprecated-constructor-in-php-7-2557061-3.patch
 
