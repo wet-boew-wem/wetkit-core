@@ -100,7 +100,7 @@ projects[menu_attributes][subdir] = contrib
 projects[menu_block][version] = 2.7
 projects[menu_block][subdir] = contrib
 projects[menu_block][patch][2567871] = http://drupal.org/files/issues/support_menu_block_mode_5-2567871-2.patch
-projects[menu_block][patch][2567875] = http://drupal.org/files/issues/support_menu_block_theme_overrides-2567875-2.patch
+projects[menu_block][patch][2567875] = http://drupal.org/files/issues/argument_3_passed_to-2687299-3.patch
 projects[menu_block][patch][2282933] = http://drupal.org/files/issues/menu_block-uuid-2282933-23.patch
 projects[menu_block][patch][2644630] = http://drupal.org/files/issues/menu_block_block-2644630-2.patch
 
