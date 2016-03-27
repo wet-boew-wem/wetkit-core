@@ -55,9 +55,8 @@ projects[entity_view_mode][subdir] = contrib
 projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
 
-projects[features][version] = 2.7
+projects[features][version] = 2.8
 projects[features][subdir] = contrib
-projects[features][patch][2288395] = http://drupal.org/files/issues/features-manage_features_page-2288395-1.patch
 
 projects[fences][version] = 1.2
 projects[fences][subdir] = contrib
