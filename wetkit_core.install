@@ -239,30 +239,35 @@ function wetkit_core_update_7405() {
  * Updates to WorkBench Moderation and schema alignment with v1.4.
  */
 function wetkit_core_update_7406() {
-  $fields = array(
-    'id' => array(
-      'type' => 'serial',
-      'not null' => TRUE,
-      'unsigned' => TRUE,
-      'description' => 'Primary Key: Unique workbench_moderation transition identifier.',
-    ),
-    'name' => array(
-      'description' => 'The machine-readable name of this workbench_moderation transition.',
-      'type' => 'varchar',
-      'length' => 255,
-      'initial' => 'from_name',
-    ),
-  );
-  // Add index too.
-  $index = array(
-    'primary key' => array('id'),
-  );
+  $workbench_schema_version = drupal_get_installed_schema_version('workbench_moderation');
 
-  db_add_field('workbench_moderation_transitions', 'id', $fields['id'], $index);
-  db_add_field('workbench_moderation_transitions', 'name', $fields['name']);
+  // Run only when Workbench version < 7010.
+  if ($workbench_schema_version < '7010') {
+    $fields = array(
+      'id' => array(
+        'type' => 'serial',
+        'not null' => TRUE,
+        'unsigned' => TRUE,
+        'description' => 'Primary Key: Unique workbench_moderation transition identifier.',
+      ),
+      'name' => array(
+        'description' => 'The machine-readable name of this workbench_moderation transition.',
+        'type' => 'varchar',
+        'length' => 255,
+        'initial' => 'from_name',
+      ),
+    );
+    // Add index too.
+    $index = array(
+      'primary key' => array('id'),
+    );
 
-  // Fill in the blanks.
-  db_update('workbench_moderation_transitions')
-    ->expression('name', "CONCAT(from_name, '-', to_name)")
-    ->execute();
+    db_add_field('workbench_moderation_transitions', 'id', $fields['id'], $index);
+    db_add_field('workbench_moderation_transitions', 'name', $fields['name']);
+
+    // Fill in the blanks.
+    db_update('workbench_moderation_transitions')
+      ->expression('name', "CONCAT(from_name, '-', to_name)")
+      ->execute();
+  }
 }
