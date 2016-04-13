@@ -219,12 +219,12 @@ function wetkit_core_form_alter(&$form, &$form_state, $form_id) {
   }
 
   // Move the featured field into publishing options.
-  if (!empty($form['field_featured_status']) && $form['options']['#access']) {
+  if (!empty($form['field_featured_status']) && isset($form['options']) && $form['options']['#access']) {
     $form['options']['field_featured_status'] = $form['field_featured_status'];
     $form['field_featured_status'] = array('#language' => NULL);
   }
 
-  if (!empty($form['field_archived_content']) && $form['options']['#access']) {
+  if (!empty($form['field_archived_content']) && isset($form['options']) && $form['options']['#access']) {
     $form['options']['field_archived_content'] = $form['field_archived_content'];
     $form['field_archived_content'] = array('#language' => NULL);
   }
