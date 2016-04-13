@@ -35,6 +35,7 @@ projects[devel][subdir] = contrib
 
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
+projects[diff][patch][2640478] = http://drupal.org/files/issues/diff-deprecating_php4_style-2640478-2.patch
 
 projects[elements][version] = 1.4
 projects[elements][subdir] = contrib
