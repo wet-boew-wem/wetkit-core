@@ -56,7 +56,7 @@ projects[entity_view_mode][subdir] = contrib
 projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
 
-projects[features][version] = 2.8
+projects[features][version] = 2.9
 projects[features][subdir] = contrib
 
 projects[fences][version] = 1.2
@@ -120,7 +120,7 @@ projects[panels][patch][2391073] = http://drupal.org/files/issues/2391073-11-cac
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 projects[panels][patch][2557061] = http://drupal.org/files/issues/deprecated-constructor-in-php-7-2557061-3.patch
 
-projects[panopoly_magic][version] = 1.32
+projects[panopoly_magic][version] = 1.33
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
