@@ -76,7 +76,7 @@ projects[fontawesome][version] = 2.5
 projects[fontawesome][subdir] = contrib
 projects[fontawesome][patch][2590491] = http://drupal.org/files/issues/wetkit_core-2590491-6.patch
 
-projects[hierarchical_select][version] = 3.0-beta3
+projects[hierarchical_select][version] = 3.0-beta4
 projects[hierarchical_select][subdir] = contrib
 
 projects[icon][version] = 1.0-beta6
@@ -120,7 +120,7 @@ projects[panels][patch][2391073] = http://drupal.org/files/issues/2391073-11-cac
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 projects[panels][patch][2557061] = http://drupal.org/files/issues/deprecated-constructor-in-php-7-2557061-3.patch
 
-projects[panopoly_magic][version] = 1.34
+projects[panopoly_magic][version] = 1.35
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
