@@ -107,6 +107,7 @@ projects[menu_block][patch][2644630] = http://drupal.org/files/issues/menu_block
 projects[password_policy][version] = 1.12
 projects[password_policy][subdir] = contrib
 projects[password_policy][patch][2571139] = http://drupal.org/files/issues/password_policy-7.x-1.x-fix_postgres_fatal_error_unblocking_user-2571139-4.patch
+projects[password_policy][patch][2688123] = http://drupal.org/files/issues/password_policy-undefined-property-original-2688123.patch
 
 projects[panelizer][version] = 3.2-beta1
 projects[panelizer][subdir] = contrib
