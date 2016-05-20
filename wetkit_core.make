@@ -82,9 +82,8 @@ projects[hierarchical_select][subdir] = contrib
 projects[icon][version] = 1.0-beta6
 projects[icon][subdir] = contrib
 
-projects[libraries][version] = 2.2
+projects[libraries][version] = 2.3
 projects[libraries][subdir] = contrib
-projects[libraries][patch][2352251] = http://drupal.org/files/issues/0001-there-is-no-hook_libraries_paths-it-should-be-hook_l.patch
 
 projects[link][version] = 1.4
 projects[link][subdir] = contrib
