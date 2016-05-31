@@ -16,6 +16,7 @@ projects[better_formats][subdir] = contrib
 
 projects[ctools][version] = 1.9
 projects[ctools][subdir] = contrib
+projects[ctools][patch][1249684] = http://drupal.org/files/issues/ctools-fix-disappearing-exposed-in-not-in-operator-filter-1249684-64.patch
 projects[ctools][patch][2399313] = http://drupal.org/files/issues/ctools-2399313-1-Relationship-optional-context.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
 projects[ctools][patch][2265451] = http://drupal.org/files/issues/hide_empty_page_title-2265451-13.patch
@@ -173,7 +174,6 @@ projects[uuid_link][patch][2484927] = http://drupal.org/files/issues/linkit_uuid
 
 projects[views][version] = 3.13
 projects[views][subdir] = contrib
-projects[views][patch][1249684] = http://drupal.org/files/issues/ctools-fix-disappearing-exposed-in-not-in-operator-filter-1249684-64.patch
 projects[views][patch][1331056] = http://drupal.org/files/issues/views-3.x-dev-issue_1331056-52.patch
 projects[views][patch][1615438] = http://drupal.org/files/issues/search_multiple_terms-1615438-79%2830%29.patch
 projects[views][patch][1863358] = http://drupal.org/files/1863358-grid-format-striping-8.patch
