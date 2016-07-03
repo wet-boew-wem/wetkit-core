@@ -110,7 +110,7 @@ projects[password_policy][subdir] = contrib
 projects[password_policy][patch][2571139] = http://drupal.org/files/issues/password_policy-7.x-1.x-fix_postgres_fatal_error_unblocking_user-2571139-4.patch
 projects[password_policy][patch][2688123] = http://drupal.org/files/issues/password_policy-undefined-property-original-2688123.patch
 
-projects[panelizer][version] = 3.2-beta1
+projects[panelizer][version] = 3.2
 projects[panelizer][subdir] = contrib
 
 projects[panels][version] = 3.5
@@ -123,7 +123,7 @@ projects[panels][patch][2391073] = http://drupal.org/files/issues/2391073-11-cac
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 projects[panels][patch][2557061] = http://drupal.org/files/issues/deprecated-constructor-in-php-7-2557061-3.patch
 
-projects[panopoly_magic][version] = 1.35
+projects[panopoly_magic][version] = 1.37
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
