@@ -80,6 +80,7 @@ projects[fontawesome][patch][2590491] = http://drupal.org/files/issues/wetkit_co
 projects[hierarchical_select][version] = 3.0-beta7
 projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][patch][2748479] = http://drupal.org/files/issues/uncaught_syntax_error-2748479-2.patch
+projects[hierarchical_select][patch][2719141] = http://drupal.org/files/issues/undefined_index_tid_in-2719141-19.patch
 
 projects[icon][version] = 1.0-beta6
 projects[icon][subdir] = contrib
