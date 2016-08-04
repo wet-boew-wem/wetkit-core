@@ -156,11 +156,13 @@ projects[total_control][patch][2230019] = http://drupal.org/files/issues/array_k
 projects[transliteration][version] = 3.2
 projects[transliteration][subdir] = contrib
 
-projects[uuid][version] = 1.0-beta2
+projects[uuid][version] = 1.0-beta1
 projects[uuid][subdir] = contrib
 projects[uuid][patch][2074621] = http://drupal.org/files/uuid_services_field_collection_revisions.patch
+projects[uuid][patch][2121031] = http://drupal.org/files/issues/uuid-empty_file-2121031-1.patch
 projects[uuid][patch][2145567] = http://drupal.org/files/issues/uuid_ctools_context-2145567-16.patch
 projects[uuid][patch][2279081] = http://drupal.org/files/issues/term_access_uuid-2279081-03.patch
+projects[uuid][patch][2391701] = http://drupal.org/files/issues/typeo_in_uuid_services_menu_description-2391701-02.patch
 
 projects[uuid_features][version] = 1.0-alpha4
 projects[uuid_features][subdir] = contrib
