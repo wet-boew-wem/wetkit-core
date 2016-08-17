@@ -92,9 +92,8 @@ projects[link][version] = 1.4
 projects[link][subdir] = contrib
 projects[link][patch][2428185] = http://drupal.org/files/issues/link-broken-relative-urls-with-language-prefix-2428185-14.patch
 
-projects[linkchecker][version] = 1.2
+projects[linkchecker][version] = 1.3
 projects[linkchecker][subdir] = contrib
-projects[linkchecker][patch][2340211] = http://drupal.org/files/issues/error_on_submission-2340211-10.patch.txt
 
 projects[menu_attributes][version] = 1.0
 projects[menu_attributes][subdir] = contrib
@@ -111,18 +110,15 @@ projects[password_policy][subdir] = contrib
 projects[password_policy][patch][2571139] = http://drupal.org/files/issues/password_policy-7.x-1.x-fix_postgres_fatal_error_unblocking_user-2571139-4.patch
 projects[password_policy][patch][2688123] = http://drupal.org/files/issues/password_policy-undefined-property-original-2688123.patch
 
-projects[panelizer][version] = 3.2
+projects[panelizer][version] = 3.3
 projects[panelizer][subdir] = contrib
 
-projects[panels][version] = 3.5
+projects[panels][version] = 3.6
 projects[panels][subdir] = contrib
 projects[panels][patch][1402860] = http://drupal.org/files/issues/panelizer_is-1402860-82-fix-ipe-end-js-alert.patch
-projects[panels][patch][1588212] = http://drupal.org/files/issues/panels-1588212-10.patch
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2253919] = http://drupal.org/files/issues/panels-re-generated-uuids-on-clone.patch
-projects[panels][patch][2391073] = http://drupal.org/files/issues/2391073-11-cache_mini_panels_load.patch
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
-projects[panels][patch][2557061] = http://drupal.org/files/issues/deprecated-constructor-in-php-7-2557061-3.patch
 
 projects[panopoly_magic][version] = 1.38
 projects[panopoly_magic][subdir] = contrib
