@@ -119,7 +119,7 @@ projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_su
 projects[panels][patch][2785915] = http://drupal.org/files/issues/panels-storage-backcompat-2785915-18.patch
 projects[panels][patch][2785917] = http://drupal.org/files/issues/panels-underscores-in-ids-2785917-4_0.patch
 
-projects[panopoly_magic][version] = 1.38
+projects[panopoly_magic][version] = 1.39
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
