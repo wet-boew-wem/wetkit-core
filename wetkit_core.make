@@ -112,6 +112,7 @@ projects[password_policy][patch][2688123] = http://drupal.org/files/issues/passw
 
 projects[panelizer][version] = 3.3
 projects[panelizer][subdir] = contrib
+projects[panelizer][patch][2785945] = http://drupal.org/files/issues/panelizer-panels-storage-backcompat-2785945-2.patch
 
 projects[panels][version] = 3.6
 projects[panels][subdir] = contrib
@@ -119,7 +120,7 @@ projects[panels][patch][1402860] = http://drupal.org/files/issues/panelizer_is-1
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
 projects[panels][patch][2253919] = http://drupal.org/files/issues/panels-re-generated-uuids-on-clone.patch
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
-projects[panels][patch][2508433] = http://drupal.org/files/issues/panels-storage-backcompat-2785915-5.patch
+projects[panels][patch][2508433] = http://www.drupal.org/files/issues/panels-storage-backcompat-2785915-10.patch
 
 projects[panopoly_magic][version] = 1.38
 projects[panopoly_magic][subdir] = contrib
