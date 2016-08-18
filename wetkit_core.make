@@ -14,16 +14,13 @@ projects[apps][subdir] = contrib
 projects[better_formats][version] = 1.0-beta2
 projects[better_formats][subdir] = contrib
 
-projects[ctools][version] = 1.9
+projects[ctools][version] = 1.10
 projects[ctools][subdir] = contrib
-projects[ctools][patch][1249684] = http://drupal.org/files/issues/ctools-fix-disappearing-exposed-in-not-in-operator-filter-1249684-64.patch
 projects[ctools][patch][2399313] = http://drupal.org/files/issues/ctools-2399313-1-Relationship-optional-context.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
 projects[ctools][patch][2265451] = http://drupal.org/files/issues/hide_empty_page_title-2265451-13.patch
-projects[ctools][patch][2416689] = http://drupal.org/files/issues/ctools-jquery-attr-removed-2416689-5.patch
+;projects[ctools][patch][2416689] = http://drupal.org/files/issues/ctools-jquery-attr-removed-2416689-5.patch
 projects[ctools][patch][2437773] = http://drupal.org/files/issues/attached_css_and_js-2437773-18.patch
-projects[ctools][patch][2528736] = http://drupal.org/files/issues/deprecating_php4_style-2528736-23.patch
-projects[ctools][patch][2635876] = http://drupal.org/files/issues/ctools-uniform-variable-syntax-2635876-6.patch
 
 projects[date][version] = 2.9
 projects[date][subdir] = contrib
