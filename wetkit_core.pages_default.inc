@@ -87,6 +87,8 @@ function wetkit_core_default_page_manager_pages() {
   $display->cache = array();
   $display->title = '';
   $display->uuid = '3d141782-c9ae-cc44-ed00-9625ee48ae1f';
+  $display->storage_type = 'page_manager';
+  $display->storage_id = 'page_wetkit_core_dashboard_panel_context_2';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -429,6 +431,8 @@ function wetkit_core_default_page_manager_pages() {
   $display->cache = array();
   $display->title = 'Dashboard';
   $display->uuid = 'fe94cfe2-c2a0-1e64-992e-5eba9aa665bd';
+  $display->storage_type = 'page_manager';
+  $display->storage_id = 'page_wetkit_core_dashboard_panel_context';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
