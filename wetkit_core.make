@@ -110,6 +110,7 @@ projects[password_policy][patch][2688123] = http://drupal.org/files/issues/passw
 projects[panelizer][version] = 3.4
 projects[panelizer][subdir] = contrib
 projects[panelizer][patch][1549608] = http://drupal.org/files/issues/panelizer-n1549608-26.patch
+projects[panelizer][patch][2788633] = http://drupal.org/files/issues/panelizer_update_7120-2788633-7.patch
 
 projects[panels][version] = 3.7
 projects[panels][subdir] = contrib
