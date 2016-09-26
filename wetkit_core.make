@@ -37,11 +37,11 @@ projects[diff][patch][2640478] = http://drupal.org/files/issues/diff-deprecating
 projects[elements][version] = 1.4
 projects[elements][subdir] = contrib
 
-projects[entity][version] = 1.7
+projects[entity][version] = 1.8
 projects[entity][subdir] = contrib
 projects[entity][patch][2020325] = http://drupal.org/files/issues/entity-ctools-content-type-from-context-2020325-24.patch
 
-projects[entityreference][version] = 1.1
+projects[entityreference][version] = 1.2
 projects[entityreference][subdir] = contrib
 
 projects[entityreference_prepopulate][version] = 1.6
