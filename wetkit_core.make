@@ -14,7 +14,7 @@ projects[apps][subdir] = contrib
 projects[better_formats][version] = 1.0-beta2
 projects[better_formats][subdir] = contrib
 
-projects[ctools][version] = 1.10
+projects[ctools][version] = 1.11
 projects[ctools][subdir] = contrib
 projects[ctools][patch][2399313] = http://drupal.org/files/issues/ctools-2399313-1-Relationship-optional-context.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
@@ -69,7 +69,7 @@ projects[field_group][version] = 1.5
 projects[field_group][subdir] = contrib
 projects[field_group][patch][2649648] = http://drupal.org/files/issues/php7_uniform_variable-2649648-5.patch
 
-projects[fontawesome][version] = 2.5
+projects[fontawesome][version] = 2.6
 projects[fontawesome][subdir] = contrib
 projects[fontawesome][patch][2590491] = http://drupal.org/files/issues/wetkit_core-2590491-6.patch
 
@@ -112,7 +112,7 @@ projects[panelizer][subdir] = contrib
 projects[panelizer][patch][1549608] = http://drupal.org/files/issues/panelizer-n1549608-26.patch
 projects[panelizer][patch][2788633] = http://drupal.org/files/issues/panelizer_update_7120-2788633-7.patch
 
-projects[panels][version] = 3.7
+projects[panels][version] = 3.8
 projects[panels][subdir] = contrib
 projects[panels][patch][1402860] = http://drupal.org/files/issues/panelizer_is-1402860-82-fix-ipe-end-js-alert.patch
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
