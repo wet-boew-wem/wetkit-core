@@ -252,6 +252,21 @@ function wetkit_core_form_alter(&$form, &$form_state, $form_id) {
     $form['sort']['#access'] = TRUE;
   }
 
+  // Simplify the menu_block_add_block_form.
+  if ($form_id == 'menu_block_add_block_form') {
+    $form['settings']['admin_title']['#access'] = TRUE;
+    $form['settings']['depth']['#access'] = TRUE;
+    $form['settings']['display_options']['#default_value'] = 'advanced';
+    $form['settings']['display_options']['#access'] = TRUE;
+    $form['settings']['title_link']['#access'] = TRUE;
+    $form['settings']['buttons']['#prefix'] = '<div class="menu-block-ctools-buttons">';
+
+    // Disable some options since they appear busted or confusing in Menu Block
+    // TODO - http://drupal.org/node/1649112.
+    $form['settings']['parent_mlid']['#access'] = TRUE;
+    $form['settings']['sort']['#access'] = TRUE;
+  }
+
   // Create the General Settings Fieldset.
   if ($form_id == 'ctools_block_content_type_edit_form') {
     // Create General Settings Fieldset.
