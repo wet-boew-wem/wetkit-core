@@ -271,19 +271,3 @@ function wetkit_core_update_7406() {
       ->execute();
   }
 }
-
-/**
- * Updates to Field Collection and schema alignment with v1.0-beta12
- */
-function wetkit_core_update_7407() {
-  // We were early adopters of Entity Translation integration:
-  // http://drupal.org/files/issues/field_collection_field-1344672-510.patch
-  // However a different hook_update_n was committed before patch merged so
-  // we are ensuring that the new code in past hook gets called.
-  $field_collection_version = drupal_get_installed_schema_version('field_collection');
-
-  // Run only when Field Collection version < 7008.
-  if ($field_collection_version < '7008') {
-    drupal_set_installed_schema_version('field_collection', '7006');
-  }
-}
