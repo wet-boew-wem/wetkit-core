@@ -192,11 +192,14 @@ projects[workbench][patch][1354320] = http://drupal.org/files/content-creation-p
 projects[workbench][patch][1388220] = http://drupal.org/files/workbench-my_edits_view-1388220-14.patch
 projects[workbench][patch][2075467] = http://drupal.org/files/issues/workbench_uuid-2075467-01.patch
 
-projects[workbench_moderation][version] = 3.0
+projects[workbench_moderation][version] = 1.4
 projects[workbench_moderation][subdir] = contrib
 projects[workbench_moderation][patch][2098151] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
 projects[workbench_moderation][patch][2099151] = http://drupal.org/files/workbench_moderation-better_migration_support-1445824-11.patch
-projects[workbench_moderation][patch][2428371] = http://drupal.org/files/issues/upgrade_from_1_3_to_1_4-2428371-45.patch
+projects[workbench_moderation][patch][2308095] = http://drupal.org/files/issues/workbench_moderation-pathauto_alias_issue-2308095-20.patch
+projects[workbench_moderation][patch][2308096] = http://drupal.org/files/issues/view_all_unpublished-1492118-78.patch
+projects[workbench_moderation][patch][2308097] = http://drupal.org/files/issues/workbench_moderation-optimize_node_revision_history-1408838-67.patch
+projects[workbench_moderation][patch][2428371] = http://drupal.org/files/issues/upgrade_from_1_3_to_1_4-2428371-42.patch
 projects[workbench_moderation][patch][2633456] = http://drupal.org/files/issues/workbench_moderation-2633456-26.patch
 projects[workbench_moderation][patch][2662600] = http://drupal.org/files/issues/workbench_moderation-2662600-3.patch
 
