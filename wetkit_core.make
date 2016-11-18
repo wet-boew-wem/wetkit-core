@@ -59,9 +59,8 @@ projects[features][subdir] = contrib
 projects[fences][version] = 1.2
 projects[fences][subdir] = contrib
 
-projects[field_collection][version] = 1.0-beta11
+projects[field_collection][version] = 1.0-beta12
 projects[field_collection][subdir] = contrib
-projects[field_collection][patch][1344672] = http://drupal.org/files/issues/field_collection_field-1344672-510.patch
 projects[field_collection][patch][2075325] = http://drupal.org/files/issues/field_collection_uuid-2075325-18.patch
 projects[field_collection][patch][2075326] = http://drupal.org/files/issues/field_collection_uuid_services-2075325-18.patch
 
@@ -119,7 +118,7 @@ projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uu
 projects[panels][patch][2253919] = http://drupal.org/files/issues/panels-re-generated-uuids-on-clone.patch
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 
-projects[panopoly_magic][version] = 1.40
+projects[panopoly_magic][version] = 1.41
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
