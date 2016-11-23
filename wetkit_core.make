@@ -14,7 +14,7 @@ projects[apps][subdir] = contrib
 projects[better_formats][version] = 1.0-beta2
 projects[better_formats][subdir] = contrib
 
-projects[ctools][version] = 1.11
+projects[ctools][version] = 1.12
 projects[ctools][subdir] = contrib
 projects[ctools][patch][2399313] = http://drupal.org/files/issues/ctools-2399313-1-Relationship-optional-context.patch
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
