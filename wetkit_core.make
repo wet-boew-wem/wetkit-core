@@ -30,9 +30,8 @@ projects[defaultconfig][subdir] = contrib
 projects[devel][version] = 1.5
 projects[devel][subdir] = contrib
 
-projects[diff][version] = 3.2
+projects[diff][version] = 3.3
 projects[diff][subdir] = contrib
-projects[diff][patch][2640478] = http://drupal.org/files/issues/diff-deprecating_php4_style-2640478-2.patch
 
 projects[elements][version] = 1.4
 projects[elements][subdir] = contrib
@@ -44,7 +43,7 @@ projects[entity][patch][2020325] = http://drupal.org/files/issues/entity-ctools-
 projects[entityreference][version] = 1.2
 projects[entityreference][subdir] = contrib
 
-projects[entityreference_prepopulate][version] = 1.6
+projects[entityreference_prepopulate][version] = 1.7
 projects[entityreference_prepopulate][subdir] = contrib
 
 projects[entity_view_mode][version] = 1.0-rc1
@@ -78,7 +77,7 @@ projects[hierarchical_select][patch][2748479] = http://drupal.org/files/issues/u
 projects[hierarchical_select][patch][2719141] = http://drupal.org/files/issues/undefined_index_tid_in-2719141-19.patch
 projects[hierarchical_select][patch][2764871] = http://drupal.org/files/issues/feature-code-export-error-2764871-3.patch
 
-projects[icon][version] = 1.0-beta6
+projects[icon][version] = 1.0-rc1
 projects[icon][subdir] = contrib
 
 projects[libraries][version] = 2.3
@@ -137,7 +136,7 @@ projects[splashify][subdir] = contrib
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
 
-projects[token][version] = 1.6
+projects[token][version] = 1.7
 projects[token][subdir] = contrib
 projects[token][patch][961130] = http://drupal.org/files/issues/tokens_dropdown_arrow-2619078-14.patch
 projects[token][patch][2023423] = http://drupal.org/files/issues/token-2023423-11.patch
