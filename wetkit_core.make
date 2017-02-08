@@ -110,7 +110,7 @@ projects[panelizer][subdir] = contrib
 projects[panelizer][patch][1549608] = http://drupal.org/files/issues/panelizer-n1549608-26.patch
 projects[panelizer][patch][2788633] = http://drupal.org/files/issues/panelizer_update_7120-2788633-7.patch
 
-projects[panels][version] = 3.8
+projects[panels][version] = 3.9
 projects[panels][subdir] = contrib
 projects[panels][patch][1402860] = http://drupal.org/files/issues/panelizer_is-1402860-82-fix-ipe-end-js-alert.patch
 projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
