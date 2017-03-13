@@ -20,6 +20,7 @@ projects[ctools][patch][2399313] = http://drupal.org/files/issues/ctools-2399313
 projects[ctools][patch][2401635] = http://drupal.org/files/issues/ctools-views-content-custom-url-1417630-06.patch
 projects[ctools][patch][2265451] = http://drupal.org/files/issues/hide_empty_page_title-2265451-13.patch
 projects[ctools][patch][2437773] = http://drupal.org/files/issues/attached_css_and_js-2437773-18.patch
+projects[ctools][patch][2830559] = http://drupal.org/files/issues/2830559-ctools-page-title-in-text-14.patch
 
 projects[date][version] = 2.9
 projects[date][subdir] = contrib
