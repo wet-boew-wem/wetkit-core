@@ -72,11 +72,8 @@ projects[fontawesome][version] = 2.6
 projects[fontawesome][subdir] = contrib
 projects[fontawesome][patch][2590491] = http://drupal.org/files/issues/wetkit_core-2590491-6.patch
 
-projects[hierarchical_select][version] = 3.0-beta7
+projects[hierarchical_select][version] = 3.0-beta8
 projects[hierarchical_select][subdir] = contrib
-projects[hierarchical_select][patch][2748479] = http://drupal.org/files/issues/uncaught_syntax_error-2748479-2.patch
-projects[hierarchical_select][patch][2719141] = http://drupal.org/files/issues/undefined_index_tid_in-2719141-19.patch
-projects[hierarchical_select][patch][2764871] = http://drupal.org/files/issues/feature-code-export-error-2764871-3.patch
 
 projects[icon][version] = 1.0
 projects[icon][subdir] = contrib
