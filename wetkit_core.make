@@ -116,7 +116,7 @@ projects[panels][patch][2253919] = http://drupal.org/files/issues/the_uuids_of_c
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 projects[panels][patch][2856088] = http://drupal.org/files/issues/panels_3_9_code_cleanup-2856088-5.patch
 
-projects[panopoly_magic][version] = 1.41
+projects[panopoly_magic][version] = 1.43
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
