@@ -78,7 +78,7 @@ projects[hierarchical_select][patch][2748479] = http://drupal.org/files/issues/u
 projects[hierarchical_select][patch][2719141] = http://drupal.org/files/issues/undefined_index_tid_in-2719141-19.patch
 projects[hierarchical_select][patch][2764871] = http://drupal.org/files/issues/feature-code-export-error-2764871-3.patch
 
-projects[icon][version] = 1.0-rc1
+projects[icon][version] = 1.0
 projects[icon][subdir] = contrib
 
 projects[libraries][version] = 2.3
