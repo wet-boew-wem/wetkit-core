@@ -156,6 +156,7 @@ projects[uuid][patch][2279081] = http://drupal.org/files/issues/term_access_uuid
 
 projects[uuid_features][version] = 1.0-rc1
 projects[uuid_features][subdir] = contrib
+projects[uuid_features][patch][2844320] = http://drupal.org/files/issues/panelizer-groupby-2844320.patch
 
 projects[uuid_link][version] = 1.0-beta3
 projects[uuid_link][subdir] = contrib
