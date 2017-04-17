@@ -22,7 +22,7 @@ projects[ctools][patch][2265451] = http://drupal.org/files/issues/hide_empty_pag
 projects[ctools][patch][2437773] = http://drupal.org/files/issues/attached_css_and_js-2437773-18.patch
 projects[ctools][patch][2830559] = http://drupal.org/files/issues/2830559-ctools-page-title-in-text-14.patch
 
-projects[date][version] = 2.9
+projects[date][version] = 2.10
 projects[date][subdir] = contrib
 
 projects[defaultconfig][version] = 1.0-alpha11
@@ -116,7 +116,7 @@ projects[panels][patch][2253919] = http://drupal.org/files/issues/the_uuids_of_c
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 projects[panels][patch][2856088] = http://drupal.org/files/issues/panels_3_9_code_cleanup-2856088-5.patch
 
-projects[panopoly_magic][version] = 1.43
+projects[panopoly_magic][version] = 1.44
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
