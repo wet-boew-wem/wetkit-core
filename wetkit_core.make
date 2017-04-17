@@ -186,6 +186,7 @@ projects[workbench][patch][1354320] = http://drupal.org/files/content-creation-p
 projects[workbench][patch][1388220] = http://drupal.org/files/workbench-my_edits_view-1388220-14.patch
 projects[workbench][patch][2075467] = http://drupal.org/files/issues/workbench_uuid-2075467-01.patch
 
+; Some issues numbers are manually added to keep order. (www.drupal.org/node/263345)
 projects[workbench_moderation][version] = 1.4
 projects[workbench_moderation][subdir] = contrib
 projects[workbench_moderation][patch][2098151] = http://drupal.org/files/playnicewithpanels-2098151-01.patch
