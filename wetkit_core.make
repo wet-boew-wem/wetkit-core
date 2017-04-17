@@ -177,10 +177,8 @@ projects[views_autocomplete_filters][subdir] = contrib
 projects[views_bootstrap][version] = 3.1
 projects[views_bootstrap][subdir] = contrib
 
-projects[views_bulk_operations][version] = 3.3
+projects[views_bulk_operations][version] = 3.4
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][patch][2551301] = http://drupal.org/files/issues/multiple_vbo_views_on-2551301-6.patch
-projects[views_bulk_operations][patch][2608360] = http://drupal.org/files/issues/vbo-fix-select-all-2608360-1-7.x.patch
 
 projects[workbench][version] = 1.2
 projects[workbench][subdir] = contrib
