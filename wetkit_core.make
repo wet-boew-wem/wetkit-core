@@ -8,7 +8,7 @@ core = 7.x
 projects[advanced_help][version] = 1.3
 projects[advanced_help][subdir] = contrib
 
-projects[apps][version] = 1.0
+projects[apps][version] = 1.1
 projects[apps][subdir] = contrib
 
 projects[better_formats][version] = 1.0-beta2
@@ -41,7 +41,7 @@ projects[entity][version] = 1.8
 projects[entity][subdir] = contrib
 projects[entity][patch][2020325] = http://drupal.org/files/issues/entity-ctools-content-type-from-context-2020325-24.patch
 
-projects[entityreference][version] = 1.2
+projects[entityreference][version] = 1.4
 projects[entityreference][subdir] = contrib
 
 projects[entityreference_prepopulate][version] = 1.7
@@ -98,10 +98,8 @@ projects[menu_block][patch][2567875] = http://drupal.org/files/issues/argument_3
 projects[menu_block][patch][2282933] = http://drupal.org/files/issues/menu_block-uuid-2282933-23.patch
 projects[menu_block][patch][2644630] = http://drupal.org/files/issues/menu_block_block-2644630-2.patch
 
-projects[password_policy][version] = 1.12
+projects[password_policy][version] = 1.14
 projects[password_policy][subdir] = contrib
-projects[password_policy][patch][2571139] = http://drupal.org/files/issues/password_policy-7.x-1.x-fix_postgres_fatal_error_unblocking_user-2571139-4.patch
-projects[password_policy][patch][2688123] = http://drupal.org/files/issues/password_policy-undefined-property-original-2688123.patch
 
 projects[panelizer][version] = 3.4
 projects[panelizer][subdir] = contrib
@@ -116,7 +114,7 @@ projects[panels][patch][2253919] = http://drupal.org/files/issues/the_uuids_of_c
 projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 projects[panels][patch][2856088] = http://drupal.org/files/issues/panels_3_9_code_cleanup-2856088-5.patch
 
-projects[panopoly_magic][version] = 1.44
+projects[panopoly_magic][version] = 1.46
 projects[panopoly_magic][subdir] = contrib
 projects[panopoly_magic][patch][2179413] = http://drupal.org/files/issues/panels_undefined_styles-2179413-13.patch
 
@@ -126,7 +124,7 @@ projects[pathauto][subdir] = contrib
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
 
-projects[rules][version] = 2.9
+projects[rules][version] = 2.10
 projects[rules][subdir] = contrib
 
 projects[splashify][version] = 1.3
@@ -148,7 +146,7 @@ projects[total_control][patch][2230019] = http://drupal.org/files/issues/array_k
 projects[transliteration][version] = 3.2
 projects[transliteration][subdir] = contrib
 
-projects[uuid][version] = 1.0-beta2
+projects[uuid][version] = 1.0
 projects[uuid][subdir] = contrib
 projects[uuid][patch][2074621] = http://drupal.org/files/uuid_services_field_collection_revisions.patch
 projects[uuid][patch][2145567] = http://drupal.org/files/issues/uuid_ctools_context-2145567-16.patch
